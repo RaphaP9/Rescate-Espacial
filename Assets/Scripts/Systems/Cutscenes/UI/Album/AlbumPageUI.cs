@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class AlbumSectionUI : MonoBehaviour
+public class AlbumPageUI : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Animator animator;

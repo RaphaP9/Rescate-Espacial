@@ -2,11 +2,11 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AlbumSectionButton : MonoBehaviour
+public class AlbumPageButton : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Animator animator;
-    [SerializeField] private Button sectionButton;
+    [SerializeField] private Button pageButton;
 
     private const string SELECT_TRIGGER = "Select";
     private const string DESELECT_TRIGGER = "Deselect";
@@ -18,7 +18,7 @@ public class AlbumSectionButton : MonoBehaviour
 
     public class OnButtonClickedEventArgs : EventArgs
     {
-        public AlbumSectionButton albumSectionButton;
+        public AlbumPageButton albumPageButton;
     }
 
     private void Awake()
@@ -28,12 +28,12 @@ public class AlbumSectionButton : MonoBehaviour
 
     private void InitializeButtonsListeners()
     {
-        sectionButton.onClick.AddListener(OnButtonClickedMethod);
+        pageButton.onClick.AddListener(OnButtonClickedMethod);
     }
 
     private void OnButtonClickedMethod()
     {
-        OnButtonClicked?.Invoke(this, new OnButtonClickedEventArgs { albumSectionButton = this});
+        OnButtonClicked?.Invoke(this, new OnButtonClickedEventArgs { albumPageButton = this});
     }
 
     public void Select()

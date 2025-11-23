@@ -1,9 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AlbumUI_Main : MonoBehaviour
+public class AlbumMenuUI : MonoBehaviour
 {
-
     [Header("UI Components")]
     [SerializeField] private Button backButton;
 

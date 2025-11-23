@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 784121476545167969}
   - component: {fileID: 1351321117146987350}
   m_Layer: 5
-  m_Name: SectionButton
+  m_Name: PageButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,9 +207,9 @@ GameObject:
   - component: {fileID: 7660568474410225227}
   - component: {fileID: 8777568036500055465}
   - component: {fileID: 3693166623959234063}
-  - component: {fileID: 6142708587548965385}
+  - component: {fileID: 7976471769714155315}
   m_Layer: 5
-  m_Name: AlbumSectionButtonUI
+  m_Name: AlbumPageButtonUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269,7 +269,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6142708587548965385
+--- !u!114 &7976471769714155315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -278,8 +278,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7234881004655713263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ee3831450230fa49bbc1f6ed5c9abe6, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f9f44396b233b14fad5b108f5dafeeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3693166623959234063}
-  sectionButton: {fileID: 1351321117146987350}
+  pageButton: {fileID: 1351321117146987350}

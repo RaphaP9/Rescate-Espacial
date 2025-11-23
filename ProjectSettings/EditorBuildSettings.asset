@@ -45,13 +45,13 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScenes/MinigameSelection.unity
     guid: 585a7dadf58029f4889e04bf4577bca8
   - enabled: 1
-    path: Assets/Scenes/MainScenes/Album/Album.unity
+    path: Assets/Scenes/MainScenes/Album/AlbumMenu.unity
     guid: 8b1965eac91c15c469e2a2c3ec28888e
   - enabled: 1
-    path: Assets/Scenes/MainScenes/Album/Album_Main.unity
+    path: Assets/Scenes/MainScenes/Album/AlbumSection_Main.unity
     guid: c5a8bc3fc91a0ce48bc2cb7ac391bd8f
   - enabled: 1
-    path: Assets/Scenes/MainScenes/Album/Album_Minigames.unity
+    path: Assets/Scenes/MainScenes/Album/AlbumSection_Minigames.unity
     guid: ae571a7bba5dccc4a8cf5c4908974aee
   - enabled: 1
     path: Assets/Scenes/MainScenes/Collection.unity

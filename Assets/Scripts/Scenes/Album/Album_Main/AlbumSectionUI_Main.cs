@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AlbumUI_Minigames : MonoBehaviour
+public class AlbumSectionUI_Main : MonoBehaviour
 {
 
     [Header("UI Components")]

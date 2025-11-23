@@ -29,11 +29,11 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: MinigameSelection
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
-  - sceneName: Album
+  - sceneName: AlbumMenu
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
-  - sceneName: Album_Main
+  - sceneName: AlbumSection_Main
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
-  - sceneName: Album_Minigames
+  - sceneName: AlbumSection_Minigames
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: Collection
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}

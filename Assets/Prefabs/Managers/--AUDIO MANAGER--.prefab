@@ -204,17 +204,17 @@ MonoBehaviour:
   - originScene: MinigameSelection
     targetScene: MainMenu
   - originScene: MainMenu
-    targetScene: Album
-  - originScene: Album
+    targetScene: AlbumMenu
+  - originScene: AlbumMenu
     targetScene: MainMenu
-  - originScene: Album
-    targetScene: Album_Main
-  - originScene: Album_Main
-    targetScene: Album
-  - originScene: Album
-    targetScene: Album_Minigames
-  - originScene: Album_Minigames
-    targetScene: Album
+  - originScene: AlbumMenu
+    targetScene: AlbumSection_Main
+  - originScene: AlbumSection_Main
+    targetScene: AlbumMenu
+  - originScene: AlbumMenu
+    targetScene: AlbumSection_Minigames
+  - originScene: AlbumSection_Minigames
+    targetScene: AlbumMenu
   - originScene: MainMenu
     targetScene: Collection
   - originScene: Collection

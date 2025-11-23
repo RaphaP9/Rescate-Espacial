@@ -1,8 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AlbumUI : MonoBehaviour
+public class AlbumSectionUI_Minigames : MonoBehaviour
 {
+
     [Header("UI Components")]
     [SerializeField] private Button backButton;
 

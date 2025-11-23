@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-public class AlbumSpecificScenesButtonsHandler : MonoBehaviour
+public class AlbumSpecificSectionsButtonsHandler : MonoBehaviour
 {
     [Header("Lists")]
     [SerializeField] private List<AlbumSceneButtonRelationship> albumSceneButtonRelationships;

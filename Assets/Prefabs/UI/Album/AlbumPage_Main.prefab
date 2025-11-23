@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1562066597744026442}
   - component: {fileID: 6912586556357361308}
   - component: {fileID: 5170131952257062358}
-  - component: {fileID: 9130125607339137305}
+  - component: {fileID: 6119211810415851236}
   m_Layer: 5
-  m_Name: AlbumSection_Main
+  m_Name: AlbumPage_Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &9130125607339137305
+--- !u!114 &6119211810415851236
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3248844520880338207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fd294d676e9f944bbb1e846da758d9c, type: 3}
+  m_Script: {fileID: 11500000, guid: 38bc1687157c37f4bb9c32d2c77f264e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5170131952257062358}
