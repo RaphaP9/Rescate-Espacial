@@ -8,6 +8,118 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: hasAudio
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: timeToPlayAudio
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: audioLocalizationTable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: audioLocalizationBinding
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: hasSentence
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentenceLocalizationTable
+      value: GameStartCutsceneStrings
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceColor.b
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceColor.g
+      value: 0.02745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceColor.r
+      value: 0.019607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceColor.b
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceColor.g
+      value: 0.02745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceColor.r
+      value: 0.019607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceColor.b
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceColor.g
+      value: 0.02745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceColor.r
+      value: 0.019607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[0].timeToShowSentence
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[1].timeToShowSentence
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[2].timeToShowSentence
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[0].timeShowingSentence
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[1].timeShowingSentence
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[2].timeShowingSentence
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceLocalizationBinding
+      value: gameStartCutsceneStrings.dialogue1A
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceLocalizationBinding
+      value: gameStartCutsceneStrings.dialogue1B
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceLocalizationBinding
+      value: gameStartCutsceneStrings.dialogue2A
+      objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1

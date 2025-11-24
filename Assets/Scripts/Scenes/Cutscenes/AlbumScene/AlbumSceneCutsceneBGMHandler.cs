@@ -9,6 +9,13 @@ public class AlbumSceneCutsceneBGMHandler : MonoBehaviour
     [SerializeField, Range(0.25f, 1f)] private float cutscenesVolumeFadeInTime = 0.3f;
     [SerializeField, Range(0.25f, 1f)] private float cutscenesVolumeFadeOutTime = 0.3f;
 
+    [Header("Audio Settings")]
+    [SerializeField] private bool hasAudio;
+    [SerializeField] private string audioLocalizationTable;
+    [SerializeField] private string audioLocalizationBinding;
+    [Space]
+    [SerializeField, Range(0f, 5f)] public float timeToPlayAudio;
+
     private void OnEnable()
     {
         AlbumSceneCutsceneUIHandler.OnCutscenePlay += AlbumSceneCutsceneUIHandler_OnCutscenePlay;
