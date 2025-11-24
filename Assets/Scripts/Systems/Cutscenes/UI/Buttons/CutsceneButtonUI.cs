@@ -4,15 +4,16 @@ using UnityEngine.UI;
 
 public class CutsceneButtonUI : MonoBehaviour
 {
-    [Header("Settings")]
-    [SerializeField] private CutsceneSO cutsceneSO;
-
     [Header("UI Components")]
     [SerializeField] private Button cutsceneButton;
     [SerializeField] private Image cutsceneThumbnailImage;
     [Space]
     [SerializeField] private Transform buttonUI;
     [SerializeField] private Transform notUnlockedCoverUI;
+
+    [Header("Settings")]
+    [SerializeField] private CutsceneSO cutsceneSO;
+    [SerializeField] private bool enableButtonWhenNotUnlocked;
 
     private void Awake()
     {
@@ -45,7 +46,7 @@ public class CutsceneButtonUI : MonoBehaviour
         }
         else
         {
-            buttonUI.gameObject.SetActive(false);
+            buttonUI.gameObject.SetActive(enableButtonWhenNotUnlocked);
             notUnlockedCoverUI.gameObject.SetActive(true);
         }
     }

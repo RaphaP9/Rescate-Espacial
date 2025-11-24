@@ -474,11 +474,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bbb06b9b5ebe8c4ba519cc77e814d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cutsceneSO: {fileID: 0}
   cutsceneButton: {fileID: 6573825993659917188}
   cutsceneThumbnailImage: {fileID: 1549904905179647670}
   buttonUI: {fileID: 1215768692804588487}
   notUnlockedCoverUI: {fileID: 2195124378722042614}
+  cutsceneSO: {fileID: 0}
+  enableButtonWhenNotUnlocked: 1
 --- !u!114 &3392985516974108688
 MonoBehaviour:
   m_ObjectHideFlags: 0
