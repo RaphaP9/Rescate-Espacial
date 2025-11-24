@@ -1012,18 +1012,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1186975254}
     m_Modifications:
-    - target: {fileID: 986971227221940932, guid: 6fe43fe5b6dffae4294cfd84f2e00a3f, type: 3}
-      propertyPath: m_Color.b
-      value: 0.36320752
-      objectReference: {fileID: 0}
-    - target: {fileID: 986971227221940932, guid: 6fe43fe5b6dffae4294cfd84f2e00a3f, type: 3}
-      propertyPath: m_Color.g
-      value: 0.36320752
-      objectReference: {fileID: 0}
-    - target: {fileID: 986971227221940932, guid: 6fe43fe5b6dffae4294cfd84f2e00a3f, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1562066597744026442, guid: 6fe43fe5b6dffae4294cfd84f2e00a3f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2289,18 +2277,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1186975254}
     m_Modifications:
-    - target: {fileID: 986971227221940932, guid: 6fe43fe5b6dffae4294cfd84f2e00a3f, type: 3}
-      propertyPath: m_Color.b
-      value: 0.4510239
-      objectReference: {fileID: 0}
-    - target: {fileID: 986971227221940932, guid: 6fe43fe5b6dffae4294cfd84f2e00a3f, type: 3}
-      propertyPath: m_Color.g
-      value: 0.7075472
-      objectReference: {fileID: 0}
-    - target: {fileID: 986971227221940932, guid: 6fe43fe5b6dffae4294cfd84f2e00a3f, type: 3}
-      propertyPath: m_Color.r
-      value: 0.36378607
-      objectReference: {fileID: 0}
     - target: {fileID: 1562066597744026442, guid: 6fe43fe5b6dffae4294cfd84f2e00a3f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4256,7 +4232,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 25
+    m_Top: 50
     m_Bottom: 0
   m_ChildAlignment: 2
   m_Spacing: 15
