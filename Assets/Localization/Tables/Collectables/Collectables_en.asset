@@ -108,54 +108,53 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8115905156825088
-    m_Localized: Aprendiz de Formas
+    m_Localized: Apprentice of Shapes
     m_Metadata:
       m_Items: []
   - m_Id: 8115916829573120
-    m_Localized: Completa tu primera ronda en el minijuego de siluetas.
+    m_Localized: Complete your first round in the silhouettes minigame.
     m_Metadata:
       m_Items: []
   - m_Id: 8115927797678080
-    m_Localized: "\xA1Encaje Estelar!"
+    m_Localized: "\xA1Stellar Fit!"
     m_Metadata:
       m_Items: []
   - m_Id: 8115937608155136
-    m_Localized: Coloca 5 figuras correctas seguidas sin fallar en el minijuego de
-      siluetas.
+    m_Localized: "\rPlace 5 correct shapes in a row without failing in the silhouettes
+      minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8115949427703808
-    m_Localized: "Aventurero Geom\xE9trico"
+    m_Localized: Geometric Adventurer
     m_Metadata:
       m_Items: []
   - m_Id: 8115959506616320
-    m_Localized: Termina tu primera partida en el minijuego de siluetas.
+    m_Localized: "\rFinish your first game in the silhouettes minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8115959980572672
-    m_Localized: Maestro de la Silueta
+    m_Localized: "\rSilhouette Master"
     m_Metadata:
       m_Items: []
   - m_Id: 8115988468285440
-    m_Localized: Completa las 5 rondas del minijuego de siluetas.
+    m_Localized: "\rComplete all 5 rounds of the silhouettes minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8116004570218496
-    m_Localized: Recolector de Figuras
+    m_Localized: "\rFigure Collector"
     m_Metadata:
       m_Items: []
   - m_Id: 8116021548761088
-    m_Localized: "Obt\xE9n 140 fragmentos de estrellas en una sola partida del minijuego
-      de siluetas."
+    m_Localized: "\rObtain 120 star pieces in a single game of the silhouettes minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8116030700732416
-    m_Localized: "Rescate Geom\xE9trico"
+    m_Localized: Geometric Rescue
     m_Metadata:
       m_Items: []
   - m_Id: 8116043086512128
-    m_Localized: Acierta una silueta a 5 segundos o menos de terminarse el tiempo
-      en el minijuego de siluetas.
+    m_Localized: "\rPlace a shape within 5 seconds or less of time running out in
+      the silhouettes minigame."
     m_Metadata:
       m_Items: []
   references:
