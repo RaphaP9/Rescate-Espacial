@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 2163112686204029329}
   - component: {fileID: 3427191959126738834}
   m_Layer: 5
-  m_Name: FeedbackCanvas
+  m_Name: MinigameFeedbackCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

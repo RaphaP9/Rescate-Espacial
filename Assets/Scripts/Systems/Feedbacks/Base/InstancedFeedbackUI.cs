@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class MinigameFeedbackUI : MonoBehaviour
+public class InstancedFeedbackUI : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Animator animator;
@@ -34,8 +34,8 @@ public class MinigameFeedbackUI : MonoBehaviour
         isConcluding = true;
         StopAllCoroutines();
 
-        animator.SetTrigger(CONCLUDE_TRIGGER);
         OnFeedbackEnd?.Invoke(this, EventArgs.Empty);
+        animator.SetTrigger(CONCLUDE_TRIGGER);
     }
 
     public void DestroyFeedback()

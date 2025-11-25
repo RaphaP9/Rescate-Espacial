@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ComboGainedMinigameFeedbackHandler : MinigameFeedbackHandler
+public class ComboGainedMinigameFeedbackHandler : InstancedFeedbackHandler
 {
     [Header("Settings")]
     [SerializeField, Range(2, 5)] private int targetCombo;

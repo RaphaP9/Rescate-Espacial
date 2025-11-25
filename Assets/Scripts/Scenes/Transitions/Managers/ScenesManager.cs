@@ -13,14 +13,12 @@ public class ScenesManager : MonoBehaviour
     [Header("States")]
     [SerializeField] private State state;
 
-    public enum State { Idle, TransitionOut, MiddleTransition, TransitionIn }
-
-    public State SceneState => state;
-
     [Header("Settings")]
     [SerializeField] private bool simulateFirstSceneTransition;
     [SerializeField] private TransitionType openingTransitionType;
     [SerializeField, Range (0.05f, 0.5f)] private float transitionInInterval; //Value > 0 to avoid stutter on scene transition
+    public enum State { Idle, TransitionOut, MiddleTransition, TransitionIn }
+    public State SceneState => state;
 
     public static event EventHandler<OnSceneTransitionLoadEventArgs> OnSceneTransitionOutStart;
     public static event EventHandler<OnSceneTransitionLoadEventArgs> OnSceneTransitionInStart;

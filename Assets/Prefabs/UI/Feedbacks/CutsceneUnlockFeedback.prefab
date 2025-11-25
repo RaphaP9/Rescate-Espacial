@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3523859380227784020}
   - component: {fileID: 3069198726500609515}
   m_Layer: 5
-  m_Name: 5ComboFeedbackUI
+  m_Name: CutsceneUnlockFeedback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ Animator:
   m_GameObject: {fileID: 2203690761554734843}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 246f37a6f8755224a8327e20d6e824f1, type: 2}
+  m_Controller: {fileID: 9100000, guid: befcfc0cf1e2c6446a8ad2b423311771, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -119,11 +119,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 785576449695266233}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 750, y: 750}
-  m_Pivot: {x: 0, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!222 &8581904698500046247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -193,8 +193,8 @@ RectTransform:
   - {fileID: 2029636397722484712}
   m_Father: {fileID: 1098771493866058827}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: -200}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0.5}
+  m_Pivot: {x: 1, y: 1}

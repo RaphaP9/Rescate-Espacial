@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class MinigameFeedbackHandler : MonoBehaviour
+public class InstancedFeedbackHandler : MonoBehaviour
 {
     [Header("Lists")]
     [SerializeField] private List<Transform> feedbackPrefabList;
@@ -10,7 +10,7 @@ public class MinigameFeedbackHandler : MonoBehaviour
     [SerializeField] private Transform feedbackContainer;
 
     [Header("Runtime Filled")]
-    [SerializeField] private MinigameFeedbackUI currentFeedbackUI;
+    [SerializeField] private InstancedFeedbackUI currentFeedbackUI;
 
     [Header("Debug")]
     [SerializeField] private bool debug;
@@ -33,20 +33,20 @@ public class MinigameFeedbackHandler : MonoBehaviour
         if (chosenPrefab == null) return; //Chosen prefab is null when list has 0 elements
 
         Transform feedbackTransform = Instantiate(chosenPrefab, feedbackContainer);
-        MinigameFeedbackUI minigameFeedbackUI = feedbackTransform.GetComponentInChildren<MinigameFeedbackUI>();
+        InstancedFeedbackUI instancedFeedbackUI = feedbackTransform.GetComponentInChildren<InstancedFeedbackUI>();
 
-        if(minigameFeedbackUI == null)
+        if(instancedFeedbackUI == null)
         {
-            if (debug) Debug.Log("Instantiated prefab does not contain a MinigameFeedbackUI component");
+            if (debug) Debug.Log("Instantiated prefab does not contain a InstancedFeedbackUI component");
             return;
         }
 
-        SetCurrentFeedbackUI(minigameFeedbackUI);    
+        SetCurrentFeedbackUI(instancedFeedbackUI);    
     }
 
-    private void SetCurrentFeedbackUI(MinigameFeedbackUI minigameFeedbackUI)
+    private void SetCurrentFeedbackUI(InstancedFeedbackUI instancedFeedbackUI)
     {
-        currentFeedbackUI = minigameFeedbackUI;
+        currentFeedbackUI = instancedFeedbackUI;
         currentFeedbackUI.OnFeedbackEnd += CurrentFeedbackUI_OnFeedbackEnd;
     }
 
