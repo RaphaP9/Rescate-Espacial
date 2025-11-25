@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: minigames.silhouettes
     m_Metadata:
       m_Items: []
+  - m_Id: 22100265761456128
+    m_Key: minigames.comingSoon
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

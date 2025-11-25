@@ -60,7 +60,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -393,11 +393,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minigame: 0
   minigameButton: {fileID: 3625690440898834050}
-  startCinematicScene: NonAssignedScene
-  startCinematicTransitionType: 0
-  ignoreStartCinematic: 0
-  minigameScene: NonAssignedScene
-  minigameTransitionType: 0
+  firstEnterScene: 
+  firstEnterSceneTransitionType: 0
+  ignoreFirstEnterScene: 0
+  regularEnterScene: 
+  regularEnterSceneTransitionType: 0
 --- !u!114 &5844620093972678756
 MonoBehaviour:
   m_ObjectHideFlags: 0

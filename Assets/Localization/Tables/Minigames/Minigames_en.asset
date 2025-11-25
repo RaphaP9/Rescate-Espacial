@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Silhouettes
     m_Metadata:
       m_Items: []
+  - m_Id: 22100265761456128
+    m_Localized: Coming Soon
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

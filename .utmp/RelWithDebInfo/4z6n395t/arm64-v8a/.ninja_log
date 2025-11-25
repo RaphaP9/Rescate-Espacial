@@ -1,0 +1,12 @@
+# ninja log v5
+55	490	7858042902809031	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	58b637ec37867dc8
+491	677	7858042904686746	D:/Raphael/2025-2/Rescate Espacial/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4z6n395t/obj/arm64-v8a/libswappywrapper.so	9e49304720ba56b2
+30	2046	7858042917766079	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	c29c471d9ebf0a13
+16	2074	7858042918216077	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2654f711559eb777
+11	2098	7858042918596086	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d2a271419cb63c76
+46	2161	7858042919474691	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	19056a70f8234f73
+6	2221	7858042920078710	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d4e8cf4a68c6025f
+23	2510	7858042922989150	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	7fbcfcdeb85cd859
+38	2533	7858042923229149	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f8e04624f7cc4081
+0	2658	7858042924483930	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	6352d7399686ef60
+2658	2772	7858042925638738	D:/Raphael/2025-2/Rescate Espacial/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4z6n395t/obj/arm64-v8a/libgame.so	e8e4bb886a265544
