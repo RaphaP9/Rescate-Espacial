@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 16_Collectable
   m_EditorClassIdentifier: 
   id: 16
-  collectableSprite: {fileID: 21300000, guid: 43ce2eec442a1614f846761577f3b2be, type: 3}
+  collectableSprite: {fileID: 21300000, guid: 270e96db1845691458061cf97a89a95f, type: 3}
   notCollectedMaterial: {fileID: 2100000, guid: 0dbb20c69d421234fadce74a567ad633, type: 2}
   collectedBackgroundColor: {r: 0.22301176, g: 0.02990388, b: 0.3018868, a: 1}
   notCollectedBackgroundColor: {r: 0.2, g: 0.20392157, b: 0.2, a: 1}

@@ -23,11 +23,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15881977937920
-    m_Localized: "Primer Paso Gal\xE1ctico"
+    m_Localized: First Galactic Step
     m_Metadata:
       m_Items: []
   - m_Id: 15996490825728
-    m_Localized: "Entra al men\xFA principal por primera vez."
+    m_Localized: Enter the main menu for the first time.
     m_Metadata:
       m_Items: []
   - m_Id: 4120828591947776
@@ -35,78 +35,76 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8115315932610560
-    m_Localized: Piloto de Misiones
+    m_Localized: Mission Pilot
     m_Metadata:
       m_Items: []
   - m_Id: 8115334668566528
-    m_Localized: "Entra al men\xFA de selecci\xF3n de minijuegos por primera vez."
+    m_Localized: "\rEnter the minigame selection menu for the first time."
     m_Metadata:
       m_Items: []
   - m_Id: 8115348904034304
-    m_Localized: Explorador de Aventuras
+    m_Localized: "\rAdventure Explorer"
     m_Metadata:
       m_Items: []
   - m_Id: 8115363235971072
-    m_Localized: "Observa una escena en el \xC1lbum."
+    m_Localized: Watch a scene in the album.
     m_Metadata:
       m_Items: []
   - m_Id: 8115374229241856
-    m_Localized: Coleccionista de Juegos
+    m_Localized: "\rGame Collector"
     m_Metadata:
       m_Items: []
   - m_Id: 8115385293815808
-    m_Localized: Juega a todos los minijuegos disponibles.
+    m_Localized: Play all the available minigames.
     m_Metadata:
       m_Items: []
   - m_Id: 8115397625069568
-    m_Localized: Rompe Meteoritos
+    m_Localized: "\rMeteor Breaker"
     m_Metadata:
       m_Items: []
   - m_Id: 8115414926573568
-    m_Localized: Completa tu primera ronda en el minijuego de memoria.
+    m_Localized: "\rComplete your first round in the memory minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8115424124682240
-    m_Localized: "\xA1Combo Gal\xE1ctico!"
+    m_Localized: "\xA1Galactic Combo!"
     m_Metadata:
       m_Items: []
   - m_Id: 8115440604102656
-    m_Localized: Encuentra 5 pares correctos seguidos sin fallar en el minijuego
-      de memoria.
+    m_Localized: "\rFind 5 correct pairs in a row without failing in the memory minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8115450456522752
-    m_Localized: "Aventurero Gal\xE1ctico"
+    m_Localized: "\rGalactic Adventurer"
     m_Metadata:
       m_Items: []
   - m_Id: 8115469934870528
-    m_Localized: Termina tu primera partida en el minijuego de memoria.
+    m_Localized: "\rFinish your first game in the memory minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8115481439846400
-    m_Localized: "H\xE9roe de la Memoria"
+    m_Localized: Memory Hero
     m_Metadata:
       m_Items: []
   - m_Id: 8115507490668544
-    m_Localized: Completa las 5 rondas del minijuego de memoria.
+    m_Localized: "\rComplete all 5 rounds of the memory minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8115519729647616
-    m_Localized: Cosechador Estelar
+    m_Localized: "\rStar Harvester"
     m_Metadata:
       m_Items: []
   - m_Id: 8115522405613568
-    m_Localized: "Obt\xE9n 120 fragmentos de estrellas en una sola partida del minijuego
-      de memoria."
+    m_Localized: "\rObtain 120 star pieces in a single game of the memory minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8115564231213056
-    m_Localized: "Rescate C\xF3smico"
+    m_Localized: Cosmic Rescue
     m_Metadata:
       m_Items: []
   - m_Id: 8115565669859328
-    m_Localized: Acierta un par a 5 segundos o menos de terminarse el tiempo en el
-      minijuego de memoria.
+    m_Localized: "\rFind a pair within 5 seconds or less of time running out in the
+      memory minigame."
     m_Metadata:
       m_Items: []
   - m_Id: 8115905156825088
