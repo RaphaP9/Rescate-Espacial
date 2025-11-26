@@ -64,7 +64,6 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
-    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ef3f527960e40014ba7b5b196edd9f79
     m_Address: MemoryMinigameCutscene2Audios_es
