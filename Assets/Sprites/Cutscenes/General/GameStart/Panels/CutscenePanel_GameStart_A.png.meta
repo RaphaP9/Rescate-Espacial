@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: def5771b04645bc40a5a2c8bb53b6304
+guid: 5892228a1cd538149a4595029be6a58c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6458101021438755580
-    second: CinIntro_05_0
+      213: -3119025388100091026
+    second: CutscenePanel_GameStart_A_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CinIntro_05_0
+      name: CutscenePanel_GameStart_A_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf2c17a99a8cf9950800000000000000
-      internalID: 6458101021438755580
+      spriteID: e638ed05feef6b4d0800000000000000
+      internalID: -3119025388100091026
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CinIntro_05_0: 6458101021438755580
+      CutscenePanel_GameStart_A_0: -3119025388100091026
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

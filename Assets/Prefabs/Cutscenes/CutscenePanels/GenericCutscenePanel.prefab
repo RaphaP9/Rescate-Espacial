@@ -471,7 +471,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4979275516411824898}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -650,7 +650,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7195020697097054226}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -784,7 +784,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2e0222309c51acf498cebed54ec62f69, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5892228a1cd538149a4595029be6a58c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -884,7 +884,7 @@ MonoBehaviour:
   panelImage: {fileID: 1860541303438344130}
   sentenceText: {fileID: 2198080936841414010}
   audioHandler: {fileID: 1699826194009561905}
-  timeToSkipPanel: 5
+  timeToSkipPanel: 3
   cutscenePanel:
     panelPrefab: {fileID: 0}
   canSkipPanel: 0

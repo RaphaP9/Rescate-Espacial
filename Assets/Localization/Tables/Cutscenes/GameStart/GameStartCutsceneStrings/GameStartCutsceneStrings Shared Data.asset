@@ -20,35 +20,55 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 19388645376
-    m_Key: gameStartCutsceneStrings.dialogue1A
+    m_Key: gameStartCutsceneStrings.dialogue1
     m_Metadata:
       m_Items: []
   - m_Id: 6508109818707968
-    m_Key: gameStartCutsceneStrings.dialogue1B
+    m_Key: gameStartCutsceneStrings.dialogue2
     m_Metadata:
       m_Items: []
   - m_Id: 110090469376
-    m_Key: gameStartCutsceneStrings.dialogue2A
+    m_Key: gameStartCutsceneStrings.dialogue3
     m_Metadata:
       m_Items: []
   - m_Id: 227958800384
-    m_Key: gameStartCutsceneStrings.dialogue5A
+    m_Key: gameStartCutsceneStrings.dialogue4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17892285088219136
+    m_Key: gameStartCutsceneStrings.dialogue5
     m_Metadata:
       m_Items: []
   - m_Id: 6506713870450688
-    m_Key: gameStartCutsceneStrings.dialogue6A
+    m_Key: gameStartCutsceneStrings.dialogue6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17893759235080192
+    m_Key: gameStartCutsceneStrings.dialogue7
     m_Metadata:
       m_Items: []
   - m_Id: 6507430429540352
-    m_Key: gameStartCutsceneStrings.dialogue6B
+    m_Key: gameStartCutsceneStrings.dialogue8
     m_Metadata:
       m_Items: []
   - m_Id: 6507548645998592
-    m_Key: gameStartCutsceneStrings.dialogue7A
+    m_Key: gameStartCutsceneStrings.dialogue9
     m_Metadata:
       m_Items: []
   - m_Id: 6507603364888576
-    m_Key: gameStartCutsceneStrings.dialogue7B
+    m_Key: gameStartCutsceneStrings.dialogue10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17891822955610112
+    m_Key: gameStartCutsceneStrings.dialogue11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17894421050114048
+    m_Key: gameStartCutsceneStrings.dialogue12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17894656195379200
+    m_Key: gameStartCutsceneStrings.dialogue13
     m_Metadata:
       m_Items: []
   m_Metadata:

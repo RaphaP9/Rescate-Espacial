@@ -19,24 +19,24 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 19388645376
-    m_Localized: "En un descanso entre misiones, el escuadr\xF3n de rescate encuentra
-      algo inesperado\u2026"
+    m_Localized: "En un descanso entre misiones, el Escuadr\xF3n de Rescate encuentra
+      algo inesperado..."
     m_Metadata:
       m_Items: []
   - m_Id: 110090469376
-    m_Localized: Algo parece estar mal
+    m_Localized: Pero...
     m_Metadata:
       m_Items: []
   - m_Id: 6507430429540352
-    m_Localized: "La estrella estar\xE1 bien"
+    m_Localized: "Calma, peque\xF1os"
     m_Metadata:
       m_Items: []
   - m_Id: 6506713870450688
-    m_Localized: Calma
+    m_Localized: "\xA1Gran Abuelo, Gran Abuelo! \xA1Ayuda!"
     m_Metadata:
       m_Items: []
   - m_Id: 227958800384
-    m_Localized: "\xA1Gran Abuelo, Gran Abuelo! \xA1Ayuda!"
+    m_Localized: "Parece que algo est\xE1 mal..."
     m_Metadata:
       m_Items: []
   - m_Id: 23749745655808
@@ -44,15 +44,37 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6507548645998592
-    m_Localized: Busquen fragmentos estelares para ayudarla a recuperar su brillo
+    m_Localized: "La Estrella estar\xE1 bien, pero necesitar\xE1 algo de su apoyo"
     m_Metadata:
       m_Items: []
   - m_Id: 6507603364888576
-    m_Localized: "Tendr\xE1n que pasar muchas pruebas, pero s\xE9 que ustedes podr\xE1n"
+    m_Localized: Pueden ayudarla recolectando fragmentos estelares dispersos por
+      el espacio
     m_Metadata:
       m_Items: []
   - m_Id: 6508109818707968
-    m_Localized: "Una estrella grande y brillante, sin embargo\u2026"
+    m_Localized: "\xA1Una Gran Estrella!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17891822955610112
+    m_Localized: "Conseguirlos ser\xE1 dif\xEDcil, pero la Estrella lo va a apreciar
+      mucho. S\xE9 que ustedes podr\xE1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17892285088219136
+    m_Localized: "Los crayoncitos corren, y llaman\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17893759235080192
+    m_Localized: Buscan al sabio borrador, habitante del planeta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17894421050114048
+    m_Localized: "As\xED, el Escuadr\xF3n de Rescate empez\xF3 su nueva misi\xF3n\u2026 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17894656195379200
+    m_Localized: "\xA1Encontrar fragmentos estelares y ayudar a la Estrella!"
     m_Metadata:
       m_Items: []
   references:

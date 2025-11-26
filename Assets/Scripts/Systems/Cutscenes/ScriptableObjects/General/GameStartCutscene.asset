@@ -17,5 +17,18 @@ MonoBehaviour:
   nameLocalizationBinding: gameStartCutsceneStrings.name
   cutscenePanels:
   - panelPrefab: {fileID: 687708190896821835, guid: 198699c53abf34c4a92c66ac50dcf1ee, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 0a2e7d8e0e719694684e34e9aab662b6, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 6c9af08908c890b43bba26a927af9988, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 9d45466090def1849b7d9b795248ba64, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: ed1196d3a3b1c7941af5a660ff521062, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: d1f6b4594b83eb94cabd4150735b4fec, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: ec8398eab8c3d0a4885caa867ee92576, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 0a8280c774489b94dab2fa6b01b4afff, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 3c1da561c15bdc44fb4b9d2417a1fb9b, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: d5988f0ba00b3b94ba50fdf356c1a5db, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 3a590f24b990a6a47b5daea901fcd7d5, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: c91dbae5693840144b6349d2a90d7845, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: c6ea02881b1f13e4ba2f57ffbe675bcd, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 91b5306e852b43b4587d05a248c6270a, type: 3}
   cutsceneBGM: {fileID: 0}
-  cutsceneThumbnail: {fileID: 21300000, guid: 7be9d0c0aa54412499fba0ad48890714, type: 3}
+  cutsceneThumbnail: {fileID: 21300000, guid: a07001f5d46193745bbbc27836bd732e, type: 3}

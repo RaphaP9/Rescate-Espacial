@@ -19,24 +19,24 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 19388645376
-    m_Localized: "During a break between missions, the rescue squad finds something
+    m_Localized: "During a break between missions, the Rescue Squad finds something
       unexpected\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 110090469376
-    m_Localized: Something seems to be wrong
+    m_Localized: But..
     m_Metadata:
       m_Items: []
   - m_Id: 6507430429540352
-    m_Localized: The star will be fine
+    m_Localized: Calm down, little ones
     m_Metadata:
       m_Items: []
   - m_Id: 6506713870450688
-    m_Localized: Calm down
+    m_Localized: Great Grandpa, Great Grandpa! Help!
     m_Metadata:
       m_Items: []
   - m_Id: 227958800384
-    m_Localized: Great Grandpa, Great Grandpa! Help!
+    m_Localized: Something seems to be wrong...
     m_Metadata:
       m_Items: []
   - m_Id: 23749745655808
@@ -44,15 +44,37 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6507548645998592
-    m_Localized: "\rLook for star fragments to help it recover its shine"
+    m_Localized: "\rThe Star will be fine, but it will need some of your support"
     m_Metadata:
       m_Items: []
   - m_Id: 6507603364888576
-    m_Localized: "\rYou will have to pass many tests, but I know you can do it"
+    m_Localized: "\rYou can help it by collecting star fragments scattered throughout
+      space"
     m_Metadata:
       m_Items: []
   - m_Id: 6508109818707968
-    m_Localized: "\rA big, bright star, however\u2026"
+    m_Localized: "\rA big, bright star!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17892285088219136
+    m_Localized: "\rThe little crayons run, and shout\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17893759235080192
+    m_Localized: "\rThey are looking for the wise eraser, inhabitant of the planet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17891822955610112
+    m_Localized: "\rObtaining them will be difficult, but the Star will greatly appreciate
+      it. I know you can do it."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17894421050114048
+    m_Localized: "Thus, the Rescue Squad began its new mission\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17894656195379200
+    m_Localized: "\rFind star fragments and help the Star!"
     m_Metadata:
       m_Items: []
   references:
