@@ -68,7 +68,7 @@ Material:
     - _BlinkSpeed: 2
     - _EnableExternalAlpha: 0
     - _Intensity: 1
-    - _IntensityMultiplier: 0
+    - _IntensityMultiplier: 0.79008406
     - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0

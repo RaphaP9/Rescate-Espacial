@@ -885,6 +885,7 @@ MonoBehaviour:
   sentenceText: {fileID: 2198080936841414010}
   audioHandler: {fileID: 1699826194009561905}
   timeToSkipPanel: 3
+  autoSkip: 0
   cutscenePanel:
     panelPrefab: {fileID: 0}
   canSkipPanel: 0

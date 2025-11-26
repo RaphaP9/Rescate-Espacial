@@ -51,7 +51,7 @@ public class AlbumSceneCutsceneUI : MonoBehaviour
     #region Subscriptions
     private void SkipCutscenePanelDetector_OnPointerPressed(object sender, EventArgs e)
     {
-        AlbumSceneCutsceneUIHandler.Instance.SkipCutscenePanel();
+        AlbumSceneCutsceneUIHandler.Instance.TouchSkipCutscenePanel();
     }
     #endregion
 }

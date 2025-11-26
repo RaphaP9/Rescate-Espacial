@@ -35,7 +35,7 @@ public class CutsceneSceneUI : MonoBehaviour
     #region Subscriptions
     private void SkipCutscenePanelDetector_OnPointerPressed(object sender, EventArgs e)
     {
-        CutsceneSceneUIHandler.Instance.SkipCutscenePanel();   
+        CutsceneSceneUIHandler.Instance.TouchSkipCutscenePanel();   
     }
     #endregion
 }

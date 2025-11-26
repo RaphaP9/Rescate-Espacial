@@ -23,8 +23,9 @@ public class SkipPanelIndicatorHandler : MonoBehaviour
         animator.SetTrigger(SHOW_TRIGGER);
     }
 
-    private void CutscenePanelUIHandler_OnCanSkipPanel(object sender, System.EventArgs e)
+    private void CutscenePanelUIHandler_OnCanSkipPanel(object sender, CutscenePanelUIHandler.OnCanSkipEventArgs e)
     {
+        if (e.autoSkip) return;
         ShowIndicator();
     }
 }

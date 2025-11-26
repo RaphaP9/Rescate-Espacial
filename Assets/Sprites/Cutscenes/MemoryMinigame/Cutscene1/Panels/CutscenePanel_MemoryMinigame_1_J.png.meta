@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4f411213f55e01844918359600552e38
+guid: dacca25c1d1ae2440b3a142575d4d40a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7710510424880620788
-    second: CutscenePanel_MemoryMinigame_1_J_0
+      213: -219728731152377604
+    second: CutscenePanel_MemoryMinigame_1_K_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CutscenePanel_MemoryMinigame_1_J_0
+      name: CutscenePanel_MemoryMinigame_1_K_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0b5b00ee93cef490800000000000000
-      internalID: -7710510424880620788
+      spriteID: cf817b812ed53fcf0800000000000000
+      internalID: -219728731152377604
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CutscenePanel_MemoryMinigame_1_J_0: -7710510424880620788
+      CutscenePanel_MemoryMinigame_1_K_0: -219728731152377604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -34,6 +34,10 @@ public class CutsceneSceneUIHandler : MonoBehaviour
     {
         public CutsceneSO cutsceneSO;
     }
+    private void OnDisable()
+    {
+        DesubscribeToCurrentCutscenePanelUI();
+    }
 
     private void Awake()
     {
@@ -70,6 +74,8 @@ public class CutsceneSceneUIHandler : MonoBehaviour
 
     private void CreateCutscenePanel(int index)
     {
+        DesubscribeToCurrentCutscenePanelUI();
+
         Transform cutscenePanelTransform = Instantiate(cutsceneSO.cutscenePanels[index].panelPrefab, cutscenePanelsContainer);
         CutscenePanelUIHandler cutscenePanelUIHandler = cutscenePanelTransform.GetComponentInChildren<CutscenePanelUIHandler>();
 
@@ -86,9 +92,9 @@ public class CutsceneSceneUIHandler : MonoBehaviour
         currentCutscenePanelUI = cutscenePanelUIHandler;
         currentCutscenePanel = cutscenePanel;
 
+        SubscribeToCurrentCutscenePanelUI();
         EvaluatePanelContainerClearance();
     }
-
 
     private void CreateNextCutscenePanel()
     {
@@ -110,12 +116,34 @@ public class CutsceneSceneUIHandler : MonoBehaviour
             Destroy(cutscenePanelsContainer.GetChild(0).gameObject); //Destroy the first child
         }
     }
+
+    private void SubscribeToCurrentCutscenePanelUI()
+    {
+        if (currentCutscenePanel == null) return;
+        currentCutscenePanelUI.OnAutoSkip += CurrentCutscenePanelUI_OnAutoSkip;
+    }
+
+    private void DesubscribeToCurrentCutscenePanelUI()
+    {
+        if (currentCutscenePanelUI == null) return;
+
+        currentCutscenePanelUI.OnAutoSkip -= CurrentCutscenePanelUI_OnAutoSkip;
+    }
     #endregion
 
     #region Public Methods
-    public void SkipCutscenePanel()
+    public void TouchSkipCutscenePanel()
     {
+        if (currentCutscenePanelUI == null) return;
         if (!currentCutscenePanelUI.CanSkipPanel) return;
+        if (currentCutscenePanelUI.AutoSkip) return; //Touch won't work if autoskip
+
+        SkipCutscenePanel();
+    }
+
+    private void SkipCutscenePanel()
+    {
+        if (currentCutscenePanelUI == null) return;
 
         if (cutsceneSO.IsLastCutscenePanel(currentCutscenePanel))
         {
@@ -131,6 +159,13 @@ public class CutsceneSceneUIHandler : MonoBehaviour
     {
         ScenesManager.Instance.TransitionLoadTargetScene(nextScene, nextSceneTransitionType);
         OnCutsceneConclude?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = cutsceneSO });
+    }
+    #endregion
+
+    #region Subscriptions
+    private void CurrentCutscenePanelUI_OnAutoSkip(object sender, EventArgs e)
+    {
+        SkipCutscenePanel();
     }
     #endregion
 }

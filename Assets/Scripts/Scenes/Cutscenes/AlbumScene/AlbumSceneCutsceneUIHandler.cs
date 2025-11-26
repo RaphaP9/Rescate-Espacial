@@ -36,6 +36,11 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
         public CutsceneSO cutsceneSO;
     }
 
+    private void OnDisable()
+    {
+        DesubscribeToCurrentCutscenePanelUI();
+    }
+
     private void Awake()
     {
         SetSingleton();
@@ -67,6 +72,8 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
     #region Panels
     private void CreateCutscenePanel(int index)
     {
+        DesubscribeToCurrentCutscenePanelUI();
+
         Transform cutscenePanelTransform = Instantiate(currentCutsceneSO.cutscenePanels[index].panelPrefab, cutscenePanelsContainer);
         CutscenePanelUIHandler cutscenePanelUIHandler = cutscenePanelTransform.GetComponentInChildren<CutscenePanelUIHandler>();
 
@@ -82,6 +89,8 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
 
         currentCutscenePanelUI = cutscenePanelUIHandler;
         currentCutscenePanel = cutscenePanel;
+
+        SubscribeToCurrentCutscenePanelUI();
 
         EvaluatePanelContainerClearance();
     }
@@ -123,6 +132,19 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
         {
             Destroy(cutscenePanelsContainer.GetChild(i).gameObject);
         }
+    }
+
+    private void SubscribeToCurrentCutscenePanelUI()
+    {
+        if (currentCutscenePanel == null) return;
+        currentCutscenePanelUI.OnAutoSkip += CurrentCutscenePanelUI_OnAutoSkip;
+    }
+
+    private void DesubscribeToCurrentCutscenePanelUI()
+    {
+        if (currentCutscenePanelUI == null) return;
+
+        currentCutscenePanelUI.OnAutoSkip -= CurrentCutscenePanelUI_OnAutoSkip;
     }
     #endregion
 
@@ -178,10 +200,20 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
         OnCutscenePlay?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = currentCutsceneSO });
     }
 
+    public void TouchSkipCutscenePanel()
+    {
+        if (!cutsceneActive) return;
+        if (currentCutscenePanelUI == null) return;
+        if (!currentCutscenePanelUI.CanSkipPanel) return;
+        if (currentCutscenePanelUI.AutoSkip) return; //Touch won't work if autoskip
+
+        SkipCutscenePanel();
+    }
+
     public void SkipCutscenePanel()
     {
         if (!cutsceneActive) return;
-        if (!currentCutscenePanelUI.CanSkipPanel) return;
+        if (currentCutscenePanelUI == null) return;
 
         if (currentCutsceneSO.IsLastCutscenePanel(currentCutscenePanel))
         {
@@ -199,6 +231,13 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
         HideUI();
 
         OnCutsceneConclude?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = currentCutsceneSO });
+    }
+    #endregion
+
+    #region Subscriptions
+    private void CurrentCutscenePanelUI_OnAutoSkip(object sender, EventArgs e)
+    {
+        SkipCutscenePanel();
     }
     #endregion
 }

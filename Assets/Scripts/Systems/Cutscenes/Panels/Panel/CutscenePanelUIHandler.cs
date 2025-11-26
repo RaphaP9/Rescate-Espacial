@@ -14,6 +14,7 @@ public class CutscenePanelUIHandler : MonoBehaviour
 
     [Header("General Settings")]
     [SerializeField, Range(0f, 30f)] private float timeToSkipPanel;
+    [SerializeField] private bool autoSkip;
 
     [Header("Runtime Filled")]
     [SerializeField] private CutscenePanel cutscenePanel;
@@ -21,10 +22,17 @@ public class CutscenePanelUIHandler : MonoBehaviour
 
     #region Properties
     public bool CanSkipPanel => canSkipPanel;
+    public bool AutoSkip => autoSkip;
 
     #endregion
 
-    public event EventHandler OnCanSkipPanel;
+    public event EventHandler<OnCanSkipEventArgs> OnCanSkipPanel;
+    public event EventHandler OnAutoSkip;
+
+    public class OnCanSkipEventArgs : EventArgs
+    {
+        public bool autoSkip;
+    }
 
     public void SetPanel(CutscenePanel cutscenePanel)
     {
@@ -43,6 +51,8 @@ public class CutscenePanelUIHandler : MonoBehaviour
     {
         yield return new WaitForSeconds(timeToSkipPanel);
         canSkipPanel = true;
-        OnCanSkipPanel?.Invoke(this, EventArgs.Empty);
+
+        OnCanSkipPanel?.Invoke(this, new OnCanSkipEventArgs { autoSkip = autoSkip});
+        if(autoSkip) OnAutoSkip?.Invoke(this, EventArgs.Empty);
     }
 }
