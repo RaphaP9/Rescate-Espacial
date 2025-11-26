@@ -6399,10 +6399,6 @@ PrefabInstance:
       propertyPath: minigameScoreManager
       value: 
       objectReference: {fileID: 1240012630}
-    - target: {fileID: 4011751061938135451, guid: 8e3a23ebd7ccc0b4aaa35c067fc0d488, type: 3}
-      propertyPath: m_Alpha
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4335748422650481609, guid: 8e3a23ebd7ccc0b4aaa35c067fc0d488, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -375

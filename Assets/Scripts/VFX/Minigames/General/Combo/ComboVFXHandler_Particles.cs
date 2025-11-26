@@ -5,6 +5,8 @@ using UnityEngine.VFX;
 public class ComboVFXHandler_Particles : MonoBehaviour
 {
     [Header("Components")]
+    [SerializeField] private RectDimensionsChangeDetector rectDimensionsChangeDetector;
+    [Space]
     [SerializeField] private RectTransform screenRectTransformRefference;
     [SerializeField] private VisualEffect visualEffect;
 
@@ -28,12 +30,17 @@ public class ComboVFXHandler_Particles : MonoBehaviour
 
     private void OnEnable()
     {
+        rectDimensionsChangeDetector.OnRectDimensionsChanged += RectDimensionsChangeDetector_OnRectDimensionsChanged;
+
         MinigameScoreManager.OnComboGained += MinigameScoreManager_OnComboGained;
         MinigameScoreManager.OnComboUpdated += MinigameScoreManager_OnComboUpdated;
         MinigameScoreManager.OnComboLost += MinigameScoreManager_OnComboLost;
     }
+
     private void OnDisable()
     {
+        rectDimensionsChangeDetector.OnRectDimensionsChanged -= RectDimensionsChangeDetector_OnRectDimensionsChanged;
+
         MinigameScoreManager.OnComboGained -= MinigameScoreManager_OnComboGained;
         MinigameScoreManager.OnComboUpdated -= MinigameScoreManager_OnComboUpdated;
         MinigameScoreManager.OnComboLost -= MinigameScoreManager_OnComboLost;
@@ -42,14 +49,7 @@ public class ComboVFXHandler_Particles : MonoBehaviour
     private void Start()
     {
         StopVFX();
-        StartCoroutine(InitializationCoroutine());
-    }
-
-    private IEnumerator InitializationCoroutine()
-    {
-        yield return null; //Wait one Frame
         InitializeDistances();
-
         SetVFXDimension(screenWidthPropertyName, width);
         SetVFXDimension(screenHeightPropertyName, height);
     }
@@ -100,6 +100,7 @@ public class ComboVFXHandler_Particles : MonoBehaviour
         PlayVFX();
         SetParticleRateByCombo(e.comboGained);
     }
+
     private void MinigameScoreManager_OnComboUpdated(object sender, MinigameScoreManager.OnComboGainedEventArgs e)
     {
         SetParticleRateByCombo(e.comboGained);
@@ -109,6 +110,13 @@ public class ComboVFXHandler_Particles : MonoBehaviour
     {
         StopVFX();
         SetParticleRateByCombo(0);
+    }
+
+    private void RectDimensionsChangeDetector_OnRectDimensionsChanged(object sender, System.EventArgs e)
+    {
+        InitializeDistances();
+        SetVFXDimension(screenWidthPropertyName, width);
+        SetVFXDimension(screenHeightPropertyName, height);
     }
     #endregion
 }
