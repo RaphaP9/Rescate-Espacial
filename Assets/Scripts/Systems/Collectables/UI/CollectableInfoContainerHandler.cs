@@ -24,14 +24,14 @@ public class CollectableInfoContainerHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        CollectableContainerPopulatorHandler.OnCollectablesPopulated += CollectableContainerPopulatorHandler_OnCollectablesPopulated;
+        CollectableContainerHandler.OnCollectablesPopulated += CollectableContainerPopulatorHandler_OnCollectablesPopulated;
         CollectableUI.OnCollectableUIClicked += CollectableUI_OnCollectableUIClicked;
         LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
     }
 
     private void OnDisable()
     {
-        CollectableContainerPopulatorHandler.OnCollectablesPopulated -= CollectableContainerPopulatorHandler_OnCollectablesPopulated;
+        CollectableContainerHandler.OnCollectablesPopulated -= CollectableContainerPopulatorHandler_OnCollectablesPopulated;
         CollectableUI.OnCollectableUIClicked -= CollectableUI_OnCollectableUIClicked;
         LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
     }
@@ -85,7 +85,7 @@ public class CollectableInfoContainerHandler : MonoBehaviour
     }
 
     #region Subscriptions
-    private void CollectableContainerPopulatorHandler_OnCollectablesPopulated(object sender, CollectableContainerPopulatorHandler.OnCollectablesPopulatedEventArgs e)
+    private void CollectableContainerPopulatorHandler_OnCollectablesPopulated(object sender, CollectableContainerHandler.OnCollectablesPopulatedEventArgs e)
     {
         if (!selectFirstCollectableOnContainerPopulation) return;
         if (e.collectableUIList.Count <= 0) return;
