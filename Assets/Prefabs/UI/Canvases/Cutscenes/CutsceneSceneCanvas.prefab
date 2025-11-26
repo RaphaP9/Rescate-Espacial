@@ -424,22 +424,10 @@ MonoBehaviour:
   nextSceneTransitionType: 0
   cutsceneSO: {fileID: 0}
   cutscenePanelsContainer: {fileID: 6738924819327506456}
-  cutscenePanelPrefab: {fileID: 9219269883028718413, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
   maxCutscenePanels: 3
   currentCutscenePanelUI: {fileID: 0}
   currentCutscenePanel:
-    panelSprite: {fileID: 0}
-    hasSentence: 0
-    sentenceLocalizationTable: 
-    sentenceLocalizationBinding: 
-    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
-    hasAudio: 0
-    audioLocalizationTable: 
-    audioLocalizationBinding: 
-    transition: 0
-    timeToSkipPanel: 0
-    timeToAppearSentence: 0
-    timeToPlayAudio: 0
+    panelPrefab: {fileID: 0}
   currentCutscenePanelIndex: 0
   debug: 0
 --- !u!114 &6473728190062948610
@@ -944,7 +932,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9119964962596015876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
