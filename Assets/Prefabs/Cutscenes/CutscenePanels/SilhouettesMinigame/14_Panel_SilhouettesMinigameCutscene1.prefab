@@ -125,12 +125,16 @@ PrefabInstance:
       value: gameStartCutsceneStrings.dialogue2A
       objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: autoSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: timeToSkipPanel
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentenceLocalizationTable
@@ -147,7 +151,7 @@ PrefabInstance:
     - target: {fileID: 8666250347359930208, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: c5f5da1ea2aab8841a514b2d407e664e, type: 2}
+      objectReference: {fileID: 9100000, guid: 83f33ed240501ce458cf1e0c57f665cf, type: 2}
     - target: {fileID: 9219269883028718413, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

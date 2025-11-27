@@ -178,6 +178,15 @@ public static class GeneralUtilities
 
     public static float ClampNumber01(float number) => Mathf.Clamp01(number);
 
+    public static float GetRandomBetweenTwoFloats(float numberA, float numberB)
+    {
+        float min = Mathf.Min(numberA, numberB);
+        float max = Mathf.Max(numberA, numberB);
+
+        float value = UnityEngine.Random.Range(min, max);
+        return value;
+    }
+
     #endregion
 
     #region Transforms
