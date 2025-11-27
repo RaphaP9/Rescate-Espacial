@@ -18,13 +18,14 @@ public class CutsceneButtonUI : MonoBehaviour
     private void Awake()
     {
         InitializeButtonsListeners();
+        SetCutsceneThumbnail();
     }
 
     private void Start()
     {
-        SetCutsceneThumbnail();
         HandleNotUnlockedCover();
     }
+
     private void InitializeButtonsListeners()
     {
         cutsceneButton.onClick.AddListener(PlayCutscene);

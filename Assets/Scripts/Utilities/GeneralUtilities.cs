@@ -115,6 +115,24 @@ public static class GeneralUtilities
     }
 
     public static float GetVector2MagnitudeDifference(Vector2 vectorA, Vector2 vectorB) => Vector2.Distance(vectorA, vectorB);
+
+    public static Vector2 ScaleVectorTilMaxComponentIsOne(Vector2 vector2)
+    {
+        float maxComponent = Mathf.Max(Mathf.Abs(vector2.x), Mathf.Abs(vector2.y));
+
+        if (maxComponent == 0f) return Vector2.zero;
+
+        return vector2 / maxComponent;
+    }
+
+    public static Vector2 ScaleVectorTilMinComponentIsOne(Vector2 vector2)
+    {
+        float minComponent = Mathf.Min(Mathf.Abs(vector2.x), Mathf.Abs(vector2.y));
+
+        if (minComponent == 0f) return Vector2.zero;
+
+        return vector2 / minComponent;
+    }
     #endregion
 
     #region VectorInts

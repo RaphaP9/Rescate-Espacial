@@ -85,6 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222832351402404241}
   - component: {fileID: 8149522028078450431}
+  - component: {fileID: 6196116931050482877}
   - component: {fileID: 1549904905179647670}
   m_Layer: 5
   m_Name: Sprite
@@ -120,6 +121,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6038587238803644701}
   m_CullTransparentMesh: 1
+--- !u!114 &6196116931050482877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038587238803644701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ce84ac23d791345a4536e37931f59b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rectTransformRefference: {fileID: 5173523747978757401}
+  image: {fileID: 1549904905179647670}
+  affectedRectTransform: {fileID: 222832351402404241}
 --- !u!114 &1549904905179647670
 MonoBehaviour:
   m_ObjectHideFlags: 0
