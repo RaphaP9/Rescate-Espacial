@@ -933,10 +933,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6196116931050482877, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
-      propertyPath: rectDimensionsChangeDetector
-      value: 
-      objectReference: {fileID: 1186975259}
     - target: {fileID: 8943935927351284008, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
       propertyPath: m_Name
       value: SilhouettesCutscene1UI
@@ -1616,10 +1612,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6196116931050482877, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
-      propertyPath: rectDimensionsChangeDetector
-      value: 
-      objectReference: {fileID: 1186975259}
     - target: {fileID: 8943935927351284008, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
       propertyPath: m_Name
       value: MemoryCutscene1UI
@@ -1863,10 +1855,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6196116931050482877, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
-      propertyPath: rectDimensionsChangeDetector
-      value: 
-      objectReference: {fileID: 1186975259}
     - target: {fileID: 8943935927351284008, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
       propertyPath: m_Name
       value: SilhouettesCutscene2UI
@@ -3441,10 +3429,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6196116931050482877, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
-      propertyPath: rectDimensionsChangeDetector
-      value: 
-      objectReference: {fileID: 1186975259}
     - target: {fileID: 8943935927351284008, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
       propertyPath: m_Name
       value: MemoryCutscene3UI
@@ -3471,7 +3455,6 @@ GameObject:
   - component: {fileID: 1186975258}
   - component: {fileID: 1186975257}
   - component: {fileID: 1186975256}
-  - component: {fileID: 1186975259}
   m_Layer: 5
   m_Name: PagesContainer
   m_TagString: Untagged
@@ -3558,19 +3541,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186975253}
   m_CullTransparentMesh: 1
---- !u!114 &1186975259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186975253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9aa317984c340a4f92bfe3e8e3776b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceCanvasUpdateOnDimensionsChanged: 1
 --- !u!1001 &1268497000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4174,10 +4144,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6196116931050482877, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
-      propertyPath: rectDimensionsChangeDetector
-      value: 
-      objectReference: {fileID: 1186975259}
     - target: {fileID: 8943935927351284008, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
       propertyPath: m_Name
       value: SilhouettesCutscene3UI
@@ -4441,10 +4407,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6196116931050482877, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
-      propertyPath: rectDimensionsChangeDetector
-      value: 
-      objectReference: {fileID: 1186975259}
     - target: {fileID: 8943935927351284008, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
       propertyPath: m_Name
       value: MemoryCutscene2UI

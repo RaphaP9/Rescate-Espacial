@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5ce84ac23d791345a4536e37931f59b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rectDimensionsChangeDetector: {fileID: 4110172528352560109}
   rectTransformRefference: {fileID: 5173523747978757401}
   image: {fileID: 1549904905179647670}
   affectedRectTransform: {fileID: 222832351402404241}
@@ -450,6 +451,7 @@ GameObject:
   - component: {fileID: 3907471547418594965}
   - component: {fileID: 3392985516974108688}
   - component: {fileID: 9035585595261957827}
+  - component: {fileID: 4110172528352560109}
   m_Layer: 5
   m_Name: CutsceneButtonUI
   m_TagString: Untagged
@@ -521,3 +523,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
+--- !u!114 &4110172528352560109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8943935927351284008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9aa317984c340a4f92bfe3e8e3776b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceCanvasUpdateOnDimensionsChanged: 0
