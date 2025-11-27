@@ -30,5 +30,5 @@ MonoBehaviour:
   - panelPrefab: {fileID: 687708190896821835, guid: c91dbae5693840144b6349d2a90d7845, type: 3}
   - panelPrefab: {fileID: 687708190896821835, guid: c6ea02881b1f13e4ba2f57ffbe675bcd, type: 3}
   - panelPrefab: {fileID: 687708190896821835, guid: 91b5306e852b43b4587d05a248c6270a, type: 3}
-  cutsceneBGM: {fileID: 0}
+  cutsceneBGM: {fileID: 8300000, guid: 1a7b7c50ca96ac74b8b3b490b108fcd0, type: 3}
   cutsceneThumbnail: {fileID: 21300000, guid: a07001f5d46193745bbbc27836bd732e, type: 3}
