@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: MemoryMinigameCutsceneStrings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: MemoryMinigameCutsceneStrings
+  m_TableCollectionNameGuidString: 9789a9460c542a64dbef618d5335b5ec
+  m_Entries:
+  - m_Id: 4984991596544
+    m_Key: memoryMinigameCutsceneStrings.name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315501434781696
+    m_Key: memoryMinigameCutsceneStrings.dialogue1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315569348952064
+    m_Key: memoryMinigameCutsceneStrings.dialogue2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315580371582976
+    m_Key: memoryMinigameCutsceneStrings.dialogue3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315712487964672
+    m_Key: memoryMinigameCutsceneStrings.dialogue4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315724622086144
+    m_Key: memoryMinigameCutsceneStrings.dialogue5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315731911786496
+    m_Key: memoryMinigameCutsceneStrings.dialogue6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315741466411008
+    m_Key: memoryMinigameCutsceneStrings.dialogue7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315750417055744
+    m_Key: memoryMinigameCutsceneStrings.dialogue8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315764405059584
+    m_Key: memoryMinigameCutsceneStrings.dialogue9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315772835610624
+    m_Key: memoryMinigameCutsceneStrings.dialogue10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315782029524992
+    m_Key: memoryMinigameCutsceneStrings.dialogue11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315789847707648
+    m_Key: memoryMinigameCutsceneStrings.dialogue12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315804435496960
+    m_Key: memoryMinigameCutsceneStrings.dialogue13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315813201592320
+    m_Key: memoryMinigameCutsceneStrings.dialogue14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315823368585216
+    m_Key: memoryMinigameCutsceneStrings.dialogue15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315834428964864
+    m_Key: memoryMinigameCutsceneStrings.dialogue16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315844499488768
+    m_Key: memoryMinigameCutsceneStrings.dialogue17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315853953449984
+    m_Key: memoryMinigameCutsceneStrings.dialogue18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315863591960576
+    m_Key: memoryMinigameCutsceneStrings.dialogue19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315872811040768
+    m_Key: memoryMinigameCutsceneStrings.dialogue20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315887705014272
+    m_Key: memoryMinigameCutsceneStrings.dialogue21
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3624705190764740610
+  references:
+    version: 2
+    RefIds:
+    - rid: 3624705190764740610
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1759889077569

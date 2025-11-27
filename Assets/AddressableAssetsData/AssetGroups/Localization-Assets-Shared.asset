@@ -22,18 +22,6 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 04c9a462fc3afaa4c99de69fd2573c4e
-    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene3/MemoryMinigameCutscene3Strings/MemoryMinigameCutscene3Strings
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1695a499d85c0e34f8152171c7cbcae1
-    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene2/SilhouettesMinigameCutscene2Audios/SilhouettesMinigameCutscene2Audios
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 18315ada4519ea542aca8e09b2ae824e
     m_Address: Assets/Localization/Tables/Minigames/Minigames Shared Data.asset
     m_ReadOnly: 1
@@ -62,12 +50,6 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 425e03bda4809404ebe792ff0fa89c5f
-    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene2/MemoryMinigameCutscene2Audios/MemoryMinigameCutscene2Audios
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 58b76eda7e2f77c4a9f32cb51541df20
     m_Address: Assets/Localization/Tables/TimeEndedStrings/TimeEndedStrings Shared
       Data.asset
@@ -81,12 +63,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61078d6f3b237334598a946f8ee6b545
     m_Address: Assets/Localization/Tables/MemoryMinigame Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6fcae5f89723ba54f860e0b73a3d9906
-    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene2/MemoryMinigameCutscene2Strings/MemoryMinigameCutscene2Strings
-      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -123,12 +99,6 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 870ddbcb4fc0eda499122a15f03c7054
-    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene3/MemoryMinigameCutscene3Audios/MemoryMinigameCutscene3Audios
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8a7fec9c05602654eac401b032abc20f
     m_Address: GameLogo
     m_ReadOnly: 1
@@ -144,12 +114,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b404dce2824544845841df755edd7fb6
     m_Address: Assets/Localization/Tables/Collectables/Collectables Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b4261700245139945a9dd6ad278c327b
-    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene3/SilhouettesMinigameCutscene3Audios/SilhouettesMinigameCutscene3Audios
-      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -191,20 +155,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: eaf70a602c57fe2438670d0dbb5c1def
-    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene3/SilhouettesMinigameCutscene3Strings/SilhouettesMinigameCutscene3Strings
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ebb4b313acddf1446b787446b28c602d
     m_Address: Assets/Localization/Tables/TimerSelectorSceneTable Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f41428d45dc8c9b41a54abd409cc8c04
-    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene2/SilhouettesMinigameCutscene2Strings/SilhouettesMinigameCutscene2Strings
-      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

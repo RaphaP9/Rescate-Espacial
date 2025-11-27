@@ -21,12 +21,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 11af79f5d1b608b4b8a2d823b9703cf1
-    m_Address: SilhouettesMinigameCutscene3Strings_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 28e7e517437218d4aa14a752da273a41
     m_Address: TimeEndedStrings_en
     m_ReadOnly: 1
@@ -47,12 +41,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4d4c852fe6a24d942a256aaaf5de9107
     m_Address: TimerSelectorScene_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 57fdbb988b731d74f9aed587b11411c3
-    m_Address: MemoryMinigameCutscene2Strings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -94,19 +82,13 @@ MonoBehaviour:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8c5d889538b3c0740a418637906e4ac0
-    m_Address: SilhouettesMinigameCutscene1Strings_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a19ba8f7b934e654e96ca832c7bcaf11
-    m_Address: SilhouettesMinigameCutscene2Strings_en
+    m_Address: SilhouettesMinigameCutsceneStrings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b94edda167de8d8478238cef3c887e67
-    m_Address: MemoryMinigameCutscene1Strings_en
+    m_Address: MemoryMinigameCutsceneStrings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -119,12 +101,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dbd3af78c8679d348a5733cd909a4825
     m_Address: MinigameFinalScoreStrings_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: de52fdbf540ff9e428b17f95be150481
-    m_Address: MemoryMinigameCutscene3Strings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

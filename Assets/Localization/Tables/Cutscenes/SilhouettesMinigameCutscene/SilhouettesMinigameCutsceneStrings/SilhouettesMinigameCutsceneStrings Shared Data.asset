@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: SilhouettesMinigameCutsceneStrings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: SilhouettesMinigameCutsceneStrings
+  m_TableCollectionNameGuidString: 40853f5f27912fb4d8d57c552129bdd8
+  m_Entries:
+  - m_Id: 4625116119040
+    m_Key: silhouettesMinigameCutsceneStrings.name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374334811160576
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374385688068096
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374392839356416
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374404063313920
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374412716163072
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374424569266176
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374433796734976
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374444278300672
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374452851458048
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374461261037568
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374481871847424
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374492143697920
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374500293230592
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374797954596864
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374806963961856
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374814165581824
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374820373151744
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374826807214080
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374844700114944
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374854380568576
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue20
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3624705190764740617
+  references:
+    version: 2
+    RefIds:
+    - rid: 3624705190764740617
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1759889569841

@@ -13,29 +13,11 @@ MonoBehaviour:
   m_Name: MemoryMinigameCutscene1
   m_EditorClassIdentifier: 
   id: 2
-  nameLocalizationTable: MemoryMinigameCutscene1Strings
-  nameLocalizationBinding: memoryMinigameCutscene1Strings.name
+  nameLocalizationTable: MemoryMinigameCutsceneStrings
+  nameLocalizationBinding: memoryMinigameCutsceneStrings.name
   cutscenePanels:
   - panelPrefab: {fileID: 687708190896821835, guid: d0bb319cc130afa459168629ffdca39c, type: 3}
   - panelPrefab: {fileID: 687708190896821835, guid: a47b4e2e8a09b5249afeac0ffbc23a95, type: 3}
   - panelPrefab: {fileID: 687708190896821835, guid: 2b485d9b40af9774b897969b48690f56, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 3b4f98da74685d54fb40d7633830594e, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: ababb4be036c373418c325a58694ccfa, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 97f1a8ee97645eb4eb8e3810e321eacd, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: c75407e68d70d94409343a52ca5489c8, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 6ae3c8b6dad5ff7498aa4439c473db9f, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 604380916d064be46ae5e35b76e60740, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 51e2f89f2f995de46a905b775601fee4, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 7f201db80f170b8428adc8caad073aed, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: f89b71f43ede5f846b49ca5d78124de5, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 39ba94b464ce1724ba742a13f31ec772, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 9e57ab1ee53070e47b5a288cda6ebffc, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 5a579df2adf6209408a27d2d78c06238, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 3f531b76873fa344ab940e6bd332a117, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 493ee291cd7fdf84fbad89a260322a93, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 879726189206ee54781ab4da0d9a74a1, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: ab5afb64cfe0bef4b9bed801d445b55a, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: f55c33c4339383741a85cad271bc6651, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 830632208e3ee7244bfec7fba3a2e19a, type: 3}
   cutsceneBGM: {fileID: 8300000, guid: 68988fbf53057754abf6f2f659c7fb53, type: 3}
-  cutsceneThumbnail: {fileID: 21300000, guid: 64b845f0d94f24a428bb622e329d18ca, type: 3}
+  cutsceneThumbnail: {fileID: 21300000, guid: 54c4e610a3f161a46b21830dcf940611, type: 3}

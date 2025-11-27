@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SilhouettesMinigameCutsceneStrings_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 40853f5f27912fb4d8d57c552129bdd8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4625116119040
+    m_Localized: NameEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374334811160576
+    m_Localized: "\rOh no! Is everyone okay?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374385688068096
+    m_Localized: "Ah, that's a relief\u2026 no one got hurt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374392839356416
+    m_Localized: "\rThat crash was a scare\u2026 What do you see, Purple?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374404063313920
+    m_Localized: "\rOh no! The ship has capsized\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374412716163072
+    m_Localized: "\rEverything is so messy now\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374424569266176
+    m_Localized: What will you do, Squadron?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374433796734976
+    m_Localized: "\rGreat, Purple! You seem very calm while tidying up"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374444278300672
+    m_Localized: "\rBut how's the rest going?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374452851458048
+    m_Localized: "\rOw\u2026 that looks heavy, Green! Everything alright, Orange?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374461261037568
+    m_Localized: "\rI don't think they're having a very good time\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374481871847424
+    m_Localized: "\rPurple, could you share some of your music with them?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374492143697920
+    m_Localized: "\rWow\u2026 that sounds great!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374500293230592
+    m_Localized: "\rWhat do you think, Squadron?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374797954596864
+    m_Localized: The mission to tidying up is proving to be a complete success!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374806963961856
+    m_Localized: Working with music and friends makes everything more fun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374814165581824
+    m_Localized: "\rThey're almost finished! Only that pile over there remains."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374820373151744
+    m_Localized: You can do it, Purple!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374826807214080
+    m_Localized: "\rOh? What's that shining?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374844700114944
+    m_Localized: A stellar fragment!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374854380568576
+    m_Localized: Good job, Purple!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

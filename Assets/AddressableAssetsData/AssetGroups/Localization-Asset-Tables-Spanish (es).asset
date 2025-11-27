@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: 2e9df02e83fc5a94db581dadbb566554
   m_SerializeEntries:
   - m_GUID: 3b0c442431441b94f843089b07adf5f0
-    m_Address: MemoryMinigameCutscene1Audios_es
+    m_Address: MemoryMinigameCutsceneAudios_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
@@ -28,26 +28,8 @@ MonoBehaviour:
     - Locale-es
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6d57c3d021ed73c4198bb4e353c23723
-    m_Address: SilhouettesMinigameCutscene3Audios_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8044f5a42f7e8454eae84d0ea2b18c22
-    m_Address: SilhouettesMinigameCutscene2Audios_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9aba7df54c6bef04784623a8275663b3
-    m_Address: MemoryMinigameCutscene3Audios_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a4724cce5e12a1e4ea0ee36ca3ad5d6e
-    m_Address: SilhouettesMinigameCutscene1Audios_es
+    m_Address: SilhouettesMinigameCutsceneAudios_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
@@ -61,12 +43,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dbff63bac7be592429673d808af66d5b
     m_Address: Videos_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ef3f527960e40014ba7b5b196edd9f79
-    m_Address: MemoryMinigameCutscene2Audios_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es

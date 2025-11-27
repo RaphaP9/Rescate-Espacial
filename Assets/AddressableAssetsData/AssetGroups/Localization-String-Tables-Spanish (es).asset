@@ -51,20 +51,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 62484147d39a74e41b656fc108c23982
-    m_Address: MemoryMinigameCutscene3Strings_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 63c83d2e0e44141458c48c29f1cb5f7f
     m_Address: DebugStrings_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 64d06ff479671b043a357e193acda385
-    m_Address: SilhouettesMinigameCutscene3Strings_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
@@ -88,19 +76,13 @@ MonoBehaviour:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 954a3597e365f13408fef391f151b0aa
-    m_Address: MemoryMinigameCutscene1Strings_es
+    m_Address: MemoryMinigameCutsceneStrings_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 95dee3266353d41408ba9a7ca02e881b
-    m_Address: SilhouettesMinigameCutscene1Strings_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b4c249867454b6d459b41b9f6bf1b574
-    m_Address: MemoryMinigameCutscene2Strings_es
+    m_Address: SilhouettesMinigameCutsceneStrings_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
@@ -131,12 +113,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d83d90d03611ed045aba510cf783199d
     m_Address: Options_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e0401975e85282844827691c629920d3
-    m_Address: SilhouettesMinigameCutscene2Strings_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
