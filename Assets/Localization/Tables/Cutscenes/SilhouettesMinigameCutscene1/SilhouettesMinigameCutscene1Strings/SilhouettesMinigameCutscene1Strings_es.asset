@@ -22,6 +22,86 @@ MonoBehaviour:
     m_Localized: NameES
     m_Metadata:
       m_Items: []
+  - m_Id: 18374334811160576
+    m_Localized: "\xA1Oh, no! \xBFEst\xE1n todos bien?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374385688068096
+    m_Localized: "Ah, es un alivio\u2026 nadie est\xE1 herido"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374392839356416
+    m_Localized: "Ese choque fue un susto\u2026 \xBFQu\xE9 ves, Morado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374404063313920
+    m_Localized: "\xA1Ay, no! La nave ha quedado volcada\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374412716163072
+    m_Localized: "Todo est\xE1 tan desordenado ahora\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374424569266176
+    m_Localized: "\xBFQu\xE9 har\xE1n, Escuadr\xF3n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374433796734976
+    m_Localized: "\xA1Genial, Morado! Se te ve muy tranquila ordenando"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374444278300672
+    m_Localized: "\xBFPero c\xF3mo va el resto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374452851458048
+    m_Localized: "Ow\u2026 \xA1eso se ve pesado, Verde! \xBFTodo bien, Naranja?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374461261037568
+    m_Localized: "No creo que la est\xE9n pasando muy bien\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374481871847424
+    m_Localized: "Morado, \xBFpodr\xEDas compartirles un poco de tu m\xFAsica?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374492143697920
+    m_Localized: "Wow\u2026 \xA1eso suena muy bien!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374500293230592
+    m_Localized: "\xBFQu\xE9 les parece, Escuadr\xF3n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374797954596864
+    m_Localized: "\xA1La misi\xF3n de ordenar est\xE1 siendo todo un \xE9xito!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374806963961856
+    m_Localized: "Trabajar con m\xFAsica y amigos hace que todo sea m\xE1s divertido"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374814165581824
+    m_Localized: "\xA1Ya casi acaban! Solo queda el mont\xF3n de all\xE1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374820373151744
+    m_Localized: "\xA1T\xFA puedes Morado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374826807214080
+    m_Localized: "\xBFOh? \xBFQu\xE9 es eso que brilla?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374844700114944
+    m_Localized: "\xA1Un fragmento estelar!\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18374854380568576
+    m_Localized: "\xA1Buen trabajo, Morado!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

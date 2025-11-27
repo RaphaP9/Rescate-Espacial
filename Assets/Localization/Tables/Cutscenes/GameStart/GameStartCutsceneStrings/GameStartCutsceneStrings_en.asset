@@ -48,7 +48,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6507603364888576
-    m_Localized: "\rYou can help it by collecting star fragments scattered throughout
+    m_Localized: "\rYou can help it by collecting stellar fragments scattered throughout
       space"
     m_Metadata:
       m_Items: []
@@ -74,7 +74,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17894656195379200
-    m_Localized: "\rFind star fragments and help the Star!"
+    m_Localized: "\rFind stellar fragments and help the Star!"
     m_Metadata:
       m_Items: []
   references:

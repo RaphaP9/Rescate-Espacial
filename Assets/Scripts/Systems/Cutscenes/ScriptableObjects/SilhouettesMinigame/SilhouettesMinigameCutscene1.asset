@@ -15,6 +15,21 @@ MonoBehaviour:
   id: 5
   nameLocalizationTable: SilhouettesMinigameCutscene1Strings
   nameLocalizationBinding: silhouettesMinigameCutscene1Strings.name
-  cutscenePanels: []
+  cutscenePanels:
+  - panelPrefab: {fileID: 687708190896821835, guid: 0a2bb6f0ec04ae4478bc4284496a2fbc, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: aed8f8d36c694c94e9e1d5e8f4794a36, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 8b74099b94921c34b9134b704564c9cd, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 3c8a899766e07e649b04c098d0f40532, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 5cd5dd63096085849ac7d8385ea5db1b, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 27eb9bdd8f46a874eaebff99b9473a9a, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 566d4bffb28e17f459c697569a40ecdc, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: ee08f9b5bf334e6438897f607b73170d, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 0b4e86a965d4e0449bba2e47c222bfa0, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 02e726ca2e9e176449afdf1ffbf43d5b, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 6c521fcd3c752d340876657b761d9788, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: ebc4dee9744206e469311cd6c006b19e, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: aed8f8d36c694c94e9e1d5e8f4794a36, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 38b7b7eef7bcd02448af9bb49e5b842a, type: 3}
+  - panelPrefab: {fileID: 687708190896821835, guid: 9685e4d3f85f210439e74d52b3b1005a, type: 3}
   cutsceneBGM: {fileID: 8300000, guid: 42d3a2cf312c5134996bd9c4f9ebb6b9, type: 3}
-  cutsceneThumbnail: {fileID: 21300000, guid: fc786a54cf122ee4ca24f34de6ff2d59, type: 3}
+  cutsceneThumbnail: {fileID: 21300000, guid: 2d3409733a51b0544b0279dfe4c8e9d5, type: 3}
