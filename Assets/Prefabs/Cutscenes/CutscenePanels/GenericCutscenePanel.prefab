@@ -665,6 +665,8 @@ GameObject:
   - component: {fileID: 1692173077232403513}
   - component: {fileID: 6634261927806893115}
   - component: {fileID: 4003670808060439107}
+  - component: {fileID: 7976040221428244283}
+  - component: {fileID: 1177553364867473655}
   m_Layer: 5
   m_Name: SentenceUI
   m_TagString: Untagged
@@ -744,6 +746,37 @@ MonoBehaviour:
   sentenceLocalizationTable: 
   hideLastSentence: 0
   sentences: []
+--- !u!114 &7976040221428244283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6640529093048354661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73de7880bfe5f8045949182c2cf78079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedRectTransform: {fileID: 333195855191383649}
+  posYOffset: -350
+  posYFactor: 225
+--- !u!114 &1177553364867473655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6640529093048354661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b735368c6e0a0344baa1d1eeee368151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedTMPro: {fileID: 2198080936841414010}
+  sizeOffset: 0
+  sizeFactor: 30
+  minFontSize: 30
 --- !u!1 &7195020697097054226
 GameObject:
   m_ObjectHideFlags: 0

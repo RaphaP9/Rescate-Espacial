@@ -5,6 +5,12 @@ public static class InputUtilities
 {
     private const float LANDSCAPE_THRESHOLD = 0.7f;
 
+    public static Vector2 GetScreenDimensions() => new Vector2(Screen.width, Screen.height);
+    public static float GetScreenAspect()
+    {
+        return GetScreenDimensions().x / GetScreenDimensions().y;
+    }
+
     public static Vector2 GetPointerPosition()
     {
         // Using Mobile or Emulator(Bluestacks)

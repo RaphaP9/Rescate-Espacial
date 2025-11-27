@@ -606,8 +606,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSceneRotation: 1
-  rotateToDefaultOnAwake: 0
-  rotateToDefaultOnQuit: 0
+  rotateToDefaultOnAwake: 1
+  rotateToDefaultOnQuit: 1
 --- !u!1001 &166386868
 PrefabInstance:
   m_ObjectHideFlags: 0

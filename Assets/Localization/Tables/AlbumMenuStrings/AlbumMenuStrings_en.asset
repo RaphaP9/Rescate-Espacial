@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 4398202880
-    m_Localized: The Star Story
+    m_Localized: The STAR Story
     m_Metadata:
       m_Items: []
   - m_Id: 76598951936
-    m_Localized: 'Mission: Fragments'
+    m_Localized: 'Mission: FRAGMENTS'
     m_Metadata:
       m_Items: []
   references:

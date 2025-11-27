@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 740.46
+      value: 452.75
       objectReference: {fileID: 0}
     - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_SizeDelta.y
@@ -181,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 370.23
+      value: 226.375
       objectReference: {fileID: 0}
     - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -293,7 +293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 640.46
+      value: 352.75
       objectReference: {fileID: 0}
     - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_SizeDelta.y
@@ -301,7 +301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 370.23
+      value: 226.375
       objectReference: {fileID: 0}
     - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3552,10 +3552,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1190714336}
     m_Modifications:
-    - target: {fileID: 1549904905179647670, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: a07001f5d46193745bbbc27836bd732e, type: 3}
     - target: {fileID: 3907471547418594965, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
       propertyPath: cutsceneSO
       value: 
