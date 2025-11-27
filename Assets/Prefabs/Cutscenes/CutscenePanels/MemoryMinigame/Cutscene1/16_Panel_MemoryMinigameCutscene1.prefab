@@ -27,7 +27,7 @@ PrefabInstance:
     - target: {fileID: 1860541303438344130, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 08d142e95d273cf459aa9abf5f08717a, type: 3}
+      objectReference: {fileID: 21300000, guid: d729186d7547f444d9aaec899b9f519e, type: 3}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
@@ -90,7 +90,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].timeToShowSentence
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[1].timeToShowSentence
@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].sentenceLocalizationBinding
-      value: memoryMinigameCutscene1Strings.dialogue4
+      value: memoryMinigameCutscene1Strings.dialogue16
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[1].sentenceLocalizationBinding
@@ -138,7 +138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7691119612952242242, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Name
-      value: 4_Panel_MemoryMinigameCutscene1
+      value: 16_Panel_MemoryMinigameCutscene1
       objectReference: {fileID: 0}
     - target: {fileID: 8666250347359930208, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Controller

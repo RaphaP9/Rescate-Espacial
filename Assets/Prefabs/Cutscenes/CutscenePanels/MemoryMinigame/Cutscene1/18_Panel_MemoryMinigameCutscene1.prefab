@@ -27,7 +27,7 @@ PrefabInstance:
     - target: {fileID: 1860541303438344130, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b975cf9c0267f7a4b9e0c6b1ad7ce1aa, type: 3}
+      objectReference: {fileID: 21300000, guid: 3579786afdb9bed43b18afbb54d92da9, type: 3}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
@@ -38,7 +38,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentenceLocalizationTable
-      value: GameStartCutsceneStrings
+      value: MemoryMinigameCutscene1Strings
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].sentenceColor.a
@@ -90,7 +90,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].timeToShowSentence
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[1].timeToShowSentence
@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].sentenceLocalizationBinding
-      value: gameStartCutsceneStrings.dialogue1
+      value: memoryMinigameCutscene1Strings.dialogue18
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[1].sentenceLocalizationBinding
@@ -143,7 +143,7 @@ PrefabInstance:
     - target: {fileID: 8666250347359930208, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 5cf88444b31f3d948a2a417e0e27f671, type: 2}
+      objectReference: {fileID: 9100000, guid: c5f5da1ea2aab8841a514b2d407e664e, type: 2}
     - target: {fileID: 9219269883028718413, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

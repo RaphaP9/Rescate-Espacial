@@ -81,6 +81,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76c8d591c1dafd248bd11f784583170d
+    m_Address: AlbumMenuStrings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 873dc1d8a77990f498ffa70b8ba43d64
     m_Address: General_en
     m_ReadOnly: 1

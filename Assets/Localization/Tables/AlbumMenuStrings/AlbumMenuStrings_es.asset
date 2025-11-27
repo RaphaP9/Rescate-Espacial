@@ -10,24 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: MinigameFinalScoreStrings_es
+  m_Name: AlbumMenuStrings_es
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: es
-  m_SharedData: {fileID: 11400000, guid: da700a39a176cc34daa7634e0dcc3c87, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 416c12f8670d0e94ca5a2bec8d7a9801, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 165057650966528
-    m_Localized: Fragmentos Estelares
+  - m_Id: 76598951936
+    m_Localized: "Misi\xF3n: FRAGMENTOS"
     m_Metadata:
       m_Items: []
-  - m_Id: 167634522292224
-    m_Localized: "\xA1Buen Comienzo!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 15745384758853632
-    m_Localized: "\xA1Lo Lograste!"
+  - m_Id: 4398202880
+    m_Localized: Historia de la ESTRELLA
     m_Metadata:
       m_Items: []
   references:

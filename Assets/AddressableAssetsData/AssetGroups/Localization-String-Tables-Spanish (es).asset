@@ -45,6 +45,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 512f01c246290c4479258ad897d5edca
+    m_Address: AlbumMenuStrings_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 62484147d39a74e41b656fc108c23982
     m_Address: MemoryMinigameCutscene3Strings_es
     m_ReadOnly: 1

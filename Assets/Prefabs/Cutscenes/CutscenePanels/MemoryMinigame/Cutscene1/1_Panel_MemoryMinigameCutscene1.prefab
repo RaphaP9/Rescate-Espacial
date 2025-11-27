@@ -38,7 +38,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentenceLocalizationTable
-      value: GameStartCutsceneStrings
+      value: MemoryMinigameCutscene1Strings
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].sentenceColor.a
@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].sentenceLocalizationBinding
-      value: gameStartCutsceneStrings.dialogue1
+      value: memoryMinigameCutscene1Strings.dialogue1
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[1].sentenceLocalizationBinding
@@ -127,6 +127,10 @@ PrefabInstance:
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: timeToSkipPanel
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentenceLocalizationTable

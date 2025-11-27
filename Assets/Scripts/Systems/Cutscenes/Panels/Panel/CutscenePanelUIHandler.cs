@@ -11,6 +11,7 @@ public class CutscenePanelUIHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI sentenceText;
     [Space]
     [SerializeField] private CutscenePanelAudioHandler audioHandler;
+    [SerializeField] private CutscenePanelSFXHandler SFXHandler;
 
     [Header("General Settings")]
     [SerializeField, Range(0f, 30f)] private float timeToSkipPanel;
@@ -45,6 +46,7 @@ public class CutscenePanelUIHandler : MonoBehaviour
     public void DisposePanel()
     {
         audioHandler.TerminateAudioHandler();
+        SFXHandler.TerminateSFXHandler();
     }
 
     private IEnumerator HandleCanSkipPanelCoroutine()

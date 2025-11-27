@@ -22,6 +22,91 @@ MonoBehaviour:
     m_Localized: NameEn
     m_Metadata:
       m_Items: []
+  - m_Id: 18315501434781696
+    m_Localized: "\rThe Space Squadron travels to complete its mission, but\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315569348952064
+    m_Localized: Oh no! There's an obstacle in their path
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315580371582976
+    m_Localized: "\rWhat can they do to keep moving forward?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315712487964672
+    m_Localized: "While Green and Orange think\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315724622086144
+    m_Localized: "\rPurple is taking action!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315731911786496
+    m_Localized: "\rPerhaps going from above could work\u2026?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315741466411008
+    m_Localized: "\rOr perhaps from below\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315750417055744
+    m_Localized: "\rOh, don't get frustrated, Purple! Those meteorites are very persistent\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315764405059584
+    m_Localized: "\rIt looks like Green had an idea!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315772835610624
+    m_Localized: "\rWhat if the meteorites are stopping them because they want to
+      show them something?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315782029524992
+    m_Localized: That's it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315789847707648
+    m_Localized: "\rRescue Squad, it's time to investigate!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315804435496960
+    m_Localized: "\rWhat do we have here?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315813201592320
+    m_Localized: "\rAha! Every meteorite has a shape"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315823368585216
+    m_Localized: "\rWhat are you thinking about, Green?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315834428964864
+    m_Localized: "\rOhh\u2026 Some of them have the same symbols!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315844499488768
+    m_Localized: "\rOrange, Purple! Would you please help me try something?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315853953449984
+    m_Localized: "\rIf we try to put the meteorites together\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315863591960576
+    m_Localized: "\rWoah!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315872811040768
+    m_Localized: "\rA star fragment!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315887705014272
+    m_Localized: Well done, Squadron!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -22,6 +22,91 @@ MonoBehaviour:
     m_Localized: NameEs
     m_Metadata:
       m_Items: []
+  - m_Id: 18315501434781696
+    m_Localized: "El Escuadr\xF3n Espacial viaja para completar su misi\xF3n, pero\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315569348952064
+    m_Localized: "\xA1Oh no! Hay un obst\xE1culo en su camino"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315580371582976
+    m_Localized: "\xBFQu\xE9 podr\xE1n hacer para seguir avanzando?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315712487964672
+    m_Localized: "Mientras Verde y Naranja piensan\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315724622086144
+    m_Localized: "\xA1Morado se lanza a tomar acci\xF3n!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315731911786496
+    m_Localized: "\xBFA lo mejor ir por arriba podr\xEDa funcionar\u2026?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315741466411008
+    m_Localized: "O quiz\xE1 por abajo\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315750417055744
+    m_Localized: "Oh, \xA1no te frustres, Morado! Esos meteoritos son muy persistentes\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315764405059584
+    m_Localized: "\xA1Parece que Verde tuvo una idea!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315772835610624
+    m_Localized: "\xBFY si los meteoritos les est\xE1n deteniendo porque quieren
+      mostrarles algo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315782029524992
+    m_Localized: "\xA1Eso es!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315789847707648
+    m_Localized: "Escuadr\xF3n de Rescate, \xA1es hora de investigar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315804435496960
+    m_Localized: "\xBFQu\xE9 tenemos aqu\xED?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315813201592320
+    m_Localized: "\xA1Aj\xE1! Cada meteorito tiene una forma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315823368585216
+    m_Localized: "\xBFEn qu\xE9 piensas, Verde?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315834428964864
+    m_Localized: "Ohh\u2026 \xA1Algunos tienen s\xEDmbolos iguales!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315844499488768
+    m_Localized: "\xA1Naranja, Morado! \xBFPor favor me ayudar\xEDan a probar algo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315853953449984
+    m_Localized: "Si intentamos juntar los meteoritos\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315863591960576
+    m_Localized: "\xA1Woah!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315872811040768
+    m_Localized: "\xA1Un fragmento de estrella!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315887705014272
+    m_Localized: "Bien hecho, \xA1Escuadr\xF3n!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

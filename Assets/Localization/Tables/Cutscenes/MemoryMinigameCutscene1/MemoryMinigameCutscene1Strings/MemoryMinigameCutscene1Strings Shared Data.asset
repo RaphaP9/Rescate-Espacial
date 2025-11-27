@@ -19,6 +19,90 @@ MonoBehaviour:
     m_Key: memoryMinigameCutscene1Strings.name
     m_Metadata:
       m_Items: []
+  - m_Id: 18315501434781696
+    m_Key: memoryMinigameCutscene1Strings.dialogue1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315569348952064
+    m_Key: memoryMinigameCutscene1Strings.dialogue2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315580371582976
+    m_Key: memoryMinigameCutscene1Strings.dialogue3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315712487964672
+    m_Key: memoryMinigameCutscene1Strings.dialogue4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315724622086144
+    m_Key: memoryMinigameCutscene1Strings.dialogue5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315731911786496
+    m_Key: memoryMinigameCutscene1Strings.dialogue6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315741466411008
+    m_Key: memoryMinigameCutscene1Strings.dialogue7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315750417055744
+    m_Key: memoryMinigameCutscene1Strings.dialogue8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315764405059584
+    m_Key: memoryMinigameCutscene1Strings.dialogue9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315772835610624
+    m_Key: memoryMinigameCutscene1Strings.dialogue10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315782029524992
+    m_Key: memoryMinigameCutscene1Strings.dialogue11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315789847707648
+    m_Key: memoryMinigameCutscene1Strings.dialogue12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315804435496960
+    m_Key: memoryMinigameCutscene1Strings.dialogue13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315813201592320
+    m_Key: memoryMinigameCutscene1Strings.dialogue14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315823368585216
+    m_Key: memoryMinigameCutscene1Strings.dialogue15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315834428964864
+    m_Key: memoryMinigameCutscene1Strings.dialogue16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315844499488768
+    m_Key: memoryMinigameCutscene1Strings.dialogue17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315853953449984
+    m_Key: memoryMinigameCutscene1Strings.dialogue18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315863591960576
+    m_Key: memoryMinigameCutscene1Strings.dialogue19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315872811040768
+    m_Key: memoryMinigameCutscene1Strings.dialogue20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315887705014272
+    m_Key: memoryMinigameCutscene1Strings.dialogue21
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

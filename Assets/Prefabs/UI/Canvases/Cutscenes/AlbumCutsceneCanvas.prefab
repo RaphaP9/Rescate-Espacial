@@ -224,6 +224,10 @@ MonoBehaviour:
   cutsceneBGMAudioSource: {fileID: 5352636085200260333}
   cutscenesVolumeFadeInTime: 0.3
   cutscenesVolumeFadeOutTime: 0.3
+  hasAudio: 0
+  audioLocalizationTable: 
+  audioLocalizationBinding: 
+  timeToPlayAudio: 0
 --- !u!1 &1685288443066702434
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.03529412, g: 0, b: 0.14901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
