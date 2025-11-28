@@ -17,3 +17,8 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 8bedb8ad7729ae24887af7bf1fdeb64b, type: 3}
     messageLocalizationTable: MinigameFinalScoreStrings
     messageLocalizationBinding: minigameFinalScoreStrings.relatedMessage2
+    finalScoreLocalizedAudioclipSettings:
+    - localizationTable: MinigameFinalScoreAudios
+      localizationBinding: minigameFinalScoreAudios.win1
+    - localizationTable: MinigameFinalScoreAudios
+      localizationBinding: minigameFinalScoreAudios.win2

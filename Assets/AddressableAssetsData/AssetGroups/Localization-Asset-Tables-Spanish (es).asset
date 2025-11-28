@@ -28,6 +28,12 @@ MonoBehaviour:
     - Locale-es
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80c4f36751199714ea5959abda2667be
+    m_Address: MinigameFinalScoreAudios_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a4724cce5e12a1e4ea0ee36ca3ad5d6e
     m_Address: SilhouettesMinigameCutsceneAudios_es
     m_ReadOnly: 1

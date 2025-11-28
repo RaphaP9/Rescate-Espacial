@@ -17,3 +17,12 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: ad623c5170abeaa4dbd0f4917384a117, type: 3}
     messageLocalizationTable: MinigameFinalScoreStrings
     messageLocalizationBinding: minigameFinalScoreStrings.relatedMessage1
+    finalScoreLocalizedAudioclipSettings:
+    - localizationTable: MinigameFinalScoreAudios
+      localizationBinding: minigameFinalScoreAudios.lose1
+    - localizationTable: MinigameFinalScoreAudios
+      localizationBinding: minigameFinalScoreAudios.lose2
+    - localizationTable: MinigameFinalScoreAudios
+      localizationBinding: minigameFinalScoreAudios.lose3
+    - localizationTable: MinigameFinalScoreAudios
+      localizationBinding: minigameFinalScoreAudios.lose4

@@ -28,7 +28,6 @@ public class AlbumSectionButtonAnimationController : MonoBehaviour
         }
     }
 
-
     private void Shake()
     {
         animator.SetTrigger(SHAKE_TRIGGER);

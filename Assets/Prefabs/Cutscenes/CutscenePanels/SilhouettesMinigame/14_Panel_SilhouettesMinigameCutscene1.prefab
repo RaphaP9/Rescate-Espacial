@@ -125,10 +125,6 @@ PrefabInstance:
       value: gameStartCutsceneStrings.dialogue2A
       objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
-      propertyPath: autoSkip
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
       objectReference: {fileID: 0}

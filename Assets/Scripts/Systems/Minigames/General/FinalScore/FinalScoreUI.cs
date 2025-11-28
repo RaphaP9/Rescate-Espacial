@@ -30,6 +30,13 @@ public class FinalScoreUI : MonoBehaviour
     private MinigameFinalScoreSetting setting;
     private bool hasBeenSet = false;
 
+    public event EventHandler<OnFinalScoreUIShowEventArgs> OnFinalScoreUIShow;
+
+    public class OnFinalScoreUIShowEventArgs : EventArgs
+    {
+        public MinigameFinalScoreSetting minigameFinalScoreSetting;
+    }
+
     private void OnEnable()
     {
         MinigameManager.OnGameWinning += MinigameManager_OnGameWinning;
@@ -57,6 +64,8 @@ public class FinalScoreUI : MonoBehaviour
     {
         animator.ResetTrigger(HIDE_TRIGGER);
         animator.SetTrigger(SHOW_TRIGGER);
+
+        OnFinalScoreUIShow?.Invoke(this, new OnFinalScoreUIShowEventArgs { minigameFinalScoreSetting = setting });
     }
 
     public void HideUI()

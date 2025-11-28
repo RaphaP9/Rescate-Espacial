@@ -50,11 +50,25 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4858607e3dbe5444abeb51b2495e1dbd
+    m_Address: MinigameFinalScore_Win1_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 58b76eda7e2f77c4a9f32cb51541df20
     m_Address: Assets/Localization/Tables/TimeEndedStrings/TimeEndedStrings Shared
       Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b402953a80279345990a8c979dbff17
+    m_Address: MinigameFinalScore_Win2_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5d22119d56765c547ae64ae40632be21
     m_Address: Assets/Localization/Tables/LanguageSelectionScene Shared Data.asset
@@ -112,6 +126,19 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 997e3b8dfa5277344a5c8c043d1de95d
+    m_Address: Assets/Localization/Tables/MinigameFinalScoreAudios/MinigameFinalScoreAudios
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a491b551b6410c64ebb50c5e0a8c2386
+    m_Address: MinigameFinalScore_Lose1_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b404dce2824544845841df755edd7fb6
     m_Address: Assets/Localization/Tables/Collectables/Collectables Shared Data.asset
     m_ReadOnly: 1
@@ -133,6 +160,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd2e43dad1a600f459f3155a44a11451
+    m_Address: MinigameFinalScore_Lose2_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d5fd0d3e9474a0541889199aa8867e44
     m_Address: Assets/Localization/Tables/Password/PasswordTable Shared Data.asset
     m_ReadOnly: 1
@@ -143,6 +177,13 @@ MonoBehaviour:
       Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1142c44212859f47a3dd1a3a70f52dc
+    m_Address: MinigameFinalScore_Lose3_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e1e86ed96d9fd3f4eb2d74fb3c01c4f5
     m_Address: Assets/Localization/Tables/Cutscenes/GameStart/GameStartCutsceneAudios/GameStartCutsceneAudios
@@ -159,6 +200,13 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/TimerSelectorSceneTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6ff4b2d11cc188489e41fed73c7fe19
+    m_Address: MinigameFinalScore_Lose4_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 1f1b4e605855be8458600e5646ad7910, type: 2}

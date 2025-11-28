@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 [System.Serializable]   
 public class MinigameFinalScoreSetting
@@ -9,4 +10,13 @@ public class MinigameFinalScoreSetting
     [Space]
     public string messageLocalizationTable;
     public string messageLocalizationBinding;
+    [Space]
+    public List<FinalScoreLocalizedAudioClipSetting> finalScoreLocalizedAudioclipSettings;
+}
+
+[System.Serializable]
+public class FinalScoreLocalizedAudioClipSetting
+{
+    public string localizationTable;
+    public string localizationBinding;
 }
