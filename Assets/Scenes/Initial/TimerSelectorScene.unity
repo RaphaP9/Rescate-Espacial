@@ -1363,12 +1363,12 @@ MonoBehaviour:
   timeText: {fileID: 1844522278}
   descriptionText: {fileID: 1729997388}
   timerSettingList:
-  - {fileID: 11400000, guid: d521df97ce66e79448fdb7c9e7c770ab, type: 2}
-  - {fileID: 11400000, guid: 57f0d66820842b24f9f04486ef6c1df3, type: 2}
-  - {fileID: 11400000, guid: 7d6394a3236ccdf40be8813c29489768, type: 2}
   - {fileID: 11400000, guid: 9b4c3564cc178844c84a9ec942678651, type: 2}
   - {fileID: 11400000, guid: 6c5d55f0ae18e714da96cbc0106dc761, type: 2}
   - {fileID: 11400000, guid: c04e935fd5128c443b69f108707807e2, type: 2}
+  - {fileID: 11400000, guid: d521df97ce66e79448fdb7c9e7c770ab, type: 2}
+  - {fileID: 11400000, guid: 57f0d66820842b24f9f04486ef6c1df3, type: 2}
+  - {fileID: 11400000, guid: 7d6394a3236ccdf40be8813c29489768, type: 2}
   nextScene: RotationScene
   nextSceneTransitionType: 0
 --- !u!1 &914136886
