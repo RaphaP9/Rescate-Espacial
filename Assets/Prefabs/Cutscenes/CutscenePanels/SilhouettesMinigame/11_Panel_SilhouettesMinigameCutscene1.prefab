@@ -40,13 +40,9 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1018804901589538570, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasAudio
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: timeToPlayAudio
@@ -54,20 +50,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: audioLocalizationTable
-      value: 
+      value: SilhouettesMinigameCutsceneAudios
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: audioLocalizationBinding
-      value: 
+      value: silhouettesMinigameCutsceneAudios.audio10
       objectReference: {fileID: 0}
     - target: {fileID: 1860541303438344130, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 06df6f7440a9dee4dacb2eb1c220c120, type: 3}
-    - target: {fileID: 1860541303438344130, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
-      propertyPath: m_PreserveAspect
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 83d6cbe2c16d0ea449e8cfd31add0429, type: 3}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
@@ -154,7 +146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].sentenceLocalizationBinding
-      value: silhouettesMinigameCutsceneStrings.dialogue11
+      value: silhouettesMinigameCutsceneStrings.dialogue10
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[1].sentenceLocalizationBinding
@@ -164,13 +156,17 @@ PrefabInstance:
       propertyPath: sentences.Array.data[2].sentenceLocalizationBinding
       value: gameStartCutsceneStrings.dialogue2A
       objectReference: {fileID: 0}
+    - target: {fileID: 6521965141257115626, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ceef2c29379feb24d85e2723a6e017f4, type: 2}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: timeToSkipPanel
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentenceLocalizationTable
@@ -214,14 +210,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7679261444794125936, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7197089951841940210}
+      addedObject: {fileID: 7243953060687006411}
   m_SourcePrefab: {fileID: 100100000, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
 --- !u!1 &2083020864556948342 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7679261444794125936, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
   m_PrefabInstance: {fileID: 8537232699086755078}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7197089951841940210
+--- !u!114 &7243953060687006411
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

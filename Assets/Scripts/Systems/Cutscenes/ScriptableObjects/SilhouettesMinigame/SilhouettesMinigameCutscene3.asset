@@ -15,8 +15,6 @@ MonoBehaviour:
   id: 7
   nameLocalizationTable: SilhouettesMinigameCutsceneStrings
   nameLocalizationBinding: silhouettesMinigameCutsceneStrings.name
-  cutscenePanels:
-  - panelPrefab: {fileID: 687708190896821835, guid: 38b7b7eef7bcd02448af9bb49e5b842a, type: 3}
-  - panelPrefab: {fileID: 687708190896821835, guid: 9685e4d3f85f210439e74d52b3b1005a, type: 3}
+  cutscenePanels: []
   cutsceneBGM: {fileID: 8300000, guid: 42d3a2cf312c5134996bd9c4f9ebb6b9, type: 3}
-  cutsceneThumbnail: {fileID: 21300000, guid: a4f578516972d6046a4c714ef9c5607c, type: 3}
+  cutsceneThumbnail: {fileID: 21300000, guid: a81d132e47dd1c2488abf7fecfd61590, type: 3}

@@ -23,55 +23,45 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18374334811160576
-    m_Localized: "\rOh no! Is everyone okay?"
+    m_Localized: "It appears the Rescue Squad had an accident during their mission\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 18374385688068096
-    m_Localized: "Ah, that's a relief\u2026 no one got hurt."
+    m_Localized: "\rLuckily, everyone is okay!"
     m_Metadata:
       m_Items: []
   - m_Id: 18374392839356416
-    m_Localized: "\rThat crash was a scare\u2026 What do you see, Purple?"
+    m_Localized: But...
     m_Metadata:
       m_Items: []
   - m_Id: 18374404063313920
-    m_Localized: "\rOh no! The ship has capsized\u2026"
+    m_Localized: "\rThe ship?"
     m_Metadata:
       m_Items: []
   - m_Id: 18374412716163072
-    m_Localized: "\rEverything is so messy now\u2026"
+    m_Localized: 'Oh no!
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 18374424569266176
-    m_Localized: What will you do, Squadron?
+    m_Localized: "\rIt looks like they have a lot of work ahead\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 18374433796734976
-    m_Localized: "\rGreat, Purple! You seem very calm while tidying up"
+    m_Localized: "\rPurple enjoys listening to music while tidying the ship"
     m_Metadata:
       m_Items: []
   - m_Id: 18374444278300672
-    m_Localized: "\rBut how's the rest going?"
+    m_Localized: "\rBut\u2026 Orange and Green aren't having such a good time"
     m_Metadata:
       m_Items: []
   - m_Id: 18374452851458048
-    m_Localized: "\rOw\u2026 that looks heavy, Green! Everything alright, Orange?"
+    m_Localized: "\rWell thought out, Purple!"
     m_Metadata:
       m_Items: []
   - m_Id: 18374461261037568
-    m_Localized: "\rI don't think they're having a very good time\u2026"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 18374481871847424
-    m_Localized: "\rPurple, could you share some of your music with them?"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 18374492143697920
-    m_Localized: "\rWow\u2026 that sounds great!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 18374500293230592
-    m_Localized: "\rWhat do you think, Squadron?"
+    m_Localized: "\rTidying up with music is very entertaining\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 18374797954596864
@@ -99,7 +89,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18374854380568576
-    m_Localized: Good job, Purple!
+    m_Localized: Good job, Squadron!
     m_Metadata:
       m_Items: []
   references:

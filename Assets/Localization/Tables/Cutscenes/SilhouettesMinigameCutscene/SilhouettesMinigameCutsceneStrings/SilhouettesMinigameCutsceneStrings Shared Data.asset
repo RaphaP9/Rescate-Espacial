@@ -59,44 +59,32 @@ MonoBehaviour:
     m_Key: silhouettesMinigameCutsceneStrings.dialogue10
     m_Metadata:
       m_Items: []
-  - m_Id: 18374481871847424
+  - m_Id: 18374797954596864
     m_Key: silhouettesMinigameCutsceneStrings.dialogue11
     m_Metadata:
       m_Items: []
-  - m_Id: 18374492143697920
+  - m_Id: 18374806963961856
     m_Key: silhouettesMinigameCutsceneStrings.dialogue12
     m_Metadata:
       m_Items: []
-  - m_Id: 18374500293230592
+  - m_Id: 18374814165581824
     m_Key: silhouettesMinigameCutsceneStrings.dialogue13
     m_Metadata:
       m_Items: []
-  - m_Id: 18374797954596864
+  - m_Id: 18374820373151744
     m_Key: silhouettesMinigameCutsceneStrings.dialogue14
     m_Metadata:
       m_Items: []
-  - m_Id: 18374806963961856
+  - m_Id: 18374826807214080
     m_Key: silhouettesMinigameCutsceneStrings.dialogue15
     m_Metadata:
       m_Items: []
-  - m_Id: 18374814165581824
+  - m_Id: 18374844700114944
     m_Key: silhouettesMinigameCutsceneStrings.dialogue16
     m_Metadata:
       m_Items: []
-  - m_Id: 18374820373151744
-    m_Key: silhouettesMinigameCutsceneStrings.dialogue17
-    m_Metadata:
-      m_Items: []
-  - m_Id: 18374826807214080
-    m_Key: silhouettesMinigameCutsceneStrings.dialogue18
-    m_Metadata:
-      m_Items: []
-  - m_Id: 18374844700114944
-    m_Key: silhouettesMinigameCutsceneStrings.dialogue19
-    m_Metadata:
-      m_Items: []
   - m_Id: 18374854380568576
-    m_Key: silhouettesMinigameCutsceneStrings.dialogue20
+    m_Key: silhouettesMinigameCutsceneStrings.dialogue17
     m_Metadata:
       m_Items: []
   m_Metadata:

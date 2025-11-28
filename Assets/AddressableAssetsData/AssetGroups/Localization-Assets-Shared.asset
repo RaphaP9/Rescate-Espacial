@@ -57,6 +57,13 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1125096ef3b00864182854757f605b8f
+    m_Address: SilhouettesMinigameCutscene_Audio8_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 16da18994cddd0b4994ce13d1a4aafe3
     m_Address: GameStartCinematic_Audio8
     m_ReadOnly: 1
@@ -127,8 +134,22 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f0929d64cd47374297dc3b1221e79b9
+    m_Address: SilhouettesMinigameCutscene_Audio1_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5273d6cf2a31cf242aebab289a34b308
     m_Address: MemoryMinigameCutscene_Audio7_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5338831f04433b043aaf483a4a5b448a
+    m_Address: SilhouettesMinigameCutscene_Audio4_ES
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -199,6 +220,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84285c8f33fe03c4ba60ab67d8fb1a9d
+    m_Address: SilhouettesMinigameCutscene_Audio6_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 84ecbc3ce1f21814cb695966599017fb
     m_Address: Assets/Localization/Tables/Disclaimer Scene Labels Shared Data.asset
     m_ReadOnly: 1
@@ -218,8 +246,22 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e76f8f9743c49c479d901846e330a71
+    m_Address: SilhouettesMinigameCutscene_Audio7_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 94313ac38020f0a4d99f17408e73550c
     m_Address: GameStartCinematic_Audio9
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 943dec45bb47aa44b8d50fb043e98abf
+    m_Address: SilhouettesMinigameCutscene_Audio5_ES
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -246,6 +288,13 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a5a15b63fa897154a97806bf8d766aee
     m_Address: GameStartCinematic_Audio1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af3c3bc9a0cc7d947b223d8fe3f2cb01
+    m_Address: SilhouettesMinigameCutscene_Audio10_ES
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -314,10 +363,24 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0ce1000c07336d4ca9c320ab605fcb0
+    m_Address: SilhouettesMinigameCutscene_Audio2_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d5fd0d3e9474a0541889199aa8867e44
     m_Address: Assets/Localization/Tables/Password/PasswordTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d795cb94899a67648836dfe4fb86d880
+    m_Address: SilhouettesMinigameCutscene_Audio3_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: da700a39a176cc34daa7634e0dcc3c87
     m_Address: Assets/Localization/Tables/MinigameFinalScoreStrings/MinigameFinalScoreStrings
@@ -350,6 +413,13 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f6ff4b2d11cc188489e41fed73c7fe19
     m_Address: MinigameFinalScore_Lose4_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f79176c44d7e9084d9cbb45b02f15b68
+    m_Address: SilhouettesMinigameCutscene_Audio9_ES
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

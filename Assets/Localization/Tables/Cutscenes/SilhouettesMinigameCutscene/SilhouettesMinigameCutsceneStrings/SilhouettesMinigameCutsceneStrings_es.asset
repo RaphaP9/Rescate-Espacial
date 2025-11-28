@@ -23,55 +23,44 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18374334811160576
-    m_Localized: "\xA1Oh, no! \xBFEst\xE1n todos bien?"
+    m_Localized: "Parece que el Escuadr\xF3n de Rescate tuvo un accidente durante
+      su misi\xF3n\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 18374385688068096
-    m_Localized: "Ah, es un alivio\u2026 nadie est\xE1 herido"
+    m_Localized: "Por suerte, \xA1todos est\xE1n bien!\r"
     m_Metadata:
       m_Items: []
   - m_Id: 18374392839356416
-    m_Localized: "Ese choque fue un susto\u2026 \xBFQu\xE9 ves, Morado?"
+    m_Localized: "Pero\u2026\r"
     m_Metadata:
       m_Items: []
   - m_Id: 18374404063313920
-    m_Localized: "\xA1Ay, no! La nave ha quedado volcada\u2026"
+    m_Localized: "\xBFY la nave?\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 18374412716163072
-    m_Localized: "Todo est\xE1 tan desordenado ahora\u2026"
+    m_Localized: "\xA1Oh no!\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 18374424569266176
-    m_Localized: "\xBFQu\xE9 har\xE1n, Escuadr\xF3n?"
+    m_Localized: "Parece que les espera mucho trabajo por delante\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 18374433796734976
-    m_Localized: "\xA1Genial, Morado! Se te ve muy tranquila ordenando"
+    m_Localized: "Morado disfruta de escuchar m\xFAsica mientras ordena la nave"
     m_Metadata:
       m_Items: []
   - m_Id: 18374444278300672
-    m_Localized: "\xBFPero c\xF3mo va el resto?"
+    m_Localized: "Pero\u2026 Naranja y Verde no la est\xE1n pasando tan bien"
     m_Metadata:
       m_Items: []
   - m_Id: 18374452851458048
-    m_Localized: "Ow\u2026 \xA1eso se ve pesado, Verde! \xBFTodo bien, Naranja?"
+    m_Localized: "\xA1Bien pensado, Morado!"
     m_Metadata:
       m_Items: []
   - m_Id: 18374461261037568
-    m_Localized: "No creo que la est\xE9n pasando muy bien\u2026"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 18374481871847424
-    m_Localized: "Morado, \xBFpodr\xEDas compartirles un poco de tu m\xFAsica?"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 18374492143697920
-    m_Localized: "Wow\u2026 \xA1eso suena muy bien!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 18374500293230592
-    m_Localized: "\xBFQu\xE9 les parece, Escuadr\xF3n?"
+    m_Localized: "Ordenar con m\xFAsica es muy entretenido"
     m_Metadata:
       m_Items: []
   - m_Id: 18374797954596864
@@ -99,7 +88,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18374854380568576
-    m_Localized: "\xA1Buen trabajo, Morado!"
+    m_Localized: "\xA1Bien hecho, Escuadr\xF3n!"
     m_Metadata:
       m_Items: []
   references:

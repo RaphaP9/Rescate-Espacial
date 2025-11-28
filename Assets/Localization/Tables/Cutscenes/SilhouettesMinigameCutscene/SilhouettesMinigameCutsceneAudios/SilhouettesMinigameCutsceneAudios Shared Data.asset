@@ -14,9 +14,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: SilhouettesMinigameCutsceneAudios
   m_TableCollectionNameGuidString: 7d294dc45606b4440a96ecc419422a9f
-  m_Entries: []
+  m_Entries:
+  - m_Id: 18515446213328896
+    m_Key: silhouettesMinigameCutsceneAudios.audio1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515487447531520
+    m_Key: silhouettesMinigameCutsceneAudios.audio2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515502127595520
+    m_Key: silhouettesMinigameCutsceneAudios.audio3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515511426367488
+    m_Key: silhouettesMinigameCutsceneAudios.audio4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515521803075584
+    m_Key: silhouettesMinigameCutsceneAudios.audio5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515535212265472
+    m_Key: silhouettesMinigameCutsceneAudios.audio6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515544175493120
+    m_Key: silhouettesMinigameCutsceneAudios.audio7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515554719973376
+    m_Key: silhouettesMinigameCutsceneAudios.audio8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515567806201856
+    m_Key: silhouettesMinigameCutsceneAudios.audio9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18515581114728448
+    m_Key: silhouettesMinigameCutsceneAudios.audio10
+    m_Metadata:
+      m_Items: []
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 8552091136031719587
   m_KeyGenerator:
     rid: 3624705190764740616
   references:
@@ -26,3 +67,49 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
         m_CustomEpoch: 1759889541201
+    - rid: 8552091136031719587
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 18515446213328896
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18515487447531520
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18515502127595520
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18515511426367488
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18515521803075584
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18515535212265472
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18515544175493120
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18515554719973376
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18515567806201856
+          m_TableCodes:
+          - es
+          - en
+        - m_KeyId: 18515581114728448
+          m_TableCodes:
+          - es
+          - en
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
