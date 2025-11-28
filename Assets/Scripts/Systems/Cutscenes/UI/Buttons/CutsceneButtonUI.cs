@@ -13,7 +13,9 @@ public class CutsceneButtonUI : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] private CutsceneSO cutsceneSO;
+    [Space]
     [SerializeField] private bool enableButtonWhenNotUnlocked;
+    [SerializeField] private bool ignoreUnlocking;
 
     private void Awake()
     {
@@ -40,7 +42,7 @@ public class CutsceneButtonUI : MonoBehaviour
     {
         bool unlocked = DataContainer.Instance.HasUnlockedCutscene(cutsceneSO);
 
-        if (unlocked)
+        if (unlocked || ignoreUnlocking)
         {
             buttonUI.gameObject.SetActive(true);
             notUnlockedCoverUI.gameObject.SetActive(false);

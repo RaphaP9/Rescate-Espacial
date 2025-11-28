@@ -3560,6 +3560,10 @@ PrefabInstance:
       propertyPath: cutsceneSO
       value: 
       objectReference: {fileID: 11400000, guid: b88816c7f209bb545bb11847b1a5ed2a, type: 2}
+    - target: {fileID: 3907471547418594965, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
+      propertyPath: ignoreUnlocking
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5173523747978757401, guid: 9bfa56ef6dfe6b843b0a1764d1e6d973, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
