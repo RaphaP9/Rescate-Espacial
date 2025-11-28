@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: timeToPlayAudio
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: audioLocalizationTable

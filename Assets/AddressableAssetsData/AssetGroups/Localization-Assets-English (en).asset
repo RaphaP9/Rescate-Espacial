@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Assets-English (en)
   m_GUID: e340a2840438587449c01782535d57ad
-  m_SerializeEntries:
-  - m_GUID: 8404ae65464671e49b9a202f7443b903
-    m_Address: Audio_GameStartCurscene_1_English
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 1f1b4e605855be8458600e5646ad7910, type: 2}
   m_SchemaSet:

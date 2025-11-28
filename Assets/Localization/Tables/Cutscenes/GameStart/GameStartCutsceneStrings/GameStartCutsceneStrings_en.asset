@@ -70,11 +70,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17894421050114048
-    m_Localized: "Thus, the Rescue Squad began its new mission\u2026"
+    m_Localized: "\rYou will have to pass many tests."
     m_Metadata:
       m_Items: []
   - m_Id: 17894656195379200
-    m_Localized: "\rFind stellar fragments and help the Star!"
+    m_Localized: "\rBut I know you'll make it!"
     m_Metadata:
       m_Items: []
   references:

@@ -5677,6 +5677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AlbumCutsceneCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5744788623681433507, guid: ca72624deec180f498e31eb98a26b7e8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7648777774957461233, guid: ca72624deec180f498e31eb98a26b7e8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

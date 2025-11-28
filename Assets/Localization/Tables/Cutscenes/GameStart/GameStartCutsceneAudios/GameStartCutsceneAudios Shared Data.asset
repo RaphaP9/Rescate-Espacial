@@ -16,7 +16,55 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: e1e86ed96d9fd3f4eb2d74fb3c01c4f5
   m_Entries:
   - m_Id: 5094457344
-    m_Key: gameStartCutsceneAudios.audio4A
+    m_Key: gameStartCutsceneAudios.audio1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613454749777920
+    m_Key: gameStartCutsceneAudios.audio2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613467936669696
+    m_Key: gameStartCutsceneAudios.audio3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613477105418240
+    m_Key: gameStartCutsceneAudios.audio4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613485426917376
+    m_Key: gameStartCutsceneAudios.audio5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613494159458304
+    m_Key: gameStartCutsceneAudios.audio6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613503454035968
+    m_Key: gameStartCutsceneAudios.audio7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613517324599296
+    m_Key: gameStartCutsceneAudios.audio8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613526686285824
+    m_Key: gameStartCutsceneAudios.audio9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613536928776192
+    m_Key: gameStartCutsceneAudios.audio10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613548983205888
+    m_Key: gameStartCutsceneAudios.audio11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613560890834944
+    m_Key: gameStartCutsceneAudios.audio12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613569405272064
+    m_Key: gameStartCutsceneAudios.audio13
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -36,6 +84,54 @@ MonoBehaviour:
       data:
         m_Entries:
         - m_KeyId: 5094457344
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613454749777920
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613467936669696
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613477105418240
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613485426917376
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613494159458304
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613503454035968
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613517324599296
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613526686285824
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613536928776192
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613548983205888
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613560890834944
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18613569405272064
           m_TableCodes:
           - en
           - es

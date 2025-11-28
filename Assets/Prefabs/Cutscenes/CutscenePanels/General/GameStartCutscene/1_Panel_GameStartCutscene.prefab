@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasAudio
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: timeToPlayAudio
@@ -18,11 +18,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: audioLocalizationTable
-      value: 
+      value: GameStartCutsceneAudios
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: audioLocalizationBinding
-      value: 
+      value: gameStartCutsceneAudios.audio1
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
