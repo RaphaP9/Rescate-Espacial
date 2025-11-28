@@ -22,8 +22,36 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05ce7dd536b1f46498220bf5e9074b2a
+    m_Address: MemoryMinigameCutscene_Audio4_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07045b9e11aaedc49b66426ad76ef93e
+    m_Address: MemoryMinigameCutscene_Audio3_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09d74dd62c03d5c47bc825cb4ca5353a
+    m_Address: MemoryMinigameCutscene_Audio6_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0c8262f36f9952e4bbd13075c124371e
     m_Address: GameStartCinematic_Audio2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e90464d8bbe4fd43bdf1c644216783d
+    m_Address: MemoryMinigameCutscene_Audio1_ES
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -92,6 +120,20 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4939ffc88118bbd48b7c4c1e25eca38a
+    m_Address: MemoryMinigameCutscene_Audio9_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5273d6cf2a31cf242aebab289a34b308
+    m_Address: MemoryMinigameCutscene_Audio7_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 58b76eda7e2f77c4a9f32cb51541df20
     m_Address: Assets/Localization/Tables/TimeEndedStrings/TimeEndedStrings Shared
       Data.asset
@@ -121,6 +163,13 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/MemoryMinigame Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6adf7c8a954f956428e0938dd63d8c58
+    m_Address: MemoryMinigameCutscene_Audio2_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 748d4aa242c4ce543bac2c2eecb38df8
     m_Address: Assets/Localization/Tables/Cutscenes/GameStart/GameStartCutsceneStrings/GameStartCutsceneStrings
@@ -202,6 +251,13 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2fcf4f01a36d8246a5cc7f6b27e41ba
+    m_Address: MemoryMinigameCutscene_Audio8_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b404dce2824544845841df755edd7fb6
     m_Address: Assets/Localization/Tables/Collectables/Collectables Shared Data.asset
     m_ReadOnly: 1
@@ -225,6 +281,13 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/DebugStrings/DebugStrings Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c49f8fe9f3f49b949b3d2ea89e8ff82a
+    m_Address: MemoryMinigameCutscene_Audio5_ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5137a8331589d043b4a2638ab5c1634
     m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene1/MemoryMinigameCutscene1Audios/MemoryMinigameCutscene1Audios

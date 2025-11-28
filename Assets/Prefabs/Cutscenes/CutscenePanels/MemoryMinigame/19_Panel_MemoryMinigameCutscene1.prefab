@@ -10,24 +10,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasAudio
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: timeToPlayAudio
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: audioLocalizationTable
-      value: 
+      value: MemoryMinigameCutsceneAudios
       objectReference: {fileID: 0}
     - target: {fileID: 1699826194009561905, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: audioLocalizationBinding
-      value: 
+      value: memoryMinigameCutsceneAudios.audio17
       objectReference: {fileID: 0}
     - target: {fileID: 1860541303438344130, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f42f03439c153be44bde60629633f64c, type: 3}
+      objectReference: {fileID: 21300000, guid: b975cf9c0267f7a4b9e0c6b1ad7ce1aa, type: 3}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
@@ -90,7 +90,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].timeToShowSentence
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[1].timeToShowSentence
@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[0].sentenceLocalizationBinding
-      value: memoryMinigameCutsceneStrings.dialogue19
+      value: memoryMinigameCutsceneStrings.dialogue17
       objectReference: {fileID: 0}
     - target: {fileID: 4003670808060439107, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentences.Array.data[1].sentenceLocalizationBinding
@@ -127,10 +127,6 @@ PrefabInstance:
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: hasSentence
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
-      propertyPath: timeToSkipPanel
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7443403677069627312, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
       propertyPath: sentenceLocalizationTable

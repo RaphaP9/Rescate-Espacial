@@ -14,9 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: MemoryMinigameCutsceneAudios
   m_TableCollectionNameGuidString: c5137a8331589d043b4a2638ab5c1634
-  m_Entries: []
+  m_Entries:
+  - m_Id: 18504244288503808
+    m_Key: memoryMinigameCutsceneAudios.audio1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18504272683941888
+    m_Key: memoryMinigameCutsceneAudios.audio2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18504286504173568
+    m_Key: memoryMinigameCutsceneAudios.audio3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18504293407997952
+    m_Key: memoryMinigameCutsceneAudios.audio4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18504302861959168
+    m_Key: memoryMinigameCutsceneAudios.audio5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18504312387223552
+    m_Key: memoryMinigameCutsceneAudios.audio6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18504321912487936
+    m_Key: memoryMinigameCutsceneAudios.audio7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18504330091380736
+    m_Key: memoryMinigameCutsceneAudios.audio8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18504339499204608
+    m_Key: memoryMinigameCutsceneAudios.audio9
+    m_Metadata:
+      m_Items: []
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 8552091136031719583
   m_KeyGenerator:
     rid: 3624705190764740611
   references:
@@ -26,3 +63,45 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
         m_CustomEpoch: 1759889107976
+    - rid: 8552091136031719583
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 18504244288503808
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18504272683941888
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18504286504173568
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18504293407997952
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18504302861959168
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18504312387223552
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18504321912487936
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18504330091380736
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 18504339499204608
+          m_TableCodes:
+          - en
+          - es
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
