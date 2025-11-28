@@ -1,9 +1,10 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
-public class AlbumSceneCutsceneUIHandler : MonoBehaviour
+public class RegularSceneCutsceneUIHandler : MonoBehaviour
 {
-    public static AlbumSceneCutsceneUIHandler Instance { get; private set; }
+    public static RegularSceneCutsceneUIHandler Instance { get; private set; }
 
     [Header("Components")]
     [SerializeField] private Animator animator;
@@ -13,6 +14,7 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField, Range(3, 5)] private int maxCutscenePanels;
+    [SerializeField, Range(0f, 2f)] private float firstPanelCreationDelay;
 
     [Header("Runtime Filled")]
     [SerializeField] private bool cutsceneActive; //Also manipulated via Animation Events
@@ -59,7 +61,7 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("There is more than one AlbumSceneCutsceneUIHandler instance, proceding to destroy duplicate");
+            Debug.LogWarning("There is more than one RegularSceneCutsceneUIHandler instance, proceding to destroy duplicate");
             Destroy(gameObject);
         }
     }
@@ -184,8 +186,13 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
 
     public void PlayCutscene(CutsceneSO cutsceneSO)
     {
-        if (cutsceneActive) return;
-        if (cutsceneSO.cutscenePanels.Count <= 0) return;
+        StartCoroutine(PlayCutsceneCoroutine(cutsceneSO));
+    }
+
+    private IEnumerator PlayCutsceneCoroutine(CutsceneSO cutsceneSO)
+    {
+        if (cutsceneActive) yield break;
+        if (cutsceneSO.cutscenePanels.Count <= 0) yield break;
 
         ClearPanelContainer();
 
@@ -193,10 +200,11 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
         currentCutscenePanelIndex = 0;
 
         SetCutsceneActive();
-        CreateCutscenePanel(0); //0 is first index
-
         ShowUI();
 
+        if(firstPanelCreationDelay > 0) yield return new WaitForSeconds(firstPanelCreationDelay);
+
+        CreateCutscenePanel(0); //0 is first index
         OnCutscenePlay?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = currentCutsceneSO });
     }
 

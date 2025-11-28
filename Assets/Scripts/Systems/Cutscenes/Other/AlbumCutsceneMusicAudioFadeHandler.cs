@@ -8,23 +8,23 @@ public class AlbumCutsceneMusicAudioFadeHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        AlbumSceneCutsceneUIHandler.OnCutscenePlay += AlbumSceneCutsceneUIHandler_OnCutscenePlay;
-        AlbumSceneCutsceneUIHandler.OnCutsceneConclude += AlbumSceneCutsceneUIHandler_OnCutsceneConclude;
+        RegularSceneCutsceneUIHandler.OnCutscenePlay += AlbumSceneCutsceneUIHandler_OnCutscenePlay;
+        RegularSceneCutsceneUIHandler.OnCutsceneConclude += AlbumSceneCutsceneUIHandler_OnCutsceneConclude;
     }
 
     private void OnDisable()
     {
-        AlbumSceneCutsceneUIHandler.OnCutscenePlay -= AlbumSceneCutsceneUIHandler_OnCutscenePlay;
-        AlbumSceneCutsceneUIHandler.OnCutsceneConclude -= AlbumSceneCutsceneUIHandler_OnCutsceneConclude;
+        RegularSceneCutsceneUIHandler.OnCutscenePlay -= AlbumSceneCutsceneUIHandler_OnCutscenePlay;
+        RegularSceneCutsceneUIHandler.OnCutsceneConclude -= AlbumSceneCutsceneUIHandler_OnCutsceneConclude;
     }
 
     #region Subscriptions
-    private void AlbumSceneCutsceneUIHandler_OnCutscenePlay(object sender, AlbumSceneCutsceneUIHandler.OnCutsceneEventArgs e)
+    private void AlbumSceneCutsceneUIHandler_OnCutscenePlay(object sender, RegularSceneCutsceneUIHandler.OnCutsceneEventArgs e)
     {
         MusicVolumeFadeManager.Instance.FadeOutVolume(musicVolumeFadeOutTime);
     }
 
-    private void AlbumSceneCutsceneUIHandler_OnCutsceneConclude(object sender, AlbumSceneCutsceneUIHandler.OnCutsceneEventArgs e)
+    private void AlbumSceneCutsceneUIHandler_OnCutsceneConclude(object sender, RegularSceneCutsceneUIHandler.OnCutsceneEventArgs e)
     {
         MusicVolumeFadeManager.Instance.FadeInVolume(musicVolumeFadeInTime);
     }

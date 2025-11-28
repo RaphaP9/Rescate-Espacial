@@ -91,6 +91,8 @@ public class LandmarkUI : MonoBehaviour
     {
         this.landmarkState = landmarkState;
         DataContainer.Instance.SetLandmarkState(minigame, minigameLandmark, landmarkState);
+
+        GeneralDataManager.Instance.SaveJSONData();
     }
     #endregion
 

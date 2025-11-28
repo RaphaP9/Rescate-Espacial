@@ -10,14 +10,14 @@ public class AlbumVibrationHandler : SceneVibrationHandler
     {
         base.OnEnable();
         AlbumPagesHandler.OnAlbumRelationshipSelected += AlbumSectionsHandler_OnAlbumRelationshipSelected;
-        AlbumSceneCutsceneUIHandler.OnNextCutscenePanelCreated += AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated;
+        RegularSceneCutsceneUIHandler.OnNextCutscenePanelCreated += AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated;
     }
 
     protected override void OnDisable()
     {
         base.OnDisable();
         AlbumPagesHandler.OnAlbumRelationshipSelected -= AlbumSectionsHandler_OnAlbumRelationshipSelected;
-        AlbumSceneCutsceneUIHandler.OnNextCutscenePanelCreated -= AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated;
+        RegularSceneCutsceneUIHandler.OnNextCutscenePanelCreated -= AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated;
     }
 
     #region Subscriptions
@@ -27,7 +27,7 @@ public class AlbumVibrationHandler : SceneVibrationHandler
         PlayHaptic_Unforced(albumSectionSelectedHapticPreset);
     }
 
-    private void AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated(object sender, AlbumSceneCutsceneUIHandler.OnCutsceneEventArgs e)
+    private void AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated(object sender, RegularSceneCutsceneUIHandler.OnCutsceneEventArgs e)
     {
         PlayHaptic_Unforced(nextCutscenePanelHapticPreset);
     }

@@ -21,7 +21,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 010d37dd9cad4174aabec37659514438, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5929c0d8ac153a046bad05f98532cd5b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -133,7 +133,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AlbumSceneCutsceneUI
+  m_Name: RegularSceneCutsceneUI_Delay
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Show
@@ -182,7 +182,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 26578e4837271a44d9c7a5ba7c590117, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3b59fbd424117a248911ffd1c08046ab, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -234,7 +234,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 440c4cedc07b9244cac30ef7a3596055, type: 2}
+  m_Motion: {fileID: 7400000, guid: c5e7aa57665b1174f89e4615174d0645, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -261,7 +261,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 85267ff9e0260e5479a44752e555be2b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 897b87deb0d878d41a5d3c617f2f6be2, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

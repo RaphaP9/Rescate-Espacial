@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AlbumSceneCutsceneBGMHandler : MonoBehaviour
+public class RegularSceneCutsceneBGMHandler : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private AudioSource cutsceneBGMAudioSource;
@@ -18,14 +18,14 @@ public class AlbumSceneCutsceneBGMHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        AlbumSceneCutsceneUIHandler.OnCutscenePlay += AlbumSceneCutsceneUIHandler_OnCutscenePlay;
-        AlbumSceneCutsceneUIHandler.OnCutsceneConclude += AlbumSceneCutsceneUIHandler_OnCutsceneConclude;
+        RegularSceneCutsceneUIHandler.OnCutscenePlay += RegularSceneCutsceneUIHandler_OnCutscenePlay;
+        RegularSceneCutsceneUIHandler.OnCutsceneConclude += RegularSceneCutsceneUIHandler_OnCutsceneConclude;
     }
 
     private void OnDisable()
     {
-        AlbumSceneCutsceneUIHandler.OnCutscenePlay -= AlbumSceneCutsceneUIHandler_OnCutscenePlay;
-        AlbumSceneCutsceneUIHandler.OnCutsceneConclude -= AlbumSceneCutsceneUIHandler_OnCutsceneConclude;
+        RegularSceneCutsceneUIHandler.OnCutscenePlay -= RegularSceneCutsceneUIHandler_OnCutscenePlay;
+        RegularSceneCutsceneUIHandler.OnCutsceneConclude -= RegularSceneCutsceneUIHandler_OnCutsceneConclude;
     }
 
     private void PlayCutsceneBGM(AudioClip cutsceneBGM)
@@ -39,13 +39,13 @@ public class AlbumSceneCutsceneBGMHandler : MonoBehaviour
     }
 
     #region Subscriptions
-    private void AlbumSceneCutsceneUIHandler_OnCutscenePlay(object sender, AlbumSceneCutsceneUIHandler.OnCutsceneEventArgs e)
+    private void RegularSceneCutsceneUIHandler_OnCutscenePlay(object sender, RegularSceneCutsceneUIHandler.OnCutsceneEventArgs e)
     {
         CutscenesVolumeFadeManager.Instance.FadeInVolume(cutscenesVolumeFadeInTime);
         PlayCutsceneBGM(e.cutsceneSO.cutsceneBGM);
     }
 
-    private void AlbumSceneCutsceneUIHandler_OnCutsceneConclude(object sender, AlbumSceneCutsceneUIHandler.OnCutsceneEventArgs e)
+    private void RegularSceneCutsceneUIHandler_OnCutsceneConclude(object sender, RegularSceneCutsceneUIHandler.OnCutsceneEventArgs e)
     {
         CutscenesVolumeFadeManager.Instance.FadeOutVolume(cutscenesVolumeFadeOutTime);
     }

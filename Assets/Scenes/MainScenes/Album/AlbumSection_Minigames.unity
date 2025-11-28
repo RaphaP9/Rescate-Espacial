@@ -5675,7 +5675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3912362084691619614, guid: ca72624deec180f498e31eb98a26b7e8, type: 3}
       propertyPath: m_Name
-      value: AlbumCutsceneCanvas
+      value: RegularCutsceneCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 5744788623681433507, guid: ca72624deec180f498e31eb98a26b7e8, type: 3}
       propertyPath: m_SizeDelta.y

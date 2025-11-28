@@ -3,9 +3,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
-public class AlbumSceneCutsceneUI : MonoBehaviour
+public class RegularSceneCutsceneUI : MonoBehaviour
 {
-    public static AlbumSceneCutsceneUI Instance { get; private set; }
+    public static RegularSceneCutsceneUI Instance { get; private set; }
 
     [Header("Components")]
     [SerializeField] private Button skipCutsceneButton;
@@ -45,13 +45,13 @@ public class AlbumSceneCutsceneUI : MonoBehaviour
         skipCutsceneButton.onClick.AddListener(SkipCutscenePanel);
     }
 
-    private void SkipCutscenePanel() => AlbumSceneCutsceneUIHandler.Instance.SkipCutscene();
-    public void PlayCutscene(CutsceneSO cutsceneSO) => AlbumSceneCutsceneUIHandler.Instance.PlayCutscene(cutsceneSO);  
+    private void SkipCutscenePanel() => RegularSceneCutsceneUIHandler.Instance.SkipCutscene();
+    public void PlayCutscene(CutsceneSO cutsceneSO) => RegularSceneCutsceneUIHandler.Instance.PlayCutscene(cutsceneSO);  
 
     #region Subscriptions
     private void SkipCutscenePanelDetector_OnPointerPressed(object sender, EventArgs e)
     {
-        AlbumSceneCutsceneUIHandler.Instance.TouchSkipCutscenePanel();
+        RegularSceneCutsceneUIHandler.Instance.TouchSkipCutscenePanel();
     }
     #endregion
 }

@@ -52,5 +52,5 @@ public class CutsceneButtonUI : MonoBehaviour
         }
     }
 
-    private void PlayCutscene() => AlbumSceneCutsceneUI.Instance.PlayCutscene(cutsceneSO);
+    private void PlayCutscene() => RegularSceneCutsceneUI.Instance.PlayCutscene(cutsceneSO);
 }
