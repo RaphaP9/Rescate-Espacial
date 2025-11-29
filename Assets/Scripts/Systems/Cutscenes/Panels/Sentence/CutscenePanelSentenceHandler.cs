@@ -37,7 +37,6 @@ public class CutscenePanelSentenceHandler : MonoBehaviour
         [ColorUsage(true, true)] public Color sentenceColor;
     }
 
-
     private void OnEnable()
     {
         LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;

@@ -72,8 +72,6 @@ public class LandmarkUI : MonoBehaviour
 
         SetLandmarkState(LandmarkState.Unlocked);
 
-        GeneralDataManager.Instance.SaveJSONData();
-
         //NOTE:Using async is risky if two Landmarks are set in same frame (Using Async Serialization on same frame and on same file)
         //Edge case is two landmarks Unlocking on start
         //This will mathematically never happen in game, but might on testing
