@@ -18,7 +18,7 @@ public class MemoryMinigameManager : MinigameManager
 
 
     [Header("RuntimeFilled")]
-    [SerializeField] private MiniGameState miniGameState;
+    [SerializeField] private MinigameState minigameState;
     [Space]
     [SerializeField] private List<MemoryCardHandler> currentRoundCards;
     [Space]
@@ -32,7 +32,7 @@ public class MemoryMinigameManager : MinigameManager
     [SerializeField] private bool debug;
     [SerializeField] private bool inputLocked;
 
-    private enum MiniGameState { StartingMinigame, RevealingCards, WaitForFirstCard, WaitForSecondCard, ProcessingPair, EndingRound, SwitchingRound, Winning, Win, Losing, Lose}
+    private enum MinigameState { StartingMinigame, RevealingCards, WaitForFirstCard, WaitForSecondCard, ProcessingPairMatch, ProcessingPairFail, EndingRound, SwitchingRound, Winning, Win, Losing, Lose}
 
     private bool gameEnded = false;
     private int currentRoundIndex = 0;
@@ -120,7 +120,7 @@ public class MemoryMinigameManager : MinigameManager
     {
         ClearCardsContainer();
 
-        SetMinigameState(MiniGameState.StartingMinigame);
+        SetMinigameState(MinigameState.StartingMinigame);
 
         yield return new WaitForSeconds(settings.startingGameTime);
 
@@ -153,7 +153,7 @@ public class MemoryMinigameManager : MinigameManager
         OnRoundStartMethod(roundIndex, settings.rounds.Count);  
         OnMemoryRoundStart?.Invoke(this, new OnMemoryRoundEventArgs { memoryRound = memoryRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count }); 
 
-        SetMinigameState(MiniGameState.RevealingCards);
+        SetMinigameState(MinigameState.RevealingCards);
 
         float revealTime = memoryRound.revealTime;
 
@@ -170,7 +170,7 @@ public class MemoryMinigameManager : MinigameManager
         while (!roundEnded)
         {
             #region FirstCard
-            SetMinigameState(MiniGameState.WaitForFirstCard);
+            SetMinigameState(MinigameState.WaitForFirstCard);
 
             yield return new WaitUntil(() => cardRevealed);
             cardRevealed = false;
@@ -181,7 +181,7 @@ public class MemoryMinigameManager : MinigameManager
             #endregion
 
             #region SecondCard
-            SetMinigameState(MiniGameState.WaitForSecondCard);
+            SetMinigameState(MinigameState.WaitForSecondCard);
 
             yield return new WaitUntil(() => cardRevealed);
             cardRevealed = false;
@@ -192,12 +192,24 @@ public class MemoryMinigameManager : MinigameManager
             #endregion
 
             #region Pair Processing
-            SetMinigameState(MiniGameState.ProcessingPair);
+
 
             if(PairMatches(firstCard, secondCard)) //Instant Pair Processing
             {
                 currentMatchedCards.Add(firstCard);
                 currentMatchedCards.Add(secondCard);
+
+                firstCard.SetCardWillMatchTrue();
+                secondCard.SetCardWillMatchTrue();
+
+                SetMinigameState(MinigameState.ProcessingPairMatch);
+            }
+            else
+            {
+                firstCard.SetCardWillFailTrue();
+                secondCard.SetCardWillFailTrue();
+
+                SetMinigameState(MinigameState.ProcessingPairFail);
             }
 
             StartCoroutine(ProcessPairCoroutine(firstCard, secondCard)); //Card Pair Processing (Separate Coroutine)
@@ -208,7 +220,7 @@ public class MemoryMinigameManager : MinigameManager
             #region Round End Evaluation
             if(AllPairMatch())
             {
-                SetMinigameState(MiniGameState.EndingRound);
+                SetMinigameState(MinigameState.EndingRound);
 
                 yield return new WaitForSeconds(settings.allPairsMatchTime);
 
@@ -223,7 +235,7 @@ public class MemoryMinigameManager : MinigameManager
                 }
                 else
                 {
-                    SetMinigameState(MiniGameState.SwitchingRound);
+                    SetMinigameState(MinigameState.SwitchingRound);
                     yield return new WaitForSeconds(settings.switchRoundTimer);
                 }
 
@@ -245,23 +257,23 @@ public class MemoryMinigameManager : MinigameManager
 
     private IEnumerator WinMinigameCoroutine()
     {
-        SetMinigameState(MiniGameState.Winning);
+        SetMinigameState(MinigameState.Winning);
         OnGameWinningMethod();
 
         yield return new WaitForSeconds(settings.endingGameTime);
 
-        SetMinigameState(MiniGameState.Win);
+        SetMinigameState(MinigameState.Win);
         OnGameWonMethod();
     }
 
     private IEnumerator LoseMinigameByTimeCoroutine()
     {
-        SetMinigameState(MiniGameState.Losing);
+        SetMinigameState(MinigameState.Losing);
         OnGameLosingMethod();
 
         yield return new WaitForSeconds(settings.endingGameTime);
 
-        SetMinigameState(MiniGameState.Lose);
+        SetMinigameState(MinigameState.Lose);
         OnGameLostMethod();
     }
 
@@ -321,7 +333,7 @@ public class MemoryMinigameManager : MinigameManager
         }
     }
 
-    private void SetMinigameState(MiniGameState state) => miniGameState = state;
+    private void SetMinigameState(MinigameState state) => minigameState = state;
 
     #endregion
 
@@ -398,6 +410,7 @@ public class MemoryMinigameManager : MinigameManager
         foreach(MemoryCardHandler memoryCardHandler in currentRoundCards)
         {
             if (memoryCardHandler.IsFailing) return true;
+            if (memoryCardHandler.CardWillFail) return true;
         }
 
         return false;
@@ -412,10 +425,10 @@ public class MemoryMinigameManager : MinigameManager
         if (settings.waitForPairFail && CardIsFailing()) return false;
         if (settings.wairForCardReveal && CardIsBeingFlippedRevealed()) return false;
 
-        return miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
+        return minigameState == MinigameState.WaitForFirstCard || minigameState == MinigameState.WaitForSecondCard;
     }
 
-    public override bool CanPassTime() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
+    public override bool CanPassTime() => minigameState == MinigameState.WaitForFirstCard || minigameState == MinigameState.WaitForSecondCard;
 
     public void SetInputLockCooldown()
     {

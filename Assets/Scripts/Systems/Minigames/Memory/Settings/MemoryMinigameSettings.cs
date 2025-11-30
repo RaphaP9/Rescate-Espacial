@@ -23,6 +23,7 @@ public class MemoryMinigameSettings : ScriptableObject
     [Range(0f, 5f)] public float cardRevealInputCooldown;
     [Range(0f, 5f)] public float pairProcessingTime; //pairProcessing is the same duration as FlipRevealAnimation (or at least that value)
     [Range(0f, 5f)] public float timeBetweenPairs;
+    [Space]
     [Range(0f, 5f)] public float allPairsMatchTime;
     [Range(0f, 5f)] public float switchRoundTimer;
     [Range(0f, 5f)] public float endLastRoundTimer;
