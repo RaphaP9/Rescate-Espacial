@@ -29,7 +29,6 @@ public class FigureDragVFXHandler_Particles : MonoBehaviour
     {
         PlayVFX();
     }
-
     private void FigureHandler_OnThisFigureDragEnd(object sender, System.EventArgs e)
     {
         StopVFX();

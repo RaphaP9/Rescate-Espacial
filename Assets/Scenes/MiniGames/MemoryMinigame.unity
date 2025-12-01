@@ -2992,7 +2992,7 @@ MonoBehaviour:
   gridLayoutGroup: {fileID: 1372244452}
   cardsContainer: {fileID: 1372244451}
   cardPrefab: {fileID: 4702093851788566535, guid: 2f6afc30b4acc80448ee41c2baedacd1, type: 3}
-  miniGameState: 1
+  minigameState: 0
   currentRoundCards: []
   currentMatchedCards: []
   currentRevealedCards: []
