@@ -203,4 +203,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trailRenderer: {fileID: 4038065907454825945}
   figureHandler: {fileID: 0}
-  colorIntensity: 2
+  colorIntensity: 1.5

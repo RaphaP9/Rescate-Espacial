@@ -63,12 +63,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 1
-    - _BaseIntensity: 0.7
-    - _BlinkIntensity: 0.3
+    - _BaseIntensity: 0.5
+    - _BlinkIntensity: 0.25
     - _BlinkSpeed: 2
     - _EnableExternalAlpha: 0
     - _Intensity: 1
-    - _IntensityMultiplier: 0.4901468
+    - _IntensityMultiplier: 0.34006682
     - _Power: 0
     - _QueueControl: 0
     - _QueueOffset: 0

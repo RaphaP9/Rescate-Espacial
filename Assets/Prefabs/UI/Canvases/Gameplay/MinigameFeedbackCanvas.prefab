@@ -387,31 +387,22 @@ VisualEffect:
           serializedVersion: 2
           m_Curve:
           - serializedVersion: 3
-            time: 0
-            value: 0
-            inSlope: 6.390909
-            outSlope: 6.390909
+            time: -0.0017025173
+            value: 1.0022058
+            inSlope: -0.0020287584
+            outSlope: -0.0020287584
             tangentMode: 0
             weightedMode: 0
             inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 0.004042417
-            value: 0.98338795
-            inSlope: 0.22064336
-            outSlope: 0.22064336
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
+            outWeight: 0.107708566
           - serializedVersion: 3
             time: 0.99227804
             value: 0.007142842
-            inSlope: -0.66599995
-            outSlope: -0.66599995
+            inSlope: -0.1781215
+            outSlope: -0.1781215
             tangentMode: 0
             weightedMode: 0
-            inWeight: 0
+            inWeight: 0.0925054
             outWeight: 0
           m_PreInfinity: 2
           m_PostInfinity: 2
@@ -422,8 +413,8 @@ VisualEffect:
       m_Array:
       - m_Value:
           serializedVersion: 2
-          key0: {r: 2.2973967, g: 1.169554, b: 0.16255164, a: 0}
-          key1: {r: 1.3962264, g: 0, b: 0.16840719, a: 1}
+          key0: {r: 2.4863744, g: 1.1846077, b: 0, a: 0}
+          key1: {r: 0.7006615, g: 0, b: 0.08084553, a: 1}
           key2: {r: 0, g: 0, b: 0, a: 0.8}
           key3: {r: 0, g: 0, b: 0, a: 0}
           key4: {r: 0, g: 0, b: 0, a: 0}
@@ -665,7 +656,7 @@ MonoBehaviour:
   minComboValue: 2
   maxComboValue: 5
   minComboParticleRate: 10
-  maxComboParticleRate: 75
+  maxComboParticleRate: 60
   width: 0
   height: 0
   debug: 1
@@ -722,8 +713,8 @@ MonoBehaviour:
   intensityMultiplierPropertyName: _IntensityMultiplier
   minComboValue: 2
   maxComboValue: 5
-  minComboIntensityMultiplier: 0.5
-  maxComboIntensityMultiplier: 0.8
+  minComboIntensityMultiplier: 0.35
+  maxComboIntensityMultiplier: 0.65
   smoothFactor: 5
 --- !u!1 &7348585768468979139
 GameObject:

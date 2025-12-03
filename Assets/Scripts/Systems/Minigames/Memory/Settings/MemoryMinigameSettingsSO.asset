@@ -199,7 +199,7 @@ MonoBehaviour:
   bonusScorePerCombo: 2
   gameTime: 60
   timeBonusOnMatch: 5
-  timePenaltyOnFail: 3
+  timePenaltyOnFail: 0
   startingGameTime: 3
   cardRevealInputCooldown: 0.1
   pairProcessingTime: 0.4
