@@ -66,6 +66,10 @@ MonoBehaviour:
     m_Localized: "Pol\xEDtica de Privacidad"
     m_Metadata:
       m_Items: []
+  - m_Id: 28891142609649664
+    m_Localized: Voces
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

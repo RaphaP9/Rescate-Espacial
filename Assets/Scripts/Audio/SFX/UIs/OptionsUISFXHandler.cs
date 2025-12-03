@@ -10,6 +10,9 @@ public class OptionsUISFXHandler : UISFXHandler
         MusicVolumeSliderUIHandler.OnMusicSliderDragEnd += MusicVolumeSliderUIHandler_OnMusicSliderDragEnd;
         MusicVolumeSliderUIHandler.OnMusicSliderPointerUp += MusicVolumeSliderUIHandler_OnMusicSliderPointerUp;
 
+        DialoguesVolumeSliderUIHandler.OnDialoguesSliderDragEnd += DialoguesVolumeSliderUIHandler_OnDialoguesSliderDragEnd;
+        DialoguesVolumeSliderUIHandler.OnDialoguesSliderPointerUp += DialoguesVolumeSliderUIHandler_OnDialoguesSliderPointerUp;
+
         VibrationToggleUIHandler.OnVibrationToggled += VibrationToggleUIHandler_OnVibrationToggled;
     }
 
@@ -20,6 +23,9 @@ public class OptionsUISFXHandler : UISFXHandler
 
         MusicVolumeSliderUIHandler.OnMusicSliderDragEnd -= MusicVolumeSliderUIHandler_OnMusicSliderDragEnd;
         MusicVolumeSliderUIHandler.OnMusicSliderPointerUp -= MusicVolumeSliderUIHandler_OnMusicSliderPointerUp;
+
+        DialoguesVolumeSliderUIHandler.OnDialoguesSliderDragEnd -= DialoguesVolumeSliderUIHandler_OnDialoguesSliderDragEnd;
+        DialoguesVolumeSliderUIHandler.OnDialoguesSliderPointerUp -= DialoguesVolumeSliderUIHandler_OnDialoguesSliderPointerUp;
 
         VibrationToggleUIHandler.OnVibrationToggled -= VibrationToggleUIHandler_OnVibrationToggled;
     }
@@ -41,6 +47,16 @@ public class OptionsUISFXHandler : UISFXHandler
     }
 
     private void SFXVolumeSliderUIHandler_OnSFXSliderDragEnd(object sender, System.EventArgs e)
+    {
+        PlaySFX_Unpausable(SFXPool.sliderRelease);
+    }
+
+    private void DialoguesVolumeSliderUIHandler_OnDialoguesSliderPointerUp(object sender, System.EventArgs e)
+    {
+        PlaySFX_Unpausable(SFXPool.sliderRelease);
+    }
+
+    private void DialoguesVolumeSliderUIHandler_OnDialoguesSliderDragEnd(object sender, System.EventArgs e)
     {
         PlaySFX_Unpausable(SFXPool.sliderRelease);
     }

@@ -6,6 +6,7 @@ public class OptionsUIVibrationHandler : UIVibrationHandler
     [Header("Settings")]
     [SerializeField] private HapticPreset musicSliderHapticPreset;
     [SerializeField] private HapticPreset SFXSliderHapticPreset;
+    [SerializeField] private HapticPreset dialoguesSliderHapticPreset;
     [Space]
     [SerializeField] private HapticPreset vibrationToggleHapticPreset;
 
@@ -17,6 +18,9 @@ public class OptionsUIVibrationHandler : UIVibrationHandler
         MusicVolumeSliderUIHandler.OnMusicSliderDragEnd += MusicVolumeSliderUIHandler_OnMusicSliderDragEnd;
         MusicVolumeSliderUIHandler.OnMusicSliderPointerUp += MusicVolumeSliderUIHandler_OnMusicSliderPointerUp;
 
+        DialoguesVolumeSliderUIHandler.OnDialoguesSliderDragEnd += DialoguesVolumeSliderUIHandler_OnDialoguesSliderDragEnd;
+        DialoguesVolumeSliderUIHandler.OnDialoguesSliderPointerUp += DialoguesVolumeSliderUIHandler_OnDialoguesSliderPointerUp;
+
         VibrationToggleUIHandler.OnVibrationToggled += VibrationToggleUIHandler_OnVibrationToggled;
     }
 
@@ -27,6 +31,9 @@ public class OptionsUIVibrationHandler : UIVibrationHandler
 
         MusicVolumeSliderUIHandler.OnMusicSliderDragEnd -= MusicVolumeSliderUIHandler_OnMusicSliderDragEnd;
         MusicVolumeSliderUIHandler.OnMusicSliderPointerUp -= MusicVolumeSliderUIHandler_OnMusicSliderPointerUp;
+
+        DialoguesVolumeSliderUIHandler.OnDialoguesSliderDragEnd -= DialoguesVolumeSliderUIHandler_OnDialoguesSliderDragEnd;
+        DialoguesVolumeSliderUIHandler.OnDialoguesSliderPointerUp -= DialoguesVolumeSliderUIHandler_OnDialoguesSliderPointerUp;
 
         VibrationToggleUIHandler.OnVibrationToggled -= VibrationToggleUIHandler_OnVibrationToggled;
     }
@@ -52,6 +59,16 @@ public class OptionsUIVibrationHandler : UIVibrationHandler
     private void SFXVolumeSliderUIHandler_OnSFXSliderDragEnd(object sender, System.EventArgs e)
     {
         PlayHaptic_Unforced(SFXSliderHapticPreset);
+    }
+
+    private void DialoguesVolumeSliderUIHandler_OnDialoguesSliderPointerUp(object sender, System.EventArgs e)
+    {
+        PlayHaptic_Unforced(dialoguesSliderHapticPreset);
+    }
+
+    private void DialoguesVolumeSliderUIHandler_OnDialoguesSliderDragEnd(object sender, System.EventArgs e)
+    {
+        PlayHaptic_Unforced(dialoguesSliderHapticPreset);
     }
 
     private void VibrationToggleUIHandler_OnVibrationToggled(object sender, VibrationToggleUIHandler.OnVibrationToggledEventArgs e)

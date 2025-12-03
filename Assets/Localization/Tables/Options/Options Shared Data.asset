@@ -31,6 +31,10 @@ MonoBehaviour:
     m_Key: options.sfxVolumeLabel
     m_Metadata:
       m_Items: []
+  - m_Id: 28891142609649664
+    m_Key: options.dialoguesVolumeLabel
+    m_Metadata:
+      m_Items: []
   - m_Id: 3116233199665152
     m_Key: options.vibrationLabel
     m_Metadata:
