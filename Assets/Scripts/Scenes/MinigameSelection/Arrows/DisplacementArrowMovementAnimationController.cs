@@ -1,47 +1,49 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
-public class AlbumSectionButtonAnimationController : MonoBehaviour
+public class DisplacementArrowMovementAnimationController : MonoBehaviour
 {
-    [Header("Animator")]
+    [Header("Components")]
     [SerializeField] private Animator animator;
 
     [Header("Settings")]
-    [SerializeField] private bool enableShake;
+    [SerializeField] private bool enableMovement;
+    [Space]
+    [SerializeField] private string animationTrigger;
     [Space]
     [SerializeField, Range(2f, 10f)] private float minStartingTime;
     [SerializeField, Range(2f, 10f)] private float maxStartingTime;
     [Space]
-    [SerializeField, Range(2f, 10f)] private float minInterval; 
+    [SerializeField, Range(2f, 10f)] private float minInterval;
     [SerializeField, Range(2f, 10f)] private float maxInterval;
-
-    private const string SHAKE_TRIGGER = "Shake";
 
     private void Start()
     {
-        StartCoroutine(ShakeCoroutine());
+        StartCoroutine(MovementCoroutine());
     }
 
-    private IEnumerator ShakeCoroutine()
+    private IEnumerator MovementCoroutine()
     {
         float startingTime = GeneralUtilities.GetRandomBetweenTwoFloats(minStartingTime, maxStartingTime);
 
         yield return new WaitForSeconds(startingTime);
 
-        Shake();
+        Move();
 
         while (true)
         {
             float interval = GeneralUtilities.GetRandomBetweenTwoFloats(minInterval, maxInterval);
+
             yield return new WaitForSeconds(interval);
 
-            Shake();
+            Move();
         }
     }
 
-    private void Shake()
+    private void Move()
     {
-        if (!enableShake) return;
-        animator.SetTrigger(SHAKE_TRIGGER);
+        if (!enableMovement) return;
+        animator.SetTrigger(animationTrigger);
     }
 }

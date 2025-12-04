@@ -180,6 +180,8 @@ public static class GeneralUtilities
 
     public static float GetRandomBetweenTwoFloats(float numberA, float numberB)
     {
+        if(numberA == numberB) return numberA;
+
         float min = Mathf.Min(numberA, numberB);
         float max = Mathf.Max(numberA, numberB);
 
