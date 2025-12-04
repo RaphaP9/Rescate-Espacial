@@ -51,6 +51,38 @@ MonoBehaviour:
     m_Key: memoryMinigameCutsceneAudios.audio9
     m_Metadata:
       m_Items: []
+  - m_Id: 20852667461353472
+    m_Key: memoryMinigameCutsceneAudios.audio10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20852686667071488
+    m_Key: memoryMinigameCutsceneAudios.audio11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20852696343330816
+    m_Key: memoryMinigameCutsceneAudios.audio12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20852712617230336
+    m_Key: memoryMinigameCutsceneAudios.audio13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20852722339627008
+    m_Key: memoryMinigameCutsceneAudios.audio14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20852730958921728
+    m_Key: memoryMinigameCutsceneAudios.audio15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20852740794564608
+    m_Key: memoryMinigameCutsceneAudios.audio16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20852750139473920
+    m_Key: memoryMinigameCutsceneAudios.audio17
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8552091136031719583

@@ -55,6 +55,34 @@ MonoBehaviour:
     m_Key: silhouettesMinigameCutsceneAudios.audio10
     m_Metadata:
       m_Items: []
+  - m_Id: 20850088396406784
+    m_Key: silhouettesMinigameCutsceneAudios.audio11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20850102602514432
+    m_Key: silhouettesMinigameCutsceneAudios.audio12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20850123951521792
+    m_Key: silhouettesMinigameCutsceneAudios.audio13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20850137524289536
+    m_Key: silhouettesMinigameCutsceneAudios.audio14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20850146705620992
+    m_Key: silhouettesMinigameCutsceneAudios.audio15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20850160454549504
+    m_Key: silhouettesMinigameCutsceneAudios.audio16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20850171376517120
+    m_Key: silhouettesMinigameCutsceneAudios.audio17
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8552091136031719587

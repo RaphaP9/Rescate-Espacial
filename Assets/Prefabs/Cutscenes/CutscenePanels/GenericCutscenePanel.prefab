@@ -745,6 +745,8 @@ MonoBehaviour:
   hasSentence: 0
   sentenceLocalizationTable: 
   hideLastSentence: 0
+  useDefaultSentenceColor: 1
+  defaultSentenceColor: {r: 0.2688679, g: 0.2864856, b: 1, a: 1}
   sentences: []
 --- !u!114 &7976040221428244283
 MonoBehaviour:

@@ -16,6 +16,10 @@ public class CutscenePanelSentenceHandler : MonoBehaviour
     [SerializeField] private string sentenceLocalizationTable;
     [Space]
     [SerializeField] private bool hideLastSentence;
+    [Space]
+    [SerializeField] private bool useDefaultSentenceColor;
+    [SerializeField, ColorUsage(true, true)] private Color defaultSentenceColor;
+
 
     [Header("Lists")]
     [SerializeField] private List<CutscenePanelSentence> sentences;
@@ -95,7 +99,17 @@ public class CutscenePanelSentenceHandler : MonoBehaviour
     }
     #endregion
 
-    private void SetSentenceColor(Color color) => sentenceText.color = color;
+    private void SetSentenceColor(Color color)
+    {
+        if (useDefaultSentenceColor)
+        {
+            sentenceText.color = defaultSentenceColor;
+            return;
+        }
+
+        sentenceText.color = color;
+    }
+
     private void SetLocalizedSentence(string localizationBinding) => sentenceText.text = LocalizationSettings.StringDatabase.GetLocalizedString(sentenceLocalizationTable, localizationBinding);
 
     private bool IsLastSentence(CutscenePanelSentence sentence)

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dfaf2962b66c46242b633fcd0ad035f6
+guid: 06df6f7440a9dee4dacb2eb1c220c120
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6287776531242684380
-    second: CutscenePanel_GameStart_E_0
+      213: 2863849375253445139
+    second: CutscenePanel_SilhouettesMinigame_1_I_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CutscenePanel_GameStart_E_0
+      name: CutscenePanel_SilhouettesMinigame_1_I_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2160
+        width: 4320
         height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdf02cbe07ba24750800000000000000
-      internalID: 6287776531242684380
+      spriteID: 31ab43e55df6eb720800000000000000
+      internalID: 2863849375253445139
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CutscenePanel_GameStart_E_0: 6287776531242684380
+      CutscenePanel_SilhouettesMinigame_1_I_0: 2863849375253445139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

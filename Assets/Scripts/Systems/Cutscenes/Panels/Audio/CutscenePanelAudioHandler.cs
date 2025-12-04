@@ -111,6 +111,12 @@ public class CutscenePanelAudioHandler : MonoBehaviour
 
         if (currentHandle.Value.Status == AsyncOperationStatus.Succeeded)
         {
+            if(currentHandle.Value.Result == null)
+            {
+                if (debug) Debug.Log("Async operation result is null");
+                yield break;
+            }
+
             audioSource.clip = currentHandle.Value.Result;
             if (isPaused) yield return new WaitUntil(() => !isPaused);
             PlayAudioClip();   
@@ -133,6 +139,12 @@ public class CutscenePanelAudioHandler : MonoBehaviour
 
         if (currentHandle.Value.Status == AsyncOperationStatus.Succeeded)
         {
+            if (currentHandle.Value.Result == null)
+            {
+                if (debug) Debug.Log("Async operation result is null");
+                yield break;
+            }
+
             audioSource.clip = currentHandle.Value.Result;
             if (isPaused) yield return new WaitUntil(() => !isPaused);
             PlayAudioClipFromTime(storedTimeStamp);
