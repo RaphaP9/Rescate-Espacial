@@ -20,6 +20,8 @@ public class SceneTransitionUIHandler : MonoBehaviour
     public static event EventHandler<OnTransitionUIEventArgs> OnTransitionOutEnd;
     public static event EventHandler<OnTransitionUIEventArgs> OnTransitionInEnd;
 
+    public event EventHandler<OnTransitionUIEventArgs> OnTransitionOutTrigger;
+
     private TransitionType currentTransitionType;
 
     public class OnTransitionUIEventArgs : EventArgs
@@ -53,6 +55,8 @@ public class SceneTransitionUIHandler : MonoBehaviour
         Animator transitionAnimator = FindAnimatorByTransitionType(transitionType);
 
         if (transitionAnimator == null) return;
+
+        OnTransitionOutTrigger?.Invoke(this, new OnTransitionUIEventArgs { transitionType = transitionType });
 
         transitionAnimator.Play(IDLE_ANIMATION_NAME); //Always start transition out from Idle
 

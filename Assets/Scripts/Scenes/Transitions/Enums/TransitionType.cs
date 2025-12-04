@@ -1,5 +1,6 @@
 public enum TransitionType
 {
     Fade,
-    Slide
+    Slide,
+    FadeImage
 }

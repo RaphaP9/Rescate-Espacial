@@ -745,7 +745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   homeButton: {fileID: 1466726198538652704}
   homeScene: MainMenu
-  homeTransitionType: 0
+  homeTransitionType: 2
 --- !u!114 &2618350036132719130
 MonoBehaviour:
   m_ObjectHideFlags: 0

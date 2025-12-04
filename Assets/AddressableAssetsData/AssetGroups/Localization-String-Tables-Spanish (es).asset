@@ -87,6 +87,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6afcc6894ad1d949a1ded86954f217a
+    m_Address: AlbumMainSection_MainSectionStrings_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abd05b4993a883c4089db1630a0acff9
+    m_Address: AlbumMinigamesSection_MemorySectionStrings_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bbb3ac065bc03314583af4bc4956d0ab
     m_Address: MinigameFinalScoreStrings_es
     m_ReadOnly: 1
@@ -119,6 +131,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f301b46ed7fd0de4eab66a830a5ef17b
     m_Address: RotationScene_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe517520953117846aa8455af47b8767
+    m_Address: AlbumMinigamesSection_SilhouettesSectionStrings_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es

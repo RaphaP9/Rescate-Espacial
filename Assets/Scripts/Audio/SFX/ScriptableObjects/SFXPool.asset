@@ -61,13 +61,18 @@ MonoBehaviour:
   firstCardSelected: []
   secondCardSelected: []
   pairMatch: []
-  pairFail: []
+  pairFail:
+  - {fileID: 8300000, guid: 97a6541133fefc24e94b7c75b1541c85, type: 3}
   memoryRoundBegin: []
   memoryRoundCompleted: []
   cardsRevealTimeEnd: []
-  figureDragStart: []
-  figureReturn: []
+  figureDragStart:
+  - {fileID: 8300000, guid: 3a28cc82223125f4192da29242a72e2b, type: 3}
+  figureReturn:
+  - {fileID: 8300000, guid: 02b53f6eb41e8ea4db0b1316326adcaa, type: 3}
   silhouetteMatch: []
-  silhouetteFail: []
-  silhouettesRoundBegin: []
+  silhouetteFail:
+  - {fileID: 8300000, guid: 4c22a9bb7cc437941ba4763d626038db, type: 3}
+  silhouettesRoundBegin:
+  - {fileID: 8300000, guid: c2c504767a7c9ea4d89d6dc3d028d94a, type: 3}
   silhouettesRoundCompleted: []

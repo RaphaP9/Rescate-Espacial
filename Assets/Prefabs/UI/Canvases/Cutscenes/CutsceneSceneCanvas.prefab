@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: MainMenu
-  nextSceneTransitionType: 0
+  nextSceneTransitionType: 2
   cutsceneSO: {fileID: 0}
   cutscenePanelsContainer: {fileID: 6738924819327506456}
   maxCutscenePanels: 3

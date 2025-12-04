@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 452.75
+      value: 740.46
       objectReference: {fileID: 0}
     - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_SizeDelta.y
@@ -181,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 226.375
+      value: 370.23
       objectReference: {fileID: 0}
     - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -293,7 +293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 352.75
+      value: 640.46
       objectReference: {fileID: 0}
     - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_SizeDelta.y
@@ -301,7 +301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 226.375
+      value: 370.23
       objectReference: {fileID: 0}
     - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2354,7 +2354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backButton: {fileID: 7635212535395367452}
   backScene: MainMenu
-  backTransitionType: 0
+  backTransitionType: 2
 --- !u!1 &827782682
 GameObject:
   m_ObjectHideFlags: 0
@@ -3946,10 +3946,10 @@ MonoBehaviour:
   albumSceneButtonRelationships:
   - button: {fileID: 1690636140}
     sceneName: AlbumSection_Main
-    sceneTransitionType: 0
+    sceneTransitionType: 2
   - button: {fileID: 2124286801}
     sceneName: AlbumSection_Minigames
-    sceneTransitionType: 0
+    sceneTransitionType: 2
 --- !u!1 &1358757306
 GameObject:
   m_ObjectHideFlags: 0

@@ -394,10 +394,10 @@ MonoBehaviour:
   minigame: 0
   minigameButton: {fileID: 3625690440898834050}
   firstEnterScene: 
-  firstEnterSceneTransitionType: 0
+  firstEnterSceneTransitionType: 2
   ignoreFirstEnterScene: 0
   regularEnterScene: 
-  regularEnterSceneTransitionType: 0
+  regularEnterSceneTransitionType: 2
 --- !u!114 &5844620093972678756
 MonoBehaviour:
   m_ObjectHideFlags: 0

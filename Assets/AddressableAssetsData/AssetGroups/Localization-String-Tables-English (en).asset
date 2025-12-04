@@ -21,6 +21,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 199deedb89bc99e45b990e4d7879bfe2
+    m_Address: AlbumMainSection_MainSectionStrings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 28e7e517437218d4aa14a752da273a41
     m_Address: TimeEndedStrings_en
     m_ReadOnly: 1
@@ -81,8 +87,20 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87c015e3f0453fd498931dfa7b09ff45
+    m_Address: AlbumMinigamesSection_SilhouettesSectionStrings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8c5d889538b3c0740a418637906e4ac0
     m_Address: SilhouettesMinigameCutsceneStrings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f2a34a9badff0444a62d23ee9932fe9
+    m_Address: AlbumMinigamesSection_MemorySectionStrings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

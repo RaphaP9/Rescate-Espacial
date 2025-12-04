@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: a1299fb07e3ab4c4389a11652c42d4f4
   m_SerializeEntries:
+  - m_GUID: 01c80ca53ebda474b8652f6d8a20877a
+    m_Address: Assets/Localization/Tables/AlbumSectionStrings/Main/MainSection/AlbumMainSection_MainSectionStrings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 04197a24d6b58774cb6f396454cda2f5
     m_Address: Sample1
     m_ReadOnly: 1
@@ -344,8 +350,20 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c580f613def37584494212da5cd859a1
+    m_Address: Assets/Localization/Tables/AlbumSectionStrings/SilhouettesSection/AlbumMinigamesSection_SilhouettesSectionStrings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c74db7a787a68a34e992bd5e1c48a9ae
     m_Address: Assets/Localization/Tables/Videos Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca4079ebfb0f2724d9db8058a2b492de
+    m_Address: Assets/Localization/Tables/AlbumSectionStrings/Album_MinigamesSection_MemorySectionTable
+      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
