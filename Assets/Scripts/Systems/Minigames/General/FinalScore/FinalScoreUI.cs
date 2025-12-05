@@ -88,6 +88,7 @@ public class FinalScoreUI : MonoBehaviour
     private void SetUIByStoredSetting()
     {
         if (!hasBeenSet) return;
+        if (setting == null) return;
 
         SetRelatedMessageTextBySetting(setting);
         SetRelatedImageSpriteBySetting(setting);

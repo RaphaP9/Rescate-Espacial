@@ -12,7 +12,7 @@ public class FinalScoreAudioHandler : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
 
     [Header("Settings")]
-    [SerializeField, Range(0f, 2f)] private float timeToPlayAudio;
+    [SerializeField, Range(0f, 5f)] private float timeToPlayAudio;
 
     [Header("Debug")]
     [SerializeField] private bool debug;
