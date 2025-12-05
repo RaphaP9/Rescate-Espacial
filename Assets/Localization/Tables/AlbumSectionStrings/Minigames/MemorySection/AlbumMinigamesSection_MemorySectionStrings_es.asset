@@ -19,11 +19,13 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7375845539840
-    m_Localized: "T\xEDtulo"
+    m_Localized: El Misterio de los Meteoritos
     m_Metadata:
       m_Items: []
   - m_Id: 7438495858688
-    m_Localized: "Descripci\xF3n"
+    m_Localized: "Verde, Morado y Naranja viajan en su nave buscando fragmentos brillantes.
+      Pero de pronto aparece un mont\xF3n de meteoritos que no los dejan pasar. \xBFC\xF3mo
+      lograr\xE1 el escuadr\xF3n cruzarlos?"
     m_Metadata:
       m_Items: []
   - m_Id: 110454414721024

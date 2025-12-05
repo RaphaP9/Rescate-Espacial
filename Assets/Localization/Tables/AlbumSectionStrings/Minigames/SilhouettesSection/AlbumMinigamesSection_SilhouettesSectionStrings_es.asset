@@ -19,11 +19,14 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7248443555840
-    m_Localized: "T\xEDtulo"
+    m_Localized: "\xA1Caos en la Nave!"
     m_Metadata:
       m_Items: []
   - m_Id: 7260858695680
-    m_Localized: "Descripci\xF3n"
+    m_Localized: "Despu\xE9s de un peque\xF1o accidente, las cosas de la nave quedan
+      tiradas por todos lados. Morado, Verde y Naranja intentan ordenar, pero no
+      es tan f\xE1cil como parece. \xBFC\xF3mo lograr\xE1 el escuadr\xF3n arreglar
+      todo este caos?"
     m_Metadata:
       m_Items: []
   - m_Id: 110766970060800

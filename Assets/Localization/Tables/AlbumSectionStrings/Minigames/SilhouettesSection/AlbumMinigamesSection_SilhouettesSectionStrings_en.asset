@@ -19,11 +19,13 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7248443555840
-    m_Localized: Title
+    m_Localized: Chaos in the Ship!
     m_Metadata:
       m_Items: []
   - m_Id: 7260858695680
-    m_Localized: Description
+    m_Localized: "After a small accident, the things in the ship end up scattered
+      everywhere. Purple, Green, and Orange try to clean up, but it\u2019s not as
+      easy as it seems. How will the squad fix all this chaos?"
     m_Metadata:
       m_Items: []
   - m_Id: 110766970060800

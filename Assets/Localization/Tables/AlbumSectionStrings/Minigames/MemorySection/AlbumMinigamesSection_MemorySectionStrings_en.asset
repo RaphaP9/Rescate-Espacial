@@ -19,11 +19,13 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7375845539840
-    m_Localized: Title
+    m_Localized: The Mystery of the Meteors
     m_Metadata:
       m_Items: []
   - m_Id: 7438495858688
-    m_Localized: Description
+    m_Localized: "Green, Purple, and Orange travel in their spaceship looking for
+      stellar fragments. But suddenly, a bunch of meteors appears and won\u2019t
+      let them pass. How will the squad get through them?"
     m_Metadata:
       m_Items: []
   - m_Id: 110454414721024
