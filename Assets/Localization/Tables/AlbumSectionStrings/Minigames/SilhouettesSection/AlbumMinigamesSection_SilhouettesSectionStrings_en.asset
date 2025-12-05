@@ -26,6 +26,18 @@ MonoBehaviour:
     m_Localized: Description
     m_Metadata:
       m_Items: []
+  - m_Id: 110766970060800
+    m_Localized: Obtain 100 Stellar Fragments in the Silhouettes Minigame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110769507614720
+    m_Localized: Obtain 1500 Stellar Fragments in the Silhouettes Minigame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110771772538880
+    m_Localized: Obtain 3000 Stellar Fragments in the Silhouettes Minigame
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

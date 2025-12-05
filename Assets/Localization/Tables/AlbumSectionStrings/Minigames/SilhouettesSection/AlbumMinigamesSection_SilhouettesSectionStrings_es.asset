@@ -26,6 +26,18 @@ MonoBehaviour:
     m_Localized: "Descripci\xF3n"
     m_Metadata:
       m_Items: []
+  - m_Id: 110766970060800
+    m_Localized: Consigue 100 Fragmentos Estelares en el Minijuego Siluetas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110769507614720
+    m_Localized: Consigue 1500 Fragmentos Estelares en el Minijuego Siluetas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110771772538880
+    m_Localized: Consigue 3000 Fragmentos Estelares en el Minijuego Siluetas
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

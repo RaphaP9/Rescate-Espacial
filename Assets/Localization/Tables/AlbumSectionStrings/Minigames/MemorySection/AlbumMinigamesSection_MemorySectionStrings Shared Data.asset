@@ -23,6 +23,18 @@ MonoBehaviour:
     m_Key: albumMinigamesSection_MemorySectionStrings.description
     m_Metadata:
       m_Items: []
+  - m_Id: 110454414721024
+    m_Key: albumMinigamesSection_MemorySectionStrings.unlockCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110541320699904
+    m_Key: albumMinigamesSection_MemorySectionStrings.unlockCondition2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110550372007936
+    m_Key: albumMinigamesSection_MemorySectionStrings.unlockCondition3
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -26,6 +26,18 @@ MonoBehaviour:
     m_Localized: Description
     m_Metadata:
       m_Items: []
+  - m_Id: 110454414721024
+    m_Localized: Obtain 100 Stellar Fragments in the Memory Minigame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110541320699904
+    m_Localized: Obtain 1500 Stellar Fragments in the Memory Minigame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110550372007936
+    m_Localized: Obtain 3000 Stellar Fragments in the Memory Minigame
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

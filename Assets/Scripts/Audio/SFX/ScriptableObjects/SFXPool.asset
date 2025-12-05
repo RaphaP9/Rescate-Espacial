@@ -58,8 +58,10 @@ MonoBehaviour:
   loseMinigame: []
   timeWarning:
   - {fileID: 8300000, guid: 2cbdc2f3490e12a4cac784b263e564e4, type: 3}
-  firstCardSelected: []
-  secondCardSelected: []
+  firstCardSelected:
+  - {fileID: 8300000, guid: 0aaca08bb4d331b4aafa5f6efa590b5b, type: 3}
+  secondCardSelected:
+  - {fileID: 8300000, guid: a8f807538222f9142ae6bd7056e0ba4e, type: 3}
   pairMatch: []
   pairFail:
   - {fileID: 8300000, guid: 97a6541133fefc24e94b7c75b1541c85, type: 3}
@@ -67,9 +69,9 @@ MonoBehaviour:
   memoryRoundCompleted: []
   cardsRevealTimeEnd: []
   figureDragStart:
-  - {fileID: 8300000, guid: 3a28cc82223125f4192da29242a72e2b, type: 3}
+  - {fileID: 8300000, guid: d6f5f9c4f00c79546aab1cbc8e418ef5, type: 3}
   figureReturn:
-  - {fileID: 8300000, guid: 02b53f6eb41e8ea4db0b1316326adcaa, type: 3}
+  - {fileID: 8300000, guid: dbec8a5beb4893840a80901764c58dd8, type: 3}
   silhouetteMatch: []
   silhouetteFail:
   - {fileID: 8300000, guid: 4c22a9bb7cc437941ba4763d626038db, type: 3}

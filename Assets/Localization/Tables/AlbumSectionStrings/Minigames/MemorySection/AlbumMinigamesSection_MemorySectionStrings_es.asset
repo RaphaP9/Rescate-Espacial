@@ -26,6 +26,18 @@ MonoBehaviour:
     m_Localized: "Descripci\xF3n"
     m_Metadata:
       m_Items: []
+  - m_Id: 110454414721024
+    m_Localized: Consigue 100 Fragmentos Estelares en el Minijuego Memoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110541320699904
+    m_Localized: Consigue 1500 Fragmentos Estelares en el Minijuego Memoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110550372007936
+    m_Localized: Consigue 3000 Fragmentos Estelares en el Minijuego Memoria
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
