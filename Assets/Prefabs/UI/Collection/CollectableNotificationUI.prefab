@@ -890,9 +890,8 @@ GameObject:
   - component: {fileID: 6170951873893826346}
   - component: {fileID: 8066208661093235464}
   - component: {fileID: 2364238023015026536}
-  - component: {fileID: 5665639474375523250}
   - component: {fileID: 7419798706684973720}
-  - component: {fileID: -1736305239909159424}
+  - component: {fileID: 7286354150453799942}
   m_Layer: 5
   m_Name: CollectableNotificationUI
   m_TagString: Untagged
@@ -958,23 +957,11 @@ MonoBehaviour:
   collectableBackground: {fileID: 7866112821393689115}
   collectableNameText: {fileID: 3461739411187958824}
   animator: {fileID: 8066208661093235464}
+  UIVerticalDragDetector: {fileID: 7286354150453799942}
   timeShowing: 5
   useRealtime: 1
   collectableSO: {fileID: 0}
---- !u!114 &5665639474375523250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8348459439863112679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5484bfa12c81d144285cdd44d662514a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifetime: 8
-  useRealtime: 1
+  isShowing: 0
 --- !u!114 &7419798706684973720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,7 +976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 0
---- !u!114 &-1736305239909159424
+--- !u!114 &7286354150453799942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -998,6 +985,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8348459439863112679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd9ccca8b40544b47a35bf48af855fa2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bc6243f2d4fd124ba8d59147cfcfa07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minVerticalDelta: 35

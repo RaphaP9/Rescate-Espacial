@@ -203,7 +203,7 @@ MonoBehaviour:
   startingGameTime: 3
   cardRevealInputCooldown: 0.1
   pairProcessingTime: 0.4
-  timeBetweenPairs: 0.4
+  timeBetweenPairs: 0.1
   allPairsMatchTime: 3
   switchRoundTimer: 2
   endLastRoundTimer: 2

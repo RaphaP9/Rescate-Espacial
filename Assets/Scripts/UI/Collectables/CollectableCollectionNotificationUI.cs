@@ -12,6 +12,8 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
     [SerializeField] private Image collectableBackground;
     [SerializeField] private TextMeshProUGUI collectableNameText;
     [SerializeField] private Animator animator;
+    [Space]
+    [SerializeField] private UIVerticalDragDetector UIVerticalDragDetector;
 
     [Header("Settings")]
     [SerializeField, Range(3f,10f)] private float timeShowing;
@@ -19,17 +21,20 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
 
     [Header("Runtime Filled")]
     [SerializeField] private CollectableSO collectableSO;
+    [SerializeField] private bool isShowing;
 
     private const string HIDE_TRIGGER = "Hide";
 
     private void OnEnable()
     {
         LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
+        UIVerticalDragDetector.OnVerticalDragUp += UIVerticalDragDetector_OnVerticalDragUp;    
     }
 
     private void OnDisable()
     {
         LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
+        UIVerticalDragDetector.OnVerticalDragUp -= UIVerticalDragDetector_OnVerticalDragUp;
     }
 
     private void Start()
@@ -42,7 +47,7 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
         if (useRealtime) yield return new WaitForSecondsRealtime(timeShowing);
         else yield return new WaitForSeconds(timeShowing);
 
-        animator.SetTrigger(HIDE_TRIGGER);
+        HideNotificationUI();
     }
 
     public void SetUI(CollectableSO collectableSO)
@@ -77,10 +82,29 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
         collectableNameText.text = LocalizationSettings.StringDatabase.GetLocalizedString(collectableSO.localizationTable, collectableSO.nameLocalizationBinding);
     }
 
+    private void HideNotificationUI()
+    {
+        if (!isShowing) return;
+        animator.SetTrigger(HIDE_TRIGGER);
+    }
+
+    public void DestroyNotificationUI()
+    {
+        Destroy(gameObject);
+    }
+
+    public void SetIsShowingTrue() => isShowing = true;
+    public void SetIsShowingFalse() => isShowing = false;
+
     #region Subscriptions
     private void LocalizationSettings_SelectedLocaleChanged(UnityEngine.Localization.Locale obj)
     {
         LocalizeCollectableNameText();
+    }
+
+    private void UIVerticalDragDetector_OnVerticalDragUp(object sender, System.EventArgs e)
+    {
+        HideNotificationUI();
     }
     #endregion
 }
