@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Historia de la ESTRELLA
     m_Metadata:
       m_Items: []
+  - m_Id: 4002062805712896
+    m_Localized: Historias Descubiertas
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

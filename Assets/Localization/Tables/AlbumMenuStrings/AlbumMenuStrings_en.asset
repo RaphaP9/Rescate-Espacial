@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: 'Mission: FRAGMENTS'
     m_Metadata:
       m_Items: []
+  - m_Id: 4002062805712896
+    m_Localized: Uncovered Stories
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

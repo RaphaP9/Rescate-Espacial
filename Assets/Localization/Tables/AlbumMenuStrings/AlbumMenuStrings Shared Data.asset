@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: albumMenuStrings.minigamesButton
     m_Metadata:
       m_Items: []
+  - m_Id: 4002062805712896
+    m_Key: albumMenuStrings.uncoveredStories
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
