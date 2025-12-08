@@ -58,7 +58,7 @@ Material:
     - _FillIntensity: 10
     - _MeterValue: 0.5
     - _MinVoronoiBrightness: 0.75
-    - _NormalizedValue: 0.85714287
+    - _NormalizedValue: 0.14285715
     - _Sharpness: 0.3
     - _Stencil: 0
     - _StencilComp: 8
@@ -77,7 +77,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _FillColor: {r: 1, g: 0.3191009, b: 0.109803915, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WavesAmplitude: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _WavesAmplitude: {r: 0.01, g: 0.015, b: 0, a: 0}
     - _WavesFrequency: {r: 1.5, g: 1.5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

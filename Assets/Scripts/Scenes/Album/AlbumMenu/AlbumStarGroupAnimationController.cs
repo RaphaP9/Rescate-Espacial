@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class AlbumMenuStoriesIndicatorAnimationController : MonoBehaviour
+public class AlbumStarGroupAnimationController : MonoBehaviour
 {
     [Header("Animator")]
     [SerializeField] private Animator animator;
