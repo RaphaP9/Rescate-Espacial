@@ -156,6 +156,8 @@ public class DataContainer : MonoBehaviour
         return true;
     }
 
+    public int GetCutscenesUnlockedCount() => data.cutscenesUnlockedIDs.Count;
+
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     public bool HasCollectedCollectable(CollectableSO collectableSO)
