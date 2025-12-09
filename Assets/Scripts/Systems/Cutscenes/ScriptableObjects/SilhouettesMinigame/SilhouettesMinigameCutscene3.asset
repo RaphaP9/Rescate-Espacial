@@ -17,4 +17,4 @@ MonoBehaviour:
   nameLocalizationBinding: silhouettesMinigameCutsceneStrings.name
   cutscenePanels: []
   cutsceneBGM: {fileID: 8300000, guid: 42d3a2cf312c5134996bd9c4f9ebb6b9, type: 3}
-  cutsceneThumbnail: {fileID: 21300000, guid: a81d132e47dd1c2488abf7fecfd61590, type: 3}
+  cutsceneThumbnail: {fileID: 21300000, guid: 17e7d7d0173491b428d71460f527d0a9, type: 3}
