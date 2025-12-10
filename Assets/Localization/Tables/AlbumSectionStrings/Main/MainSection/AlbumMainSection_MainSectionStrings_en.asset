@@ -17,7 +17,18 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 01c80ca53ebda474b8652f6d8a20877a, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 2143741463183360
+    m_Localized: The Star Needs Help!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2143743619055616
+    m_Localized: "One night, Green, Purple, and Orange are looking at the stars\u2026
+      until they see one that starts to lose its shine. Very worried, they run to
+      find the Great Grandpa to know what to do. How can they help the star shine
+      again?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

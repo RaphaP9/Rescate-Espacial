@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: AlbumMainSection_MainSectionStrings
   m_TableCollectionNameGuidString: 01c80ca53ebda474b8652f6d8a20877a
-  m_Entries: []
+  m_Entries:
+  - m_Id: 2143741463183360
+    m_Key: albumMainSection_MainSectionStrings.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2143743619055616
+    m_Key: albumMainSection_MainSectionStrings.description
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

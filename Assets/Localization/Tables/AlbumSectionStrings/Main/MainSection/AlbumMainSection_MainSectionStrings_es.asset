@@ -17,7 +17,18 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 01c80ca53ebda474b8652f6d8a20877a, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 2143741463183360
+    m_Localized: "\xA1La Estrella Necesita Ayuda!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2143743619055616
+    m_Localized: "Una noche, Verde, Morado y Naranja miran las estrellas\u2026 hasta
+      que ven una que empieza a perder su brillo. Muy preocupados, corren a buscar
+      al Gran Abuelo para saber qu\xE9 hacer. \xBFC\xF3mo podr\xE1n ayudar a la estrella
+      a brillar de nuevo?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

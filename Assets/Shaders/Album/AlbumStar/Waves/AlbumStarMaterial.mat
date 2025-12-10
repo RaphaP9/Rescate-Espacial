@@ -58,7 +58,7 @@ Material:
     - _FillIntensity: 10
     - _MeterValue: 0.5
     - _MinVoronoiBrightness: 1
-    - _NormalizedValue: 0.14285715
+    - _NormalizedValue: 0.42857143
     - _Sharpness: 0.2
     - _Stencil: 0
     - _StencilComp: 8
