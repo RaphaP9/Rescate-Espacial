@@ -25,9 +25,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 146d45b4c706b3d4da8903e19a8c270c, type: 3}
   toggleReleaseOff:
   - {fileID: 8300000, guid: c7e76983484844e4889cc6ef00f69816, type: 3}
-  playButton: []
-  albumButton: []
-  collectionButton: []
+  playButton:
+  - {fileID: 8300000, guid: 3466a1ea7c0206a4eab4b03d331d23b0, type: 3}
+  albumButton:
+  - {fileID: 8300000, guid: 3466a1ea7c0206a4eab4b03d331d23b0, type: 3}
+  collectionButton:
+  - {fileID: 8300000, guid: 3466a1ea7c0206a4eab4b03d331d23b0, type: 3}
   collectableCollected:
   - {fileID: 8300000, guid: 472073264fa9b3f4d8a08a33065d0d7b, type: 3}
   collectableNotCollectedSelected: []
