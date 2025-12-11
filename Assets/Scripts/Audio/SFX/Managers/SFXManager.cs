@@ -10,6 +10,7 @@ public class SFXManager : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] protected bool pauseOnPause;
+    [SerializeField] protected bool stopAudioSourceOnSceneLoad;
 
     [Header("AudioSource Settings")]
     [SerializeField] protected AudioMixerGroup audioMixerGroup;
@@ -27,12 +28,16 @@ public class SFXManager : MonoBehaviour
     {
         PauseManager.OnGamePaused += PauseManager_OnGamePaused;
         PauseManager.OnGameResumed += PauseManager_OnGameResumed;
+
+        ScenesManager.OnSceneLoadComplete += ScenesManager_OnSceneLoadComplete;
     }
 
     protected virtual void OnDisable()
     {
         PauseManager.OnGamePaused -= PauseManager_OnGamePaused;
         PauseManager.OnGameResumed -= PauseManager_OnGameResumed;
+
+        ScenesManager.OnSceneLoadComplete -= ScenesManager_OnSceneLoadComplete;
     }
 
     protected virtual void Awake()
@@ -106,6 +111,13 @@ public class SFXManager : MonoBehaviour
         audioSource.UnPause();
     }
 
+    private void CheckDisposeSFX()
+    {
+        if (!stopAudioSourceOnSceneLoad) return;
+
+        audioSource.Stop();
+    }
+
     #region Subscriptions
     private void PauseManager_OnGamePaused(object sender, System.EventArgs e)
     {
@@ -115,6 +127,11 @@ public class SFXManager : MonoBehaviour
     private void PauseManager_OnGameResumed(object sender, System.EventArgs e)
     {
         CheckResumeAudio();
+    }
+
+    private void ScenesManager_OnSceneLoadComplete(object sender, ScenesManager.OnSceneLoadEventArgs e)
+    {
+        CheckDisposeSFX();
     }
     #endregion
 }

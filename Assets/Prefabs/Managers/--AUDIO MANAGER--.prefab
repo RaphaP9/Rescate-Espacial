@@ -388,6 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
   pauseOnPause: 0
+  stopAudioSourceOnSceneLoad: 0
   audioMixerGroup: {fileID: -6626164375531935395, guid: 42b9a11a03eb0f94db8182625120543c, type: 2}
   minDistance: 1
   maxDistance: 100
@@ -603,6 +604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
   pauseOnPause: 1
+  stopAudioSourceOnSceneLoad: 1
   audioMixerGroup: {fileID: -6626164375531935395, guid: 42b9a11a03eb0f94db8182625120543c, type: 2}
   minDistance: 1
   maxDistance: 100
