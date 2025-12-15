@@ -33,8 +33,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3466a1ea7c0206a4eab4b03d331d23b0, type: 3}
   collectableCollected:
   - {fileID: 8300000, guid: 472073264fa9b3f4d8a08a33065d0d7b, type: 3}
-  collectableNotCollectedSelected: []
-  collectableCollectedSelected: []
+  collectableNotCollectedSelected:
+  - {fileID: 8300000, guid: af6324b51b6a6c442b814bd8018c45af, type: 3}
+  collectableCollectedSelected:
+  - {fileID: 8300000, guid: eff5201d783641d4f9c463e95ab68b52, type: 3}
   albumPageSelected:
   - {fileID: 8300000, guid: 2819097cfc538ac4e857d38a34f6d7f5, type: 3}
   albumCutscenePlay:
@@ -70,7 +72,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 97a6541133fefc24e94b7c75b1541c85, type: 3}
   memoryRoundBegin:
   - {fileID: 8300000, guid: 08def4ecf10b3174da63a6f39596c091, type: 3}
-  memoryRoundCompleted: []
+  memoryRoundCompleted:
+  - {fileID: 8300000, guid: b0627ea288715194e9fc198046379e2c, type: 3}
   cardsRevealTimeEnd:
   - {fileID: 8300000, guid: b96a77ee592ecf64a97a897df009bb2d, type: 3}
   figureDragStart:
@@ -82,4 +85,5 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4c22a9bb7cc437941ba4763d626038db, type: 3}
   silhouettesRoundBegin:
   - {fileID: 8300000, guid: c2c504767a7c9ea4d89d6dc3d028d94a, type: 3}
-  silhouettesRoundCompleted: []
+  silhouettesRoundCompleted:
+  - {fileID: 8300000, guid: b0627ea288715194e9fc198046379e2c, type: 3}
