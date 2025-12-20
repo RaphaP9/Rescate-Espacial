@@ -4,32 +4,27 @@ public class LeftDisplacementArrow : DisplacementArrow
 {
     private void OnEnable()
     {
-        SnappingScrollMenuUI.OnFirstItemReachedStart += SnappingScrollMenuUI_OnFirstItemReachedStart;
         SnappingScrollMenuUI.OnFirstItemReached += SnappingScrollMenuUI_OnFirstItemReached;
         SnappingScrollMenuUI.OnFirstItemAway += SnappingScrollMenuUI_OnFirstItemAway;
     }
 
     private void OnDisable()
     {
-        SnappingScrollMenuUI.OnFirstItemReachedStart -= SnappingScrollMenuUI_OnFirstItemReachedStart;
         SnappingScrollMenuUI.OnFirstItemReached -= SnappingScrollMenuUI_OnFirstItemReached;
         SnappingScrollMenuUI.OnFirstItemAway -= SnappingScrollMenuUI_OnFirstItemAway;
     }
 
     protected override void ArrowDisplacement() => snappingScrollMenuUI.DisplaceLeftCommand();
 
-    private void SnappingScrollMenuUI_OnFirstItemReachedStart(object sender, System.EventArgs e)
+    private void SnappingScrollMenuUI_OnFirstItemReached(object sender, SnappingScrollMenuUI.OnItemEventArgs e)
     {
-        HideUIImmediately();
+        if (e.instantly) HideUIImmediately();
+        else HideUI();
     }
 
-    private void SnappingScrollMenuUI_OnFirstItemReached(object sender, System.EventArgs e)
+    private void SnappingScrollMenuUI_OnFirstItemAway(object sender, SnappingScrollMenuUI.OnItemEventArgs e)
     {
-        HideUI();
-    }
-
-    private void SnappingScrollMenuUI_OnFirstItemAway(object sender, System.EventArgs e)
-    {
-        ShowUI();
+        if (e.instantly) ShowUIImmediately();
+        else ShowUI();
     }
 }

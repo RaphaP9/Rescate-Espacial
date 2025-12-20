@@ -29,14 +29,11 @@ public class SnappingScrollMenuUI : MonoBehaviour
     #region Events
     public static event EventHandler<OnItemsInitializedEventArgs> OnItemsInitialized;
 
-    public static event EventHandler OnFirstItemReached;
-    public static event EventHandler OnLastItemReached;
+    public static event EventHandler<OnItemEventArgs> OnFirstItemReached;
+    public static event EventHandler<OnItemEventArgs> OnLastItemReached;
 
-    public static event EventHandler OnFirstItemReachedStart;
-    public static event EventHandler OnLastItemReachedStart;
-
-    public static event EventHandler OnLastItemAway;
-    public static event EventHandler OnFirstItemAway;
+    public static event EventHandler<OnItemEventArgs> OnLastItemAway;
+    public static event EventHandler<OnItemEventArgs> OnFirstItemAway;
 
     public static event EventHandler<OnItemSnapEventArgs> OnItemSnap;
     #endregion
@@ -51,6 +48,11 @@ public class SnappingScrollMenuUI : MonoBehaviour
     public class OnItemSnapEventArgs : EventArgs
     {
         public int itemIndex;
+        public bool instantly;
+    }
+
+    public class OnItemEventArgs : EventArgs
+    {
         public bool instantly;
     }
     #endregion
@@ -85,7 +87,7 @@ public class SnappingScrollMenuUI : MonoBehaviour
         yield return null;
 
         InitializeItems();
-        InstantSnapToStartIndex();
+        SnapToIndex(startIndex, true, true);
 
         initializationLogicPerformed = true;
     }
@@ -107,15 +109,38 @@ public class SnappingScrollMenuUI : MonoBehaviour
         OnItemsInitialized?.Invoke(this, new OnItemsInitializedEventArgs { items = items });
     }
 
-    private void InstantSnapToStartIndex()
+    public void SnapToIndex(int index, bool instant, bool force)
     {
-        currentIndex = startIndex;
+        if (!force && currentIndex == index) return;
+
+        if (index < 0) return; //Invalid negative index
+        if(index >= items.Count) return; //Invalid out of bounds index   
+
+        int previousIndex = currentIndex;
+        currentIndex = index;
         UpdateTargetSnapItemToIndex(currentIndex);
 
-        content.anchoredPosition = -targetSnapItem.RefferencePosition;
+        if(instant) content.anchoredPosition = -targetSnapItem.RefferencePosition; //This makes Anchored Position Instant
 
-        if (currentIndex <= 0) OnFirstItemReachedStart?.Invoke(this, EventArgs.Empty);
-        if (currentIndex >= items.Count -1) OnLastItemReachedStart?.Invoke(this, EventArgs.Empty);
+        if (currentIndex >= items.Count - 1)
+        {
+            OnLastItemReached?.Invoke(this, new OnItemEventArgs { instantly = instant});
+        }
+
+        if (previousIndex <= 0)
+        {
+            OnFirstItemAway?.Invoke(this, new OnItemEventArgs { instantly = instant });
+        }
+
+        if (currentIndex <= 0)
+        {
+            OnFirstItemReached?.Invoke(this, new OnItemEventArgs { instantly = instant });
+        }
+
+        if (previousIndex >= items.Count - 1)
+        {
+            OnLastItemAway?.Invoke(this, new OnItemEventArgs { instantly = instant });
+        }
 
         OnItemSnap?.Invoke(this, new OnItemSnapEventArgs { itemIndex = currentIndex, instantly = true });
     }
@@ -131,7 +156,7 @@ public class SnappingScrollMenuUI : MonoBehaviour
     #region Displacement Commands
     public void DisplaceRightCommand()
     {
-        TryIncreaseIndex();
+        TryIncreaseIndex(false);
         UpdateTargetSnapItemToIndex(currentIndex);
 
         OnItemSnap?.Invoke(this, new OnItemSnapEventArgs { itemIndex = currentIndex, instantly = false});
@@ -139,7 +164,7 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
     public void DisplaceLeftCommand()
     {
-        TryDecreaseIndex();
+        TryDecreaseIndex(false);
         UpdateTargetSnapItemToIndex(currentIndex);
 
         OnItemSnap?.Invoke(this, new OnItemSnapEventArgs { itemIndex = currentIndex, instantly = false });
@@ -147,7 +172,7 @@ public class SnappingScrollMenuUI : MonoBehaviour
     #endregion
 
     #region Increase Decrease Index
-    private void TryIncreaseIndex()
+    private void TryIncreaseIndex(bool instant)
     {
         if (currentIndex >= items.Count - 1) return; //Is in last index
 
@@ -156,16 +181,16 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
         if (currentIndex >= items.Count - 1)
         {
-            OnLastItemReached?.Invoke(this, EventArgs.Empty);
+            OnLastItemReached?.Invoke(this, new OnItemEventArgs { instantly = instant });
         }
 
         if(previousIndex <= 0)
         {
-            OnFirstItemAway?.Invoke(this, EventArgs.Empty);
+            OnFirstItemAway?.Invoke(this, new OnItemEventArgs { instantly = instant });
         }
     }
 
-    private void TryDecreaseIndex()
+    private void TryDecreaseIndex(bool instant)
     {
         if (currentIndex <= 0) return; //Is in first index
 
@@ -174,12 +199,12 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
         if (currentIndex <= 0)
         {
-            OnFirstItemReached?.Invoke(this, EventArgs.Empty);
+            OnFirstItemReached?.Invoke(this, new OnItemEventArgs { instantly = instant });
         }
 
         if (previousIndex >= items.Count - 1)
         {
-            OnLastItemAway?.Invoke(this, EventArgs.Empty);
+            OnLastItemAway?.Invoke(this, new OnItemEventArgs { instantly = instant });
         }
     }
     #endregion
