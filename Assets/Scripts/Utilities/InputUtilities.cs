@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public static class InputUtilities
 {
@@ -13,12 +14,38 @@ public static class InputUtilities
 
     public static Vector2 GetPointerPosition()
     {
-        // Using Mobile or Emulator(Bluestacks)
+        // Using Mobile or Emulator
         if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.isPressed) return Touchscreen.current.primaryTouch.position.ReadValue();
         // Mouse input
         if (Mouse.current != null) return Mouse.current.position.ReadValue();
 
         return Vector2.zero;
+    }
+
+    //Returns True if screen tap/clicked on this frame
+    public static bool TryGetTapPosition(out Vector2 screenPosition)
+    {
+        // Mobile or Emulator
+        if (Touchscreen.current != null)
+        {
+            TouchControl touchControl = Touchscreen.current.primaryTouch;
+
+            if (touchControl.press.wasPressedThisFrame)
+            {
+                screenPosition = touchControl.position.ReadValue();
+                return true;
+            }
+        }
+
+        // Mouse
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            screenPosition = Mouse.current.position.ReadValue();
+            return true;
+        }
+
+        screenPosition = Vector2.zero;
+        return false;
     }
 
     public static bool HasAccelerommeter() => Accelerometer.current != null;
