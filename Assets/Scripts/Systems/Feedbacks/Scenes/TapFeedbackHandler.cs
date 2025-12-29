@@ -6,6 +6,9 @@ public class TapFeedbackHandler : MonoBehaviour
     [SerializeField] private Transform feedbackContainer;
     [SerializeField] private Transform tapFeedbackPrefab;
 
+    [Header("Settings")]
+    [SerializeField] private bool enableFeedback;
+
     [Header("Debug")]
     [SerializeField] private bool debug;
 
@@ -16,6 +19,8 @@ public class TapFeedbackHandler : MonoBehaviour
 
     private void HandleTap()
     {
+        if (!enableFeedback) return;
+
         if (InputUtilities.TryGetTapPosition(out Vector2 screenTapPosition))
         {
             Vector2 tapPosition = screenTapPosition - InputUtilities.GetScreenDimensions() / 2;
