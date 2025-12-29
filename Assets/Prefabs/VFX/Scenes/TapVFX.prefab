@@ -169,8 +169,8 @@ VisualEffect:
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 0, g: 2.9960785, b: 0.366988, a: 0}
-          key1: {r: 0, g: 2.1185474, b: 0.72480947, a: 0.47058824}
+          key0: {r: 0, g: 2.9960785, b: 0.31308824, a: 0}
+          key1: {r: 0.020443965, g: 2.1185474, b: 0, a: 0.47058824}
           key2: {r: 0, g: 0, b: 0, a: 0.47058824}
           key3: {r: 0, g: 0, b: 0, a: 0}
           key4: {r: 0, g: 0, b: 0, a: 0}
@@ -178,7 +178,7 @@ VisualEffect:
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
-          ctime1: 65535
+          ctime1: 65342
           ctime2: 0
           ctime3: 0
           ctime4: 0
@@ -201,8 +201,8 @@ VisualEffect:
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 0, g: 2.9960785, b: 0.366988, a: 0}
-          key1: {r: 0, g: 2.1185474, b: 0.72480947, a: 0.47058824}
+          key0: {r: 0, g: 2.9960785, b: 0.31308824, a: 0}
+          key1: {r: 0.020443965, g: 2.1185474, b: 0, a: 0.47058824}
           key2: {r: 0, g: 0, b: 0, a: 0.47058824}
           key3: {r: 0, g: 0, b: 0, a: 0}
           key4: {r: 0, g: 0, b: 0, a: 0}
@@ -210,7 +210,7 @@ VisualEffect:
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
-          ctime1: 65535
+          ctime1: 65342
           ctime2: 0
           ctime3: 0
           ctime4: 0

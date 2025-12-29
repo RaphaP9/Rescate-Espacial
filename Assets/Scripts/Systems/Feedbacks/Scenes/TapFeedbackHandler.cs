@@ -24,7 +24,6 @@ public class TapFeedbackHandler : MonoBehaviour
         if (InputUtilities.TryGetTapPosition(out Vector2 screenTapPosition))
         {
             Vector2 tapPosition = screenTapPosition - InputUtilities.GetScreenDimensions() / 2;
-
             CreateTapVFX(tapPosition);
         }
     }
