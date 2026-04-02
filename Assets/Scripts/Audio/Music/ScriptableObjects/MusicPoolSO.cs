@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewSFXPoolSO", menuName = "ScriptableObjects/Audio/MusicPool")]
+[CreateAssetMenu(fileName = "NewMusicPoolSO", menuName = "ScriptableObjects/Audio/MusicPool")]
 public class MusicPoolSO : ScriptableObject
 {
     public List<SceneNameMusic> sceneNameMusicList;
