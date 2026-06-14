@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feedbackContainer: {fileID: 9076346235068194884}
   tapFeedbackPrefab: {fileID: 9165157654107743919, guid: 0a6d9a0ccb82245408acf577ed9aa193, type: 3}
-  enableFeedback: 1
+  enableFeedback: 0
   debug: 0
 --- !u!1 &6432629567963603451
 GameObject:
